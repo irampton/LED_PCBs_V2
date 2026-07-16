@@ -1,0 +1,33 @@
+#include "parts/PZ2_54_2X5P_H25/PZ2_54_2X5P_H25.schrune"
+#include "parts/KLDVX_0202_B/KLDVX_0202_B.schrune"
+
+module top () {
+    rail power;
+    net pwm_cool;
+    net pwm_warm;
+
+    power.voltage = 24V;
+    power.h.name = "V+";
+    power.l.name = "GND";
+
+    // 2x5 header. Use the middle pins as PWM controls.
+    part[7] headers = new PZ2_54_2X5P_H25();
+
+    for(let i = 0; i < 7; i++){
+        headers[i][1] ~ power.h;
+        headers[i][2] ~ power.l;
+        headers[i][3] ~ power.h;
+        headers[i][4] ~ power.l;
+        headers[i][5] ~ pwm_cool;
+        headers[i][6] ~ pwm_warm;
+        headers[i][7] ~ power.h;
+        headers[i][8] ~ power.l;
+        headers[i][9] ~ power.h;
+        headers[i][10] ~ power.l;
+    }
+
+    part dc_input = new KLDVX_0202_B();
+    dc_input[1] ~ power;
+    dc_input[2] ~ power.l;
+    dc_input[3] ~ power.l;
+}

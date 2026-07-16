@@ -1,0 +1,20 @@
+{
+  "name": "Hex Connector - Advanced",
+  "entry": "./main.schrune",
+  "parts": [
+    {
+      "MPN": "PZ2_54_2X5P_H25",
+      "LCSC": "C42431818"
+    },
+    {
+      "MPN": "KLDVX_0202_B",
+      "LCSC": "C19842585"
+    }
+  ],
+  "build": {
+    "bom": "./build/Hex Connector - Advanced.BOM.csv",
+    "kicadProject": "./build/Hex Connector - Advanced.kicad_pro",
+    "layout": "./build/Hex Connector - Advanced.kicad_pcb",
+    "schematic": "./build/Hex Connector - Advanced.kicad_sch"
+  }
+}

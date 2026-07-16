@@ -1,0 +1,311 @@
+{
+  "version": 1,
+  "parts": [
+    {
+      "lcsc": "C17414",
+      "partName": "P_0805W8F1002T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0805W8F1002T5E",
+      "package": "0805",
+      "description": "-55℃~+155℃ 10kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf",
+      "stock": 11826727,
+      "unitCost": 0.0077,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "10kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "125mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "150V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "10kΩ ±1% 125mW",
+      "value": "10kΩ",
+      "tolerance": "±1%",
+      "wattage": "125mW"
+    },
+    {
+      "lcsc": "C17675",
+      "partName": "P_0805W8F470KT5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0805W8F470KT5E",
+      "package": "0805",
+      "description": "-55℃~+155℃ 125mW 150V 4.7Ω Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F470KT5E_C17675.pdf",
+      "stock": 134030,
+      "unitCost": 0.0066,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "4.7Ω",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "125mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "150V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±200ppm/℃"
+      },
+      "comment": "4.7Ω ±1% 125mW",
+      "value": "4.7Ω",
+      "tolerance": "±1%",
+      "wattage": "125mW"
+    },
+    {
+      "lcsc": "C17928",
+      "partName": "P_1206W4F100KT5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "1206W4F100KT5E",
+      "package": "1206",
+      "description": "-55℃~+155℃ 1Ω 200V 250mW Thick Film Resistor ±1% ±200ppm/℃ 1206 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010145_UNI-ROYAL-Uniroyal-Elec-1206W4F100KT5E_C17928.pdf",
+      "stock": 158161,
+      "unitCost": 0.0119,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "1Ω",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "250mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "200V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±200ppm/℃"
+      },
+      "comment": "1Ω ±1% 250mW",
+      "value": "1Ω",
+      "tolerance": "±1%",
+      "wattage": "250mW"
+    },
+    {
+      "lcsc": "C22936",
+      "partName": "P_0603WAF100KT5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0603WAF100KT5E",
+      "package": "0603",
+      "description": "-55℃~+155℃ 100mW 1Ω 75V Thick Film Resistor ±1% ±400ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100KT5E_C22936.pdf",
+      "stock": 501181,
+      "unitCost": 0.0065,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "1Ω",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±400ppm/℃"
+      },
+      "comment": "1Ω ±1% 100mW",
+      "value": "1Ω",
+      "tolerance": "±1%",
+      "wattage": "100mW"
+    },
+    {
+      "lcsc": "C25271",
+      "partName": "P_0805W8F100KT5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0805W8F100KT5E",
+      "package": "0805",
+      "description": "-55℃~+155℃ 125mW 150V 1Ω Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0805W8F100KT5E_C25271.pdf",
+      "stock": 505446,
+      "unitCost": 0.0367,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "1Ω",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "125mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "150V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±200ppm/℃"
+      },
+      "comment": "1Ω ±1% 125mW",
+      "value": "1Ω",
+      "tolerance": "±1%",
+      "wattage": "125mW"
+    },
+    {
+      "lcsc": "C25741",
+      "partName": "P_0402WGF1003TCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0402WGF1003TCE",
+      "package": "0402",
+      "description": "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf",
+      "stock": 734193,
+      "unitCost": 0.0016,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "100kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "100kΩ ±1% 62.5mW",
+      "value": "100kΩ",
+      "tolerance": "±1%",
+      "wattage": "62.5mW"
+    },
+    {
+      "lcsc": "C25879",
+      "partName": "P_0402WGF2201TCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0402WGF2201TCE",
+      "package": "0402",
+      "description": "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF2201TCE_C25879.pdf",
+      "stock": 352620,
+      "unitCost": 0.0014,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "2.2kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "2.2kΩ ±1% 62.5mW",
+      "value": "2.2kΩ",
+      "tolerance": "±1%",
+      "wattage": "62.5mW"
+    },
+    {
+      "lcsc": "C377773",
+      "partName": "CL21A225KBQNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL21A225KBQNNNE",
+      "package": "0805",
+      "description": "2.2uF 50V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.pdf",
+      "stock": 531808,
+      "unitCost": 0.0291,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "50V",
+        "Tolerance": "±10%",
+        "Capacitance": "2.2uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "comment": "2.2uF ±10% 50V X5R",
+      "value": "2.2uF",
+      "tolerance": "±10%",
+      "maxVoltage": "50V",
+      "temperatureCoefficient": "X5R"
+    },
+    {
+      "lcsc": "C2929435",
+      "partName": "CY54_68UH",
+      "manufacturer": "SHOU HAN",
+      "mpn": "CY54-68UH",
+      "package": "SMD,5.8x5.2mm",
+      "description": "390mΩ 600mA 68uH Surface-mounted T-shaped inductor ±10% SMD,5.8x5.2mm Inductors (SMD) ROHS",
+      "datasheetUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121400_SHOU-HAN-CY54-68UH_C2929435.pdf",
+      "stock": 12628,
+      "unitCost": 0.0547,
+      "isBasic": false,
+      "isPreferred": false,
+      "attributes": {
+        "Inductance": "68uH",
+        "Type": "Drum-core inductor",
+        "Current - Saturation (Isat)": "-",
+        "Frequency - Self Resonant": "-",
+        "Q @ Frequency": "-",
+        "Tolerance": "±10%",
+        "Current Rating": "600mA",
+        "DC Resistance(DCR)": "390mΩ"
+      },
+      "comment": "68uH ±10% 600mA",
+      "value": "68uH",
+      "tolerance": "±10%",
+      "currentRating": "600mA",
+      "dcr": ""
+    }
+  ],
+  "selectors": {
+    "C1": "C377773",
+    "C2": "C377773",
+    "C3": "C377773",
+    "C4": "C377773",
+    "C5": "C377773",
+    "C6": "C377773",
+    "C7": "C377773",
+    "C8": "C377773",
+    "L1": "C2929435",
+    "L2": "C2929435",
+    "L3": "C2929435",
+    "L4": "C2929435",
+    "R1": "C25271",
+    "R2": "C25271",
+    "R3": "C25271",
+    "R4": "C25271",
+    "R5": "C25741",
+    "R6": "C25741",
+    "R7": "C25741",
+    "R8": "C25741",
+    "R9": "C25879",
+    "R10": "C25879",
+    "R11": "C25879",
+    "R12": "C25879",
+    "R13": "C17675",
+    "R14": "C17675",
+    "R15": "C17675",
+    "R16": "C17675",
+    "R17": "C17414",
+    "R18": "C17414",
+    "R19": "C17414",
+    "R20": "C17414"
+  },
+  "selectionCache": {
+    "{\"type\":\"Capacitor\",\"value\":\"2.2uF\",\"footprint\":\"0805\",\"voltage\":{\"number\":50,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C377773",
+      "partName": "CL21A225KBQNNNE"
+    },
+    "{\"type\":\"Inductor\",\"value\":{\"number\":0.000068,\"unit\":\"uH\"},\"footprint\":null,\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C2929435",
+      "partName": "CY54_68UH"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"1\",\"footprint\":\"0603\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C22936",
+      "partName": "P_0603WAF100KT5E"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"1\",\"footprint\":\"0805\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C25271",
+      "partName": "P_0805W8F100KT5E"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"100k\",\"footprint\":\"0402\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C25741",
+      "partName": "P_0402WGF1003TCE"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"10k\",\"footprint\":\"0805\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C17414",
+      "partName": "P_0805W8F1002T5E"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"2.2k\",\"footprint\":\"0402\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C25879",
+      "partName": "P_0402WGF2201TCE"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"4.7\",\"footprint\":\"0603\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C17675",
+      "partName": "P_0805W8F470KT5E"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"4.7\",\"footprint\":\"0805\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C17675",
+      "partName": "P_0805W8F470KT5E"
+    }
+  }
+}

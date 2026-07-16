@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "assignments": {
+    "H\u0000id:\u0000headers\u00000": [
+      "H1"
+    ],
+    "H\u0000id:\u0000headers\u00001": [
+      "H2"
+    ],
+    "H\u0000id:\u0000headers\u00002": [
+      "H3"
+    ],
+    "H\u0000id:\u0000headers\u00003": [
+      "H4"
+    ],
+    "H\u0000id:\u0000headers\u00004": [
+      "H5"
+    ],
+    "H\u0000id:\u0000headers\u00005": [
+      "H6"
+    ]
+  }
+}

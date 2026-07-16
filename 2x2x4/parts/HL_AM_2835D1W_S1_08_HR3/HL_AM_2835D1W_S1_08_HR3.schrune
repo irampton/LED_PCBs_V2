@@ -1,0 +1,17 @@
+part HL_AM_2835D1W_S1_08_HR3 {
+    info: {
+        partNumber: "HL-AM-2835D1W-S1-08-HR3",
+        manufacture: "HONGLITRONIC(鸿利光电)",
+        footprint: "./HL_AM_2835D1W_S1_08_HR3.kicad_mod",
+        package: "LED-SMD_L3.3-W2.8-RD",
+        symbol: "./HL_AM_2835D1W_S1_08_HR3.kicad_sym",
+        model: "./LED-SMD_L3.5-W2.8-H0.7.step",
+        LCSC: "C210324",
+        designatorPrefix: "LED",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

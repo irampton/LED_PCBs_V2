@@ -1,0 +1,21 @@
+part P_0805W8F100KT5E {
+    info: {
+        partNumber: "0805W8F100KT5E",
+        manufacture: "UNI-ROYAL(厚声)",
+        footprint: "./P_0805W8F100KT5E.kicad_mod",
+        package: "0805",
+        symbol: "./P_0805W8F100KT5E.kicad_sym",
+        model: "./R0805_L2.0-W1.3-H0.6.step",
+        LCSC: "C25271",
+        designatorPrefix: "R",
+        value: "1Ω",
+        tolerance: "±1%",
+        wattage: "125mW",
+        comment: "1Ω ±1% 125mW",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

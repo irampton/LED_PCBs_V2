@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "assignments": {
+    "H\u0000id:\u0000h1\u0000": [
+      "H1"
+    ],
+    "H\u0000id:\u0000h2\u0000": [
+      "H2"
+    ],
+    "U\u0000id:cool_a.channel\u0000driver\u0000": [
+      "U2"
+    ],
+    "C\u0000id:cool_a.channel\u0000input_caps\u00000": [
+      "C4"
+    ],
+    "C\u0000id:cool_a.channel\u0000input_caps\u00001": [
+      "C6"
+    ],
+    "L\u0000id:cool_a.channel\u0000inductor\u0000": [
+      "L1"
+    ],
+    "D\u0000id:cool_a.channel\u0000freewheel_diode\u0000": [
+      "D1"
+    ],
+    "R\u0000id:cool_a.channel\u0000sense_1r\u0000": [
+      "R1"
+    ],
+    "R\u0000id:cool_a.channel\u0000sense_4r7\u0000": [
+      "R13"
+    ],
+    "R\u0000id:cool_a.channel\u0000pwm_2_2\u0000": [
+      "R9"
+    ],
+    "R\u0000id:cool_a.channel\u0000pwm_100\u0000": [
+      "R5"
+    ],
+    "R\u0000id:cool_a.channel\u0000bleed_res\u0000": [
+      "R17"
+    ],
+    "LED\u0000id:cool_a\u0000leds\u00000": [
+      "LED2"
+    ],
+    "LED\u0000id:cool_a\u0000leds\u00001": [
+      "LED3"
+    ],
+    "LED\u0000id:cool_a\u0000leds\u00002": [
+      "LED4"
+    ],
+    "LED\u0000id:cool_a\u0000leds\u00003": [
+      "LED1"
+    ],
+    "U\u0000id:cool_b.channel\u0000driver\u0000": [
+      "U1"
+    ],
+    "C\u0000id:cool_b.channel\u0000input_caps\u00000": [
+      "C1"
+    ],
+    "C\u0000id:cool_b.channel\u0000input_caps\u00001": [
+      "C2"
+    ],
+    "L\u0000id:cool_b.channel\u0000inductor\u0000": [
+      "L2"
+    ],
+    "D\u0000id:cool_b.channel\u0000freewheel_diode\u0000": [
+      "D2"
+    ],
+    "R\u0000id:cool_b.channel\u0000sense_1r\u0000": [
+      "R2"
+    ],
+    "R\u0000id:cool_b.channel\u0000sense_4r7\u0000": [
+      "R14"
+    ],
+    "R\u0000id:cool_b.channel\u0000pwm_2_2\u0000": [
+      "R10"
+    ],
+    "R\u0000id:cool_b.channel\u0000pwm_100\u0000": [
+      "R6"
+    ],
+    "R\u0000id:cool_b.channel\u0000bleed_res\u0000": [
+      "R18"
+    ],
+    "LED\u0000id:cool_b\u0000leds\u00000": [
+      "LED6"
+    ],
+    "LED\u0000id:cool_b\u0000leds\u00001": [
+      "LED7"
+    ],
+    "LED\u0000id:cool_b\u0000leds\u00002": [
+      "LED8"
+    ],
+    "LED\u0000id:cool_b\u0000leds\u00003": [
+      "LED5"
+    ],
+    "U\u0000id:warm_a.channel\u0000driver\u0000": [
+      "U3"
+    ],
+    "C\u0000id:warm_a.channel\u0000input_caps\u00000": [
+      "C3"
+    ],
+    "C\u0000id:warm_a.channel\u0000input_caps\u00001": [
+      "C5"
+    ],
+    "L\u0000id:warm_a.channel\u0000inductor\u0000": [
+      "L3"
+    ],
+    "D\u0000id:warm_a.channel\u0000freewheel_diode\u0000": [
+      "D3"
+    ],
+    "R\u0000id:warm_a.channel\u0000sense_1r\u0000": [
+      "R3"
+    ],
+    "R\u0000id:warm_a.channel\u0000sense_4r7\u0000": [
+      "R15"
+    ],
+    "R\u0000id:warm_a.channel\u0000pwm_2_2\u0000": [
+      "R11"
+    ],
+    "R\u0000id:warm_a.channel\u0000pwm_100\u0000": [
+      "R7"
+    ],
+    "R\u0000id:warm_a.channel\u0000bleed_res\u0000": [
+      "R19"
+    ],
+    "LED\u0000id:warm_a\u0000leds\u00000": [
+      "LED10"
+    ],
+    "LED\u0000id:warm_a\u0000leds\u00001": [
+      "LED11"
+    ],
+    "LED\u0000id:warm_a\u0000leds\u00002": [
+      "LED12"
+    ],
+    "LED\u0000id:warm_a\u0000leds\u00003": [
+      "LED9"
+    ],
+    "U\u0000id:warm_b.channel\u0000driver\u0000": [
+      "U4"
+    ],
+    "C\u0000id:warm_b.channel\u0000input_caps\u00000": [
+      "C7"
+    ],
+    "C\u0000id:warm_b.channel\u0000input_caps\u00001": [
+      "C8"
+    ],
+    "L\u0000id:warm_b.channel\u0000inductor\u0000": [
+      "L4"
+    ],
+    "D\u0000id:warm_b.channel\u0000freewheel_diode\u0000": [
+      "D4"
+    ],
+    "R\u0000id:warm_b.channel\u0000sense_1r\u0000": [
+      "R4"
+    ],
+    "R\u0000id:warm_b.channel\u0000sense_4r7\u0000": [
+      "R16"
+    ],
+    "R\u0000id:warm_b.channel\u0000pwm_2_2\u0000": [
+      "R12"
+    ],
+    "R\u0000id:warm_b.channel\u0000pwm_100\u0000": [
+      "R8"
+    ],
+    "R\u0000id:warm_b.channel\u0000bleed_res\u0000": [
+      "R20"
+    ],
+    "LED\u0000id:warm_b\u0000leds\u00000": [
+      "LED14"
+    ],
+    "LED\u0000id:warm_b\u0000leds\u00001": [
+      "LED15"
+    ],
+    "LED\u0000id:warm_b\u0000leds\u00002": [
+      "LED16"
+    ],
+    "LED\u0000id:warm_b\u0000leds\u00003": [
+      "LED13"
+    ]
+  }
+}

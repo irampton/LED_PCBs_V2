@@ -1,0 +1,21 @@
+part P_0402WGF1003TCE {
+    info: {
+        partNumber: "0402WGF1003TCE",
+        manufacture: "UNI-ROYAL(厚声)",
+        footprint: "./P_0402WGF1003TCE.kicad_mod",
+        package: "0402",
+        symbol: "./P_0402WGF1003TCE.kicad_sym",
+        model: "./R0402_L1.0-W0.5-H0.4.step",
+        LCSC: "C25741",
+        designatorPrefix: "R",
+        value: "100kΩ",
+        tolerance: "±1%",
+        wattage: "62.5mW",
+        comment: "100kΩ ±1% 62.5mW",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

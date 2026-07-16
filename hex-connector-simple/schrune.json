@@ -1,0 +1,16 @@
+{
+  "name": "Hex Connector - Simple",
+  "entry": "./main.schrune",
+  "parts": [
+    {
+      "MPN": "PZ2_54_2X5P_H25",
+      "LCSC": "C42431818"
+    }
+  ],
+  "build": {
+    "bom": "./build/Hex Connector.BOM.csv",
+    "kicadProject": "./build/Hex Connector.kicad_pro",
+    "layout": "./build/Hex Connector.kicad_pcb",
+    "schematic": "./build/Hex Connector.kicad_sch"
+  }
+}

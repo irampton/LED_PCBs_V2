@@ -1,0 +1,95 @@
+#include "parts/PT4115/PT4115.schrune"
+#include "parts/SS14/SS14.schrune"
+#include "parts/HL_AM_2835D1W_S1_08_HR3/HL_AM_2835D1W_S1_08_HR3.schrune"
+#include "parts/HL_AM_2835D1W_S1_08_HR3_2600K_2800K/HL_AM_2835D1W_S1_08_HR3_2600K_2800K.schrune"
+#include "parts/PZ2_54_2X5P_H25/PZ2_54_2X5P_H25.schrune"
+
+module PT4115Channel (rail power_in, net PWM) {
+    net LED_TOP;
+    net LED_RETURN;
+
+    part driver = new PT4115();
+    part[2] input_caps = new Capacitor(value="2.2uF", footprint="0805", voltage=50V, LCSC="C377773");
+    part inductor = new Inductor(value = 68uH, LCSC = "C2929435");
+    part freewheel_diode = new SS14();
+    part sense_1r = new Resistor(value ="1", footprint="0805", LCSC="C25271");
+    part sense_4r7 = new Resistor(value="4.7", footprint="0805", LCSC="C17675");
+    part pwm_2_2 = new Resistor(value="2.2k", footprint="0402", LCSC="C25879");
+    part pwm_100 = new Resistor(value="100k", footprint="0402", LCSC="C25741");
+    part bleed_res = new Resistor(value="10k", footprint="0805", LCSC="C17414");
+
+    power_in.h ~ driver.VIN;
+    power_in.l ~ driver.GND;
+    power_in ~> input_caps[0] ~> power_in.l;
+    power_in ~> input_caps[1] ~> power_in.l;
+
+    // Using basic parts to get ~.8 Ohm for 120mA current
+    power_in ~> sense_1r ~> driver.CSN;
+    power_in ~> sense_4r7 ~> driver.CSN;
+
+    driver.CSN ~ LED_TOP;
+    driver.SW ~> inductor ~> LED_RETURN;
+    driver.SW ~> freewheel_diode ~> power_in.l;
+    power_in ~> bleed_res ~> LED_RETURN;
+
+    // Use a series resistor and pulldown
+    PWM ~> pwm_2_2 ~> driver.DIM;
+    driver.DIM ~> pwm_100 ~> power_in.l;
+}
+
+module CoolLed(rail power_in, net PWM) {
+    mod channel = new PT4115Channel(power_in, PWM);
+    part[4] leds = new HL_AM_2835D1W_S1_08_HR3();
+
+    channel.LED_RETURN ~> leds[3] ~> leds[2] ~> leds[1] ~> leds[0] ~> channel.LED_TOP;
+}
+
+module WarmLed (rail power_in, net PWM) {
+    mod channel = new PT4115Channel(power_in, PWM);
+    part[4] leds = new HL_AM_2835D1W_S1_08_HR3_2600K_2800K();
+
+    channel.LED_RETURN ~> leds[3] ~> leds[2] ~> leds[1] ~> leds[0] ~> channel.LED_TOP;
+}
+
+module top () {
+    rail power;
+    net pwm_cool;
+    net pwm_warm;
+
+    power.voltage = 24V;
+    power.h.name = "V+";
+    power.l.name = "GND";
+
+    // 2x5 header. Use the middle pins as PWM controls.
+    part h1 = new PZ2_54_2X5P_H25();
+    h1.place = false;
+    part h2 = new PZ2_54_2X5P_H25();
+    h2.place = false;
+
+    h1[1] ~ power.h;
+    h1[2] ~ power.l;
+    h1[3] ~ power.h;
+    h1[4] ~ power.l;
+    h1[5] ~ pwm_cool;
+    h1[6] ~ pwm_warm;
+    h1[7] ~ power.h;
+    h1[8] ~ power.l;
+    h1[9] ~ power.h;
+    h1[10] ~ power.l;
+
+    h2[1] ~ power.h;
+    h2[2] ~ power.l;
+    h2[3] ~ power.h;
+    h2[4] ~ power.l;
+    h2[5] ~ pwm_cool;
+    h2[6] ~ pwm_warm;
+    h2[7] ~ power.h;
+    h2[8] ~ power.l;
+    h2[9] ~ power.h;
+    h2[10] ~ power.l;
+
+    mod cool_a = new CoolLed(power, pwm_cool);
+    mod cool_b = new CoolLed(power, pwm_cool);
+    mod warm_a = new WarmLed(power, pwm_warm);
+    mod warm_b = new WarmLed(power, pwm_warm);
+}
