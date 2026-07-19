@@ -1,4 +1,6 @@
 #include "parts/PZ2_54_2X5P_H25/PZ2_54_2X5P_H25.schrune"
+#include "parts/KLDVX_0202_B/KLDVX_0202_B.schrune"
+#include "parts/PJ_002BH/PJ_002BH.schrune"
 
 module top () {
     rail power;
@@ -24,4 +26,14 @@ module top () {
         headers[i][9] ~ power.h;
         headers[i][10] ~ power.l;
     }
+
+    part dc_input = new KLDVX_0202_B();
+    dc_input[1] ~ power;
+    dc_input[2] ~ power.l;
+    dc_input[3] ~ power.l;
+
+    part dc_input2 = new PJ_002BH();
+    dc_input2[1] ~ power;
+    dc_input2[2] ~ power.l;
+    dc_input2[3] ~ power.l;
 }

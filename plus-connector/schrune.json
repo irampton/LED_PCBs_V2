@@ -5,6 +5,16 @@
     {
       "MPN": "PZ2_54_2X5P_H25",
       "LCSC": "C42431818"
+    },
+    {
+      "MPN": "PJ_002BH",
+      "LCSC": "C22359705"
     }
-  ]
+  ],
+  "build": {
+    "bom": "./build/Plus Connector.BOM.csv",
+    "kicadProject": "./build/Plus Connector.kicad_pro",
+    "layout": "./build/Plus Connector.kicad_pcb",
+    "schematic": "./build/Plus Connector.kicad_sch"
+  }
 }
