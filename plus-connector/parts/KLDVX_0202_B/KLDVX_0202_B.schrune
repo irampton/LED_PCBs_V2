@@ -1,0 +1,18 @@
+part KLDVX_0202_B {
+    info: {
+        partNumber: "KLDVX-0202-B",
+        manufacture: "Kycon",
+        footprint: "./KLDVX_0202_B.kicad_mod",
+        package: "AUDIO-TH_KLDVX-0202-B",
+        symbol: "./KLDVX_0202_B.kicad_sym",
+        model: "./AUDIO-TH_KLDVX-0202-B.step",
+        LCSC: "C19842585",
+        designatorPrefix: "DC",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+        3:3,
+    ]
+}
