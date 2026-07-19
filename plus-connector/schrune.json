@@ -1,0 +1,10 @@
+{
+  "name": "Plus Connector",
+  "entry": "./main.schrune",
+  "parts": [
+    {
+      "MPN": "PZ2_54_2X5P_H25",
+      "LCSC": "C42431818"
+    }
+  ]
+}
