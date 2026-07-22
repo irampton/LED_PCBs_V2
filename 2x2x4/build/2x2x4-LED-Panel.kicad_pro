@@ -302,13 +302,7 @@
     "layer_presets": [],
     "viewports": []
   },
-  "boards": [
-    {
-      "filename": "2x2x4-LED-Panel.kicad_pcb",
-      "name": "2x2x4-LED-Panel",
-      "uuid": "00000000-0000-0000-0000-000000000000"
-    }
-  ],
+  "boards": [],
   "component_class_settings": {
     "assignments": [],
     "meta": {
@@ -551,7 +545,7 @@
   },
   "meta": {
     "filename": "2x2x4-LED-Panel.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -670,12 +664,12 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {},
-    "connection_grid_size": 50,
+    "connection_grid_size": 50.0,
     "drawing": {
-      "dashed_lines_dash_length_ratio": 12,
-      "dashed_lines_gap_length_ratio": 3,
-      "default_line_thickness": 6,
-      "default_text_size": 50,
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
@@ -690,7 +684,7 @@
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25,
+      "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.15
     },
     "legacy_lib_dir": "",
@@ -707,13 +701,50 @@
       {
         "filename": "2x2x4-LED-Panel.kicad_sch",
         "name": "2x2x4-LED-Panel",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb",
+      "2x2x4-LED-Panel"
+    ],
+    [
+      "95e46594-5500-083a-4a9c-23026ba7f73b",
+      "cool_a.channel"
+    ],
+    [
+      "84c3b395-9565-7589-5647-f59032bcdf56",
+      "cool_a"
+    ],
+    [
+      "5f55df92-e634-aa2a-8cc8-5f65096306bf",
+      "cool_b.channel"
+    ],
+    [
+      "3a142167-6e52-5afc-7235-2c33b32b333b",
+      "cool_b"
+    ],
+    [
+      "562ffcb4-ca73-910f-7492-725d65fcc5d2",
+      "warm_a.channel"
+    ],
+    [
+      "148334ed-3fc7-1982-f44c-96b11841656d",
+      "warm_a"
+    ],
+    [
+      "d0523487-94fe-11c5-3c37-5ee6c5cd1d29",
+      "warm_b.channel"
+    ],
+    [
+      "a4603551-e474-8a7d-39aa-2ad2823b93c6",
+      "warm_b"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

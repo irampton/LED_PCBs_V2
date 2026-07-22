@@ -1,283 +1,787 @@
-(kicad_sch (version 20260306) (generator "Schrune") (generator_version "10.0")
-  (uuid 5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb)
-  (paper "A1")
-  (lib_symbols
-    (symbol "HL-AM-2835D1W-S1-08-HR3_C210324"
-        (in_bom yes)
-        (on_board yes)
-        (property
-          "Reference"
-          "LED"
-          (id 0)
-          (at 0 6.35 0)
-          (hide yes) (effects (font (size 1.27 1.27) ) )
-        )
-        (property
-          "Value"
-          "HL-AM-2835D1W-S1-08-HR3_C210324"
-          (id 1)
-          (at 0 -3.81 0)
-          (hide yes) (effects (font (size 1.27 1.27) ) )
-        )
-        (property
-          "Footprint"
-          "Schrune:LED-SMD_L3.3-W2.8-RD"
-          (id 2)
-          (at 0 -6.35 0)
-          (hide yes) (effects (font (size 1.27 1.27) ))
-        )
-        (property
-          "Datasheet"
-          "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature6000-7000K_C210324.html"
-          (id 3)
-          (at 0 -8.89 0)
-          (hide yes) (effects (font (size 1.27 1.27) ))
-        )
-        (property
-          "Manufacturer"
-          "HONGLITRONIC(鸿利光电)"
-          (id 4)
-          (at 0 -11.43 0)
-          (hide yes) (effects (font (size 1.27 1.27) ))
-        )
-        (property
-          "MPN"
-          "HL-AM-2835D1W-S1-08-HR3"
-          (id 5)
-          (at 0 -13.97 0)
-          (hide yes) (effects (font (size 1.27 1.27) ))
-        )
-        (property
-          "LCSC Part"
-          "C210324"
-          (id 6)
-          (at 0 -16.51 0)
-          (hide yes) (effects (font (size 1.27 1.27) ))
-        )
-        (property
-          "ki_keywords"
-          "Light Emitting Diodes (LED)"
-          (id 8)
-          (at 0 -19.05 0)
-          (hide yes) (effects (font (size 1.27 1.27) ))
-        )
-        (symbol "HL-AM-2835D1W-S1-08-HR3_C210324_0_1"
-          (polyline
-            (pts
-              (xy -3.81 -2.03) (xy -2.79 -1.52) (xy -3.30 -1.02) (xy -3.81 -2.03)
-            )
-            (stroke (width 0) (type default))
-            (fill (type background))
-          )
-          (polyline
-            (pts
-              (xy -2.79 -3.05) (xy -1.78 -2.54) (xy -2.29 -2.03) (xy -2.79 -3.05)
-            )
-            (stroke (width 0) (type default))
-            (fill (type background))
-          )
-          (polyline
-            (pts
-              (xy 1.27 2.79) (xy -1.27 1.27) (xy 1.27 -0.51) (xy 1.27 2.79)
-            )
-            (stroke (width 0) (type default))
-            (fill (type background))
-          )
-          (polyline
-            (pts
-              (xy -2.03 -0.25) (xy -3.81 -2.03)
-            )
-            (stroke (width 0) (type default))
-            (fill (type none))
-          )
-          (polyline
-            (pts
-              (xy -1.02 -1.27) (xy -2.79 -3.05)
-            )
-            (stroke (width 0) (type default))
-            (fill (type none))
-          )
-          (polyline
-            (pts
-              (xy -1.27 -0.76) (xy -1.27 3.30)
-            )
-            (stroke (width 0) (type default))
-            (fill (type none))
-          )
-          (pin passive line
-            (at -5.08 1.27 0)
-            (length 3.81)
-            (name "C" (effects (font (size 1.27 1.27))))
-            (number "1" (effects (font (size 1.27 1.27))))
-          )
-          (pin passive line
-            (at 5.08 1.27 180)
-            (length 3.81)
-            (name "A" (effects (font (size 1.27 1.27))))
-            (number "2" (effects (font (size 1.27 1.27))))
-          )
-        )
-      )
-  )
-  (symbol (lib_id "HL-AM-2835D1W-S1-08-HR3_C210324") (at 76.20 101.60 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 242302d1-845f-4f85-6edf-b03b1886c587)
-    (property "Reference" "LED2" (at 76.20 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HL-AM-2835D1W-S1-08-HR3" (at 76.20 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3" (at 76.20 109.22 0) (hide yes)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid d2168d5f-dbfe-9a84-5746-c40c7a90216c))
-    (pin "2" (uuid 131d3c3d-b98e-72bd-9eb7-b0e6144b53bd))
-    (instances
-      (project "2x2x4-LED-Panel"
-        (path "/"
-          (reference "LED2")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (symbol (lib_id "HL-AM-2835D1W-S1-08-HR3_C210324") (at 279.40 101.60 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d5e2bbbb-f91c-0eec-f06f-e13fff02acd8)
-    (property "Reference" "LED3" (at 279.40 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HL-AM-2835D1W-S1-08-HR3" (at 279.40 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3" (at 279.40 109.22 0) (hide yes)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 519b459a-cfc5-453e-5a2c-b158f9a61e31))
-    (pin "2" (uuid 415e1675-5f24-9d60-d751-b3235eb43a1e))
-    (instances
-      (project "2x2x4-LED-Panel"
-        (path "/"
-          (reference "LED3")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (symbol (lib_id "HL-AM-2835D1W-S1-08-HR3_C210324") (at 482.60 101.60 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5c348540-4a1a-2e60-8ea4-ca4358a6d4c3)
-    (property "Reference" "LED4" (at 482.60 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HL-AM-2835D1W-S1-08-HR3" (at 482.60 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3" (at 482.60 109.22 0) (hide yes)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid f5291cb8-c917-ec58-c7c2-27ebf0f8a39a))
-    (pin "2" (uuid 8ea3f626-a754-05d5-08b2-3ab907b80fda))
-    (instances
-      (project "2x2x4-LED-Panel"
-        (path "/"
-          (reference "LED4")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (symbol (lib_id "HL-AM-2835D1W-S1-08-HR3_C210324") (at 685.80 101.60 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 63ede5a0-d20f-d029-97c6-c69b4fc1feb9)
-    (property "Reference" "LED1" (at 685.80 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "HL-AM-2835D1W-S1-08-HR3" (at 685.80 106.68 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3" (at 685.80 109.22 0) (hide yes)
-      (effects (font (size 1.27 1.27)))
-    )
-    (pin "1" (uuid 6058a0c8-fc05-45b5-6b2c-5a53274ccfed))
-    (pin "2" (uuid b79d7dbc-bd90-e27e-7193-514a08729465))
-    (instances
-      (project "2x2x4-LED-Panel"
-        (path "/"
-          (reference "LED1")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (wire (pts (xy 71.12 100.33) (xy 63.50 100.33))
-    (stroke (width 0) (type default))
-    (uuid 0f8aa4bb-3bf4-d320-b02f-e96da5909a76)
-  )
-  (global_label "cool_a_leds_1_2" (shape input) (at 63.50 100.33 180)
-    (effects (font (size 1.27 1.27)))
-    (uuid f38f71d9-621a-9ca9-f1a3-0b7d0389462d)
-  )
-  (wire (pts (xy 81.28 100.33) (xy 88.90 100.33))
-    (stroke (width 0) (type default))
-    (uuid 1ad31ff8-1a8a-f870-4a9c-42b53df327d6)
-  )
-  (global_label "cool_a_channel_LED_TOP" (shape input) (at 88.90 100.33 0)
-    (effects (font (size 1.27 1.27)))
-    (uuid 59242015-c3ab-1c3d-9d11-817ded30ae76)
-  )
-  (wire (pts (xy 274.32 100.33) (xy 266.70 100.33))
-    (stroke (width 0) (type default))
-    (uuid 57116b3d-bf78-7e2b-fe08-39e3258739a5)
-  )
-  (global_label "cool_a_leds_2_2" (shape input) (at 266.70 100.33 180)
-    (effects (font (size 1.27 1.27)))
-    (uuid 7f666ebd-fb1a-6695-732c-f56e2fc22a93)
-  )
-  (wire (pts (xy 284.48 100.33) (xy 292.10 100.33))
-    (stroke (width 0) (type default))
-    (uuid 873caffd-2e49-556b-09e7-575688d43d95)
-  )
-  (global_label "cool_a_leds_1_2" (shape input) (at 292.10 100.33 0)
-    (effects (font (size 1.27 1.27)))
-    (uuid 7ef12adf-f418-45fa-8a35-145d693c7131)
-  )
-  (wire (pts (xy 477.52 100.33) (xy 469.90 100.33))
-    (stroke (width 0) (type default))
-    (uuid 8da4b4fc-d925-d2db-81f0-2da5508f8382)
-  )
-  (global_label "cool_a_leds_3_2" (shape input) (at 469.90 100.33 180)
-    (effects (font (size 1.27 1.27)))
-    (uuid f0accbf7-b652-3207-4d7e-3fa2b90dfdb1)
-  )
-  (wire (pts (xy 487.68 100.33) (xy 495.30 100.33))
-    (stroke (width 0) (type default))
-    (uuid 4a1fa5c5-6e50-36db-ae29-eed39cda0f43)
-  )
-  (global_label "cool_a_leds_2_2" (shape input) (at 495.30 100.33 0)
-    (effects (font (size 1.27 1.27)))
-    (uuid 46f5e711-3356-037a-57e3-db0d39ba3491)
-  )
-  (wire (pts (xy 680.72 100.33) (xy 673.10 100.33))
-    (stroke (width 0) (type default))
-    (uuid 483c1ef0-fbdf-421c-3a20-66ffabdd1d31)
-  )
-  (global_label "cool_a_channel_LED_RETURN" (shape input) (at 673.10 100.33 180)
-    (effects (font (size 1.27 1.27)))
-    (uuid 1e9bdfe7-3807-1e4a-36e6-b8764f6053b5)
-  )
-  (wire (pts (xy 690.88 100.33) (xy 698.50 100.33))
-    (stroke (width 0) (type default))
-    (uuid 0313aaf8-1b9f-4fbf-2e31-83b517924748)
-  )
-  (global_label "cool_a_leds_3_2" (shape input) (at 698.50 100.33 0)
-    (effects (font (size 1.27 1.27)))
-    (uuid 3739000d-11f9-86ca-f32e-aa4e9f8ac9f4)
-  )
-  (sheet_instances
-    (path "/"
-      (page "1")
-    )
-  )
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb")
+	(paper "A1")
+	(lib_symbols
+		(symbol "HL-AM-2835D1W-S1-08-HR3_C210324"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HL-AM-2835D1W-S1-08-HR3_C210324"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Schrune:LED-SMD_L3.3-W2.8-RD"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Hongli-Zhihui-HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-Color-temperature6000-7000K_C210324.html"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HONGLITRONIC(鸿利光电)"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HL-AM-2835D1W-S1-08-HR3"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C210324"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Light Emitting Diodes (LED)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HL-AM-2835D1W-S1-08-HR3_C210324_0_1"
+				(polyline
+					(pts
+						(xy -3.81 -2.03) (xy -2.79 -1.52) (xy -3.3 -1.02) (xy -3.81 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.79 -3.05) (xy -1.78 -2.54) (xy -2.29 -2.03) (xy -2.79 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 -0.25) (xy -3.81 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.76) (xy -1.27 3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 -1.27) (xy -2.79 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.79) (xy -1.27 1.27) (xy 1.27 -0.51) (xy 1.27 2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 1.27 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 690.88 100.33) (xy 698.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0313aaf8-1b9f-4fbf-2e31-83b517924748")
+	)
+	(wire
+		(pts
+			(xy 71.12 100.33) (xy 63.5 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8aa4bb-3bf4-d320-b02f-e96da5909a76")
+	)
+	(wire
+		(pts
+			(xy 81.28 100.33) (xy 88.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad31ff8-1a8a-f870-4a9c-42b53df327d6")
+	)
+	(wire
+		(pts
+			(xy 680.72 100.33) (xy 673.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483c1ef0-fbdf-421c-3a20-66ffabdd1d31")
+	)
+	(wire
+		(pts
+			(xy 487.68 100.33) (xy 495.3 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1fa5c5-6e50-36db-ae29-eed39cda0f43")
+	)
+	(wire
+		(pts
+			(xy 274.32 100.33) (xy 266.7 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57116b3d-bf78-7e2b-fe08-39e3258739a5")
+	)
+	(wire
+		(pts
+			(xy 284.48 100.33) (xy 292.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873caffd-2e49-556b-09e7-575688d43d95")
+	)
+	(wire
+		(pts
+			(xy 477.52 100.33) (xy 469.9 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8da4b4fc-d925-d2db-81f0-2da5508f8382")
+	)
+	(global_label "cool_a_channel_LED_RETURN"
+		(shape input)
+		(at 673.1 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e9bdfe7-3807-1e4a-36e6-b8764f6053b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 673.1 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "cool_a_leds_3_2"
+		(shape input)
+		(at 698.5 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3739000d-11f9-86ca-f32e-aa4e9f8ac9f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 698.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "cool_a_leds_2_2"
+		(shape input)
+		(at 495.3 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "46f5e711-3356-037a-57e3-db0d39ba3491")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 495.3 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "cool_a_channel_LED_TOP"
+		(shape input)
+		(at 88.9 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59242015-c3ab-1c3d-9d11-817ded30ae76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "cool_a_leds_1_2"
+		(shape input)
+		(at 292.1 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ef12adf-f418-45fa-8a35-145d693c7131")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.1 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "cool_a_leds_2_2"
+		(shape input)
+		(at 266.7 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7f666ebd-fb1a-6695-732c-f56e2fc22a93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.7 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "cool_a_leds_3_2"
+		(shape input)
+		(at 469.9 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0accbf7-b652-3207-4d7e-3fa2b90dfdb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 469.9 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "cool_a_leds_1_2"
+		(shape input)
+		(at 63.5 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f38f71d9-621a-9ca9-f1a3-0b7d0389462d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HL-AM-2835D1W-S1-08-HR3_C210324")
+		(at 76.2 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "242302d1-845f-4f85-6edf-b03b1886c587")
+		(property "Reference" "LED2"
+			(at 76.2 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3"
+			(at 76.2 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3"
+			(at 76.2 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2168d5f-dbfe-9a84-5746-c40c7a90216c")
+		)
+		(pin "2"
+			(uuid "131d3c3d-b98e-72bd-9eb7-b0e6144b53bd")
+		)
+		(instances
+			(project "2x2x4-LED-Panel"
+				(path "/5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb/84c3b395-9565-7589-5647-f59032bcdf56"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HL-AM-2835D1W-S1-08-HR3_C210324")
+		(at 482.6 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c348540-4a1a-2e60-8ea4-ca4358a6d4c3")
+		(property "Reference" "LED4"
+			(at 482.6 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3"
+			(at 482.6 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3"
+			(at 482.6 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 482.6 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 482.6 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5291cb8-c917-ec58-c7c2-27ebf0f8a39a")
+		)
+		(pin "2"
+			(uuid "8ea3f626-a754-05d5-08b2-3ab907b80fda")
+		)
+		(instances
+			(project "2x2x4-LED-Panel"
+				(path "/5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb/84c3b395-9565-7589-5647-f59032bcdf56"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HL-AM-2835D1W-S1-08-HR3_C210324")
+		(at 685.8 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63ede5a0-d20f-d029-97c6-c69b4fc1feb9")
+		(property "Reference" "LED1"
+			(at 685.8 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3"
+			(at 685.8 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3"
+			(at 685.8 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 685.8 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 685.8 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6058a0c8-fc05-45b5-6b2c-5a53274ccfed")
+		)
+		(pin "2"
+			(uuid "b79d7dbc-bd90-e27e-7193-514a08729465")
+		)
+		(instances
+			(project "2x2x4-LED-Panel"
+				(path "/5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb/84c3b395-9565-7589-5647-f59032bcdf56"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HL-AM-2835D1W-S1-08-HR3_C210324")
+		(at 279.4 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5e2bbbb-f91c-0eec-f06f-e13fff02acd8")
+		(property "Reference" "LED3"
+			(at 279.4 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HL-AM-2835D1W-S1-08-HR3"
+			(at 279.4 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Schrune:HL_AM_2835D1W_S1_08_HR3"
+			(at 279.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "519b459a-cfc5-453e-5a2c-b158f9a61e31")
+		)
+		(pin "2"
+			(uuid "415e1675-5f24-9d60-d751-b3235eb43a1e")
+		)
+		(instances
+			(project "2x2x4-LED-Panel"
+				(path "/5956c4d0-bd03-b4d6-4b6a-c65f1ad435fb/84c3b395-9565-7589-5647-f59032bcdf56"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

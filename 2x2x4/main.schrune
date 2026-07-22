@@ -92,4 +92,15 @@ module top () {
     mod cool_b = new CoolLed(power, pwm_cool);
     mod warm_a = new WarmLed(power, pwm_warm);
     mod warm_b = new WarmLed(power, pwm_warm);
+
+    // Test Points
+    part warm_tp = new TestPoint();
+    part cool_tp = new TestPoint();
+    part power_tp = new TestPoint(shape="square");
+    part gnd_tp = new TestPoint(size="1.5mm", shape="square");
+
+    warm_tp ~ pwm_warm;
+    cool_tp ~ pwm_cool;
+    power_tp ~ power;
+    gnd_tp ~ power.l;
 }
