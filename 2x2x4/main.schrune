@@ -1,8 +1,8 @@
-#include "parts/PT4115/PT4115.schrune"
-#include "parts/SS14/SS14.schrune"
-#include "parts/HL_AM_2835D1W_S1_08_HR3/HL_AM_2835D1W_S1_08_HR3.schrune"
-#include "parts/HL_AM_2835D1W_S1_08_HR3_2600K_2800K/HL_AM_2835D1W_S1_08_HR3_2600K_2800K.schrune"
-#include "parts/PZ2_54_2X5P_H25/PZ2_54_2X5P_H25.schrune"
+@require("PT4115");
+@require("SS14");
+@require("HL_AM_2835D1W_S1_08_HR3");
+@require("HL_AM_2835D1W_S1_08_HR3_2600K_2800K");
+@require("PZ2_54_2X5P_H25");
 
 module PT4115Channel (rail power_in, net PWM) {
     net LED_TOP;

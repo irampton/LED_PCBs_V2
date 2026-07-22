@@ -8,9 +8,9 @@
     }
   ],
   "build": {
-    "bom": "./build/Hex Connector.BOM.csv",
-    "kicadProject": "./build/Hex Connector.kicad_pro",
-    "layout": "./build/Hex Connector.kicad_pcb",
-    "schematic": "./build/Hex Connector.kicad_sch"
+    "bom": "./build/Hex Connector - Simple.BOM.csv",
+    "kicadProject": "./build/Hex Connector - Simple.kicad_pro",
+    "layout": "./build/Hex Connector - Simple.kicad_pcb",
+    "schematic": "./build/Hex Connector - Simple.kicad_sch"
   }
 }

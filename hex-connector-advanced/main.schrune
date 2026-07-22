@@ -1,5 +1,5 @@
-#include "parts/PZ2_54_2X5P_H25/PZ2_54_2X5P_H25.schrune"
-#include "parts/KLDVX_0202_B/KLDVX_0202_B.schrune"
+@require("PZ2_54_2X5P_H25");
+@require("KLDVX_0202_B");
 
 module top () {
     rail power;

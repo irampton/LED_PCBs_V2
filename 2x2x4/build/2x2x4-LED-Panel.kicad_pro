@@ -302,7 +302,13 @@
     "layer_presets": [],
     "viewports": []
   },
-  "boards": [],
+  "boards": [
+    {
+      "filename": "2x2x4-LED-Panel.kicad_pcb",
+      "name": "2x2x4-LED-Panel",
+      "uuid": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
   "component_class_settings": {
     "assignments": [],
     "meta": {
@@ -545,7 +551,7 @@
   },
   "meta": {
     "filename": "2x2x4-LED-Panel.kicad_pro",
-    "version": 3
+    "version": 1
   },
   "net_settings": {
     "classes": [
