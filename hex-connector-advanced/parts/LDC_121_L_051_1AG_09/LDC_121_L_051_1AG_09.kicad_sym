@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20211014) (generator easyeda2kicad)
 
-  (symbol "KLDVX-0202-B"
+  (symbol "LDC-121-L-051-1AG-09"
     (in_bom yes)
     (on_board yes)
     (property
@@ -12,47 +12,47 @@
     )
     (property
       "Value"
-      "KLDVX-0202-B"
+      "LDC-121-L-051-1AG-09"
       (id 1)
       (at 0 -11.43 0)
       (effects (font (size 1.27 1.27) ) )
     )
     (property
       "Footprint"
-      "Schrune:AUDIO-TH_KLDVX-0202-B"
+      "Schrune:LDC_121_L_051_1AG_09"
       (id 2)
       (at 0 -13.97 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "Datasheet"
-      "https://www.lcsc.com/datasheet/C19842585.pdf"
+      "https://www.linkplextech.com/images/pdf_product/DC121-B_1.0.pdf"
       (id 3)
       (at 0 -16.51 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "Manufacturer"
-      "Kycon"
+      "Linkplex Technology Limited"
       (id 4)
       (at 0 -19.05 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
       "MPN"
-      "KLDVX-0202-B"
+      "LDC-121-L-051-1AG-09"
       (id 5)
       (at 0 -21.59 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
     (property
-      "LCSC Part"
-      "C19842585"
+      "DigiKey Part"
+      "5149-LDC-121-L-051-1AG-09-ND"
       (id 6)
       (at 0 -24.13 0)
       (effects (font (size 1.27 1.27) ) hide)
     )
-    (symbol "KLDVX-0202-B_0_1"
+    (symbol "LDC-121-L-051-1AG-09_0_1"
       (rectangle
         (start -10.16 2.54)
         (end -7.62 -3.81)

@@ -1,5 +1,5 @@
 @require("PZ2_54_2X5P_H25");
-@require("KLDVX_0202_B");
+@require("LDC_121_L_051_1AG_09");
 
 module top () {
     rail power;
@@ -26,7 +26,7 @@ module top () {
         headers[i][10] ~ power.l;
     }
 
-    part dc_input = new KLDVX_0202_B();
+    part dc_input = new LDC_121_L_051_1AG_09();
     dc_input[1] ~ power;
     dc_input[2] ~ power.l;
     dc_input[3] ~ power.l;

@@ -260,13 +260,7 @@
     "layer_presets": [],
     "viewports": []
   },
-  "boards": [
-    {
-      "filename": "Hex Connector - Advanced.kicad_pcb",
-      "name": "Hex Connector - Advanced",
-      "uuid": "00000000-0000-0000-0000-000000000000"
-    }
-  ],
+  "boards": [],
   "component_class_settings": {
     "assignments": [],
     "meta": {
@@ -509,7 +503,7 @@
   },
   "meta": {
     "filename": "Hex Connector - Advanced.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -544,7 +538,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/IRamp/Downloads/6-sided-lamp/",
+      "plot": "gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },

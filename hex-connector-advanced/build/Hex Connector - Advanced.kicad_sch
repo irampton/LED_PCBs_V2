@@ -129,7 +129,7 @@
           )
         )
       )
-    (symbol "KLDVX-0202-B"
+    (symbol "LDC-121-L-051-1AG-09"
         (in_bom yes)
         (on_board yes)
         (property
@@ -141,47 +141,47 @@
         )
         (property
           "Value"
-          "KLDVX-0202-B"
+          "LDC-121-L-051-1AG-09"
           (id 1)
           (at 0 -11.43 0)
           (hide yes) (effects (font (size 1.27 1.27) ) )
         )
         (property
           "Footprint"
-          "Schrune:AUDIO-TH_KLDVX-0202-B"
+          "Schrune:LDC_121_L_051_1AG_09"
           (id 2)
           (at 0 -13.97 0)
           (hide yes) (effects (font (size 1.27 1.27) ))
         )
         (property
           "Datasheet"
-          "https://www.lcsc.com/datasheet/C19842585.pdf"
+          "https://www.linkplextech.com/images/pdf_product/DC121-B_1.0.pdf"
           (id 3)
           (at 0 -16.51 0)
           (hide yes) (effects (font (size 1.27 1.27) ))
         )
         (property
           "Manufacturer"
-          "Kycon"
+          "Linkplex Technology Limited"
           (id 4)
           (at 0 -19.05 0)
           (hide yes) (effects (font (size 1.27 1.27) ))
         )
         (property
           "MPN"
-          "KLDVX-0202-B"
+          "LDC-121-L-051-1AG-09"
           (id 5)
           (at 0 -21.59 0)
           (hide yes) (effects (font (size 1.27 1.27) ))
         )
         (property
-          "LCSC Part"
-          "C19842585"
+          "DigiKey Part"
+          "5149-LDC-121-L-051-1AG-09-ND"
           (id 6)
           (at 0 -24.13 0)
           (hide yes) (effects (font (size 1.27 1.27) ))
         )
-        (symbol "KLDVX-0202-B_0_1"
+        (symbol "LDC-121-L-051-1AG-09_0_1"
           (rectangle
             (start -10.16 2.54)
             (end -7.62 -3.81)
@@ -454,16 +454,16 @@
       )
     )
   )
-  (symbol (lib_id "KLDVX-0202-B") (at 685.80 177.80 0) (unit 1)
+  (symbol (lib_id "LDC-121-L-051-1AG-09") (at 685.80 177.80 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9c5e1bac-1b45-e9a1-e638-1254f8642337)
+    (uuid fde02480-74e2-6cd7-c63a-58e53f116223)
     (property "Reference" "DC1" (at 685.80 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "KLDVX-0202-B" (at 685.80 182.88 0)
+    (property "Value" "LDC-121-L-051-1AG-09" (at 685.80 182.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Schrune:KLDVX_0202_B" (at 685.80 185.42 0) (hide yes)
+    (property "Footprint" "Schrune:LDC_121_L_051_1AG_09" (at 685.80 185.42 0) (hide yes)
       (effects (font (size 1.27 1.27)))
     )
     (pin "3" (uuid 96a6babd-f428-2259-f45c-41b64dd282ae))

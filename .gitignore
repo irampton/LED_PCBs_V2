@@ -4,4 +4,5 @@ syntax.md
 *.zip
 
 */build/export
+*/build/gerber
 *-pos.csv
