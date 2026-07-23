@@ -1,0 +1,20 @@
+{
+  "name": "Square Connector",
+  "entry": "./main.schrune",
+  "parts": [
+    {
+      "MPN": "PZ2_54_2X5P_H25",
+      "LCSC": "C42431818"
+    },
+    {
+      "MPN": "PJ_002BH",
+      "LCSC": "C22359705"
+    }
+  ],
+  "build": {
+    "bom": "./build/Square Connector.BOM.csv",
+    "kicadProject": "./build/Square Connector.kicad_pro",
+    "layout": "./build/Square Connector.kicad_pcb",
+    "schematic": "./build/Square Connector.kicad_sch"
+  }
+}
