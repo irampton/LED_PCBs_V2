@@ -4,3 +4,4 @@ syntax.md
 *.zip
 
 */build/export
+*-pos.csv
