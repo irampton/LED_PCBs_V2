@@ -5,4 +5,5 @@ syntax.md
 
 */build/export
 */build/gerber
+*/build/gerbers
 *-pos.csv

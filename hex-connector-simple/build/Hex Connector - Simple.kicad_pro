@@ -538,7 +538,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/IRamp/Downloads/6-sided-lamp/",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
