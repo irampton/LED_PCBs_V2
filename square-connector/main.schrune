@@ -1,5 +1,4 @@
 @require("PZ2_54_2X5P_H25");
-@require("PJ_002BH");
 
 module top () {
     rail power;
@@ -11,9 +10,9 @@ module top () {
     power.l.name = "GND";
 
     // 2x5 header. Use the middle pins as PWM controls.
-    part[6] headers = new PZ2_54_2X5P_H25();
+    part[4] headers = new PZ2_54_2X5P_H25();
 
-    for(let i = 0; i < 6; i++){
+    for(let i = 0; i < 4; i++){
         headers[i][1] ~ power.h;
         headers[i][2] ~ power.l;
         headers[i][3] ~ power.h;
@@ -25,9 +24,4 @@ module top () {
         headers[i][9] ~ power.h;
         headers[i][10] ~ power.l;
     }
-
-    part dc_input2 = new PJ_002BH();
-    dc_input2[1] ~ power;
-    dc_input2[2] ~ power.l;
-    dc_input2[3] ~ power.l;
 }
