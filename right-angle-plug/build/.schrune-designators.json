@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "assignments": {
+    "H\u0000id:\u0000headers\u0000": [
+      "H1"
+    ],
+    "DC\u0000id:\u0000dc_input\u0000": [
+      "DC1"
+    ],
+    "DC\u0000id:\u0000dc_input2\u0000": [
+      "DC2"
+    ]
+  }
+}

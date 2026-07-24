@@ -1,0 +1,20 @@
+{
+  "name": "Right Angle Plug",
+  "entry": "./main.schrune",
+  "parts": [
+    {
+      "MPN": "PZ2_54_2X5P_H25",
+      "LCSC": "C42431818"
+    },
+    {
+      "MPN": "PJ_002BH",
+      "LCSC": "C22359705"
+    }
+  ],
+  "build": {
+    "bom": "./build/Right Angle Plug.BOM.csv",
+    "kicadProject": "./build/Right Angle Plug.kicad_pro",
+    "layout": "./build/Right Angle Plug.kicad_pcb",
+    "schematic": "./build/Right Angle Plug.kicad_sch"
+  }
+}

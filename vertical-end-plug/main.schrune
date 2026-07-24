@@ -1,0 +1,31 @@
+@require("PZ2_54_2X5P_H25");
+@require("LDC_121_L_051_1AG_09");
+
+module top () {
+    rail power;
+    net pwm_cool;
+    net pwm_warm;
+
+    power.voltage = 24V;
+    power.h.name = "V+";
+    power.l.name = "GND";
+
+    // 2x5 header. Use the middle pins as PWM controls.
+    part headers = new PZ2_54_2X5P_H25();
+
+    headers[1] ~ power.h;
+    headers[2] ~ power.l;
+    headers[3] ~ power.h;
+    headers[4] ~ power.l;
+    headers[5] ~ pwm_cool;
+    headers[6] ~ pwm_warm;
+    headers[7] ~ power.h;
+    headers[8] ~ power.l;
+    headers[9] ~ power.h;
+    headers[10] ~ power.l;
+
+    part dc_input = new LDC_121_L_051_1AG_09();
+    dc_input[1] ~ power;
+    dc_input[2] ~ power.l;
+    dc_input[3] ~ power.l;
+}

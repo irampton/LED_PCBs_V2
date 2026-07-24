@@ -1,0 +1,16 @@
+part LDC_121_L_051_1AG_09 {
+    info: {
+        partNumber: "LDC-121-L-051-1AG-09",
+        manufacture: "Linkplex Technology Limited",
+        footprint: "./LDC_121_L_051_1AG_09.kicad_mod",
+        package: "LDC-121",
+        symbol: "./LDC_121_L_051_1AG_09.kicad_sym",
+        designatorPrefix: "DC",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+        3:3,
+    ]
+}
