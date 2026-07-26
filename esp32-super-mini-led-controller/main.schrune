@@ -1,0 +1,67 @@
+@require("PZ2_54_2X5P_H25");
+@require("ESP32_C3_SUPERMINI");
+@require("DROK_BUCK");
+
+module top () {
+    rail power;
+    rail power_5v;
+    net pwm_cool;
+    net pwm_warm;
+
+    power.voltage = 24V;
+    power.h.name = "V+";
+    power.l.name = "GND";
+    power_5v.h.name = "5V";
+
+    power.l ~ power_5v.l;
+
+    part headers = new PZ2_54_2X5P_H25();
+    part esp32 = new ESP32_C3_SUPERMINI();
+    part buck = new DROK_BUCK();
+
+    // 2x5 header. Use the middle pins as PWM controls.
+    headers[1] ~ power.h;
+    headers[2] ~ power.l;
+    headers[3] ~ power.h;
+    headers[4] ~ power.l;
+    headers[5] ~ pwm_cool;
+    headers[6] ~ pwm_warm;
+    headers[7] ~ power.h;
+    headers[8] ~ power.l;
+    headers[9] ~ power.h;
+    headers[10] ~ power.l;
+
+    // Power from external buck
+    buck.power_in ~ power;
+    buck.power_out ~ power_5v;
+
+    // ESP-32
+    esp32.power_5v ~ power_5v;
+    esp32.GPIO4 ~ pwm_warm;
+    esp32.GPIO5 ~ pwm_cool;
+
+    // ESP32-GPIO
+    part GPIO_h = new PZ2_54_2X5P_H25();
+    GPIO_h[1] ~ esp32.GPIO6;
+    GPIO_h[2] ~ power.l;
+    GPIO_h[3] ~ esp32.GPIO7;
+    GPIO_h[4] ~ power.l;
+    GPIO_h[5] ~ esp32.GPIO8;
+    GPIO_h[6] ~ power.l;
+    GPIO_h[7] ~ esp32.GPIO9;
+    GPIO_h[8] ~ power.l;
+    GPIO_h[9] ~ esp32.GPIO10;
+    GPIO_h[10] ~ power.l;
+
+    part GPIO_h2 = new PZ2_54_2X5P_H25();
+    GPIO_h2[1] ~ esp32.VCC_3V3;
+    GPIO_h2[2] ~ power.l;
+    GPIO_h2[3] ~ esp32.GPIO0;
+    GPIO_h2[4] ~ power.l;
+    GPIO_h2[5] ~ esp32.GPIO20;
+    GPIO_h2[6] ~ power.l;
+    GPIO_h2[7] ~ esp32.GPIO21;
+    GPIO_h2[8] ~ power.l;
+    GPIO_h2[9] ~ power_5v.h;
+    GPIO_h2[10] ~ power_5v.l;
+}

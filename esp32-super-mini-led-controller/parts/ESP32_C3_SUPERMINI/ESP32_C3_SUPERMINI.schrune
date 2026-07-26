@@ -1,0 +1,33 @@
+part ESP32_C3_SUPERMINI {
+    info: {
+        partNumber: "ESP32-C3 SuperMini",
+        manufacture: "Espressif Systems",
+        footprint: "./ESP32_C3_SUPERMINI.kicad_mod",
+        package: "MODULE_ESP32-C3_SUPERMINI",
+        symbol: "./ESP32_C3_SUPERMINI.kicad_sym",
+        designatorPrefix: "U",
+    }
+
+    pins: [
+        VBUS:5V,
+        GND:GND,
+        VCC_3V3:3V3,
+        GPIO0:0,
+        GPIO1:1,
+        GPIO2:2,
+        GPIO3:3,
+        GPIO4:4,
+        GPIO5:5,
+        GPIO6:6,
+        GPIO7:7,
+        GPIO8:8,
+        GPIO9:9,
+        GPIO10:10,
+        GPIO20:20,
+        GPIO21:21,
+        rail power_5v: {
+            h: 5V,
+            l: GND
+        }
+    ]
+}

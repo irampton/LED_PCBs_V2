@@ -1,0 +1,26 @@
+part DROK_BUCK {
+    info: {
+        partNumber: "DROK Buck Converter",
+        manufacture: "DROK",
+        footprint: "./DROK_BUCK.kicad_mod",
+        package: "DROK_BUCK",
+        symbol: "./DROK_BUCK.kicad_sym",
+        designatorPrefix: "U",
+    }
+
+    pins: [
+        EN:EN,
+        VIN:IN_P,
+        GND_IN:IN_N,
+        VOUT:OUT_P,
+        GND_OUT:OUT_N,
+        rail power_in:{
+            h: IN_P,
+            l: IN_N
+        },
+        rail power_out:{
+            h: OUT_P,
+            l: OUT_N
+        }
+    ]
+}

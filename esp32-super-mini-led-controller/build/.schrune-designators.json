@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "assignments": {
+    "H\u0000id:\u0000headers\u0000": [
+      "H1"
+    ],
+    "U\u0000id:\u0000esp32\u0000": [
+      "U2"
+    ],
+    "U\u0000id:\u0000buck\u0000": [
+      "U1"
+    ],
+    "H\u0000id:\u0000GPIO_h\u0000": [
+      "H3"
+    ],
+    "H\u0000id:\u0000GPIO_h2\u0000": [
+      "H2"
+    ]
+  }
+}
