@@ -1,0 +1,199 @@
+{
+  "diameter_mm": 84,
+  "leds": [
+    {
+      "ref": "LED11",
+      "channel": "cool_a",
+      "radius": 12,
+      "angle": -90
+    },
+    {
+      "ref": "LED12",
+      "channel": "cool_a",
+      "radius": 24,
+      "angle": -90
+    },
+    {
+      "ref": "LED10",
+      "channel": "cool_a",
+      "radius": 36,
+      "angle": -90
+    },
+    {
+      "ref": "LED2",
+      "channel": "warm_a",
+      "radius": 12,
+      "angle": -30
+    },
+    {
+      "ref": "LED3",
+      "channel": "warm_a",
+      "radius": 24,
+      "angle": -30
+    },
+    {
+      "ref": "LED1",
+      "channel": "warm_a",
+      "radius": 36,
+      "angle": -30
+    },
+    {
+      "ref": "LED14",
+      "channel": "cool_b",
+      "radius": 12,
+      "angle": 30
+    },
+    {
+      "ref": "LED15",
+      "channel": "cool_b",
+      "radius": 24,
+      "angle": 30
+    },
+    {
+      "ref": "LED13",
+      "channel": "cool_b",
+      "radius": 36,
+      "angle": 30
+    },
+    {
+      "ref": "LED5",
+      "channel": "warm_b",
+      "radius": 12,
+      "angle": 90
+    },
+    {
+      "ref": "LED6",
+      "channel": "warm_b",
+      "radius": 24,
+      "angle": 90
+    },
+    {
+      "ref": "LED4",
+      "channel": "warm_b",
+      "radius": 36,
+      "angle": 90
+    },
+    {
+      "ref": "LED17",
+      "channel": "cool_c",
+      "radius": 12,
+      "angle": 150
+    },
+    {
+      "ref": "LED18",
+      "channel": "cool_c",
+      "radius": 24,
+      "angle": 150
+    },
+    {
+      "ref": "LED16",
+      "channel": "cool_c",
+      "radius": 36,
+      "angle": 150
+    },
+    {
+      "ref": "LED8",
+      "channel": "warm_c",
+      "radius": 12,
+      "angle": 210
+    },
+    {
+      "ref": "LED9",
+      "channel": "warm_c",
+      "radius": 24,
+      "angle": 210
+    },
+    {
+      "ref": "LED7",
+      "channel": "warm_c",
+      "radius": 36,
+      "angle": 210
+    }
+  ],
+  "ports": {
+    "cool_a": {
+      "pwm": [
+        101.05000000000001,
+        71.08
+      ],
+      "top": [
+        113.12792999999999,
+        65.0
+      ],
+      "return": [
+        90.16999999999999,
+        66.8
+      ]
+    },
+    "warm_a": {
+      "pwm": [
+        125.57045467744598,
+        86.44932667397367
+      ],
+      "top": [
+        136.87485413245534,
+        93.86912087910383
+      ],
+      "return": [
+        123.83704340564336,
+        74.88697028079895
+      ]
+    },
+    "cool_b": {
+      "pwm": [
+        124.52045467744597,
+        115.36932667397367
+      ],
+      "top": [
+        123.74692413245536,
+        128.86912087910383
+      ],
+      "return": [
+        133.66704340564337,
+        108.08697028079895
+      ]
+    },
+    "warm_b": {
+      "pwm": [
+        98.94999999999999,
+        128.92000000000002
+      ],
+      "top": [
+        86.87207000000001,
+        135.0
+      ],
+      "return": [
+        109.83000000000001,
+        133.2
+      ]
+    },
+    "cool_c": {
+      "pwm": [
+        74.42954532255402,
+        113.55067332602633
+      ],
+      "top": [
+        63.12514586754465,
+        106.13087912089617
+      ],
+      "return": [
+        76.16295659435664,
+        125.11302971920105
+      ]
+    },
+    "warm_c": {
+      "pwm": [
+        75.47954532255403,
+        84.63067332602634
+      ],
+      "top": [
+        76.25307586754464,
+        71.13087912089617
+      ],
+      "return": [
+        66.33295659435663,
+        91.91302971920103
+      ]
+    }
+  }
+}

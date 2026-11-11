@@ -1,0 +1,18 @@
+part Advanced_Monolithic_Systems_AMS1117_3_3 {
+    info: {
+        partNumber: "AMS1117-3.3",
+        manufacture: "Advanced Monolithic Systems",
+        footprint: "./Advanced_Monolithic_Systems_AMS1117_3_3.kicad_mod",
+        symbol: "./AMS1117-3.3.kicad_sym",
+        designatorPrefix: "U",
+        model: "./SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30.step",
+        LCSC: "C6186",
+    }
+
+    pins: [
+        pin_GND:1,
+        pin_VOUT:2,
+        pin_VIN:3,
+        pin_4:4,
+    ]
+}

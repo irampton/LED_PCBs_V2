@@ -1,0 +1,456 @@
+{
+  "date": "2026-11-09",
+  "currency": "USD",
+  "service": "Standard, double-sided, with populated through-hole header",
+  "jointsPerBoard": 190,
+  "results": {
+    "30": {
+      "setup": 25,
+      "stencil": 7.68,
+      "joints": 9.120000000000001,
+      "jointRate": 0.0016,
+      "components": 51.537,
+      "loaderFees": 16.5,
+      "total": 146.197,
+      "secondSideSetup": 25,
+      "secondSideStencil": 7.86,
+      "handSolderAllowance": 3.5,
+      "perBoard": 4.873233333333333
+    },
+    "100": {
+      "setup": 25,
+      "stencil": 7.68,
+      "joints": 30.400000000000002,
+      "jointRate": 0.0016,
+      "components": 157.01999999999998,
+      "loaderFees": 16.5,
+      "total": 272.96,
+      "secondSideSetup": 25,
+      "secondSideStencil": 7.86,
+      "handSolderAllowance": 3.5,
+      "perBoard": 2.7295999999999996
+    }
+  },
+  "stockWarnings": [],
+  "exclusions": "PCB fabrication, shipping, tax, attrition, minimum purchases, additional manual assembly/panel/x-ray fees; hand soldering is a $3.50 allowance only, subject to quotation",
+  "parts": [
+    {
+      "lcsc": "C377773",
+      "quantity": 12,
+      "stock": 965001,
+      "section": "basic",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 99,
+          "price": 0.0375
+        },
+        {
+          "qFrom": 100,
+          "qTo": 299,
+          "price": 0.0295
+        },
+        {
+          "qFrom": 300,
+          "qTo": 1999,
+          "price": 0.0259
+        },
+        {
+          "qFrom": 2000,
+          "qTo": 3999,
+          "price": 0.0218
+        },
+        {
+          "qFrom": 4000,
+          "qTo": 9999,
+          "price": 0.0208
+        },
+        {
+          "qFrom": 10000,
+          "qTo": -1,
+          "price": 0.02
+        }
+      ]
+    },
+    {
+      "lcsc": "C2480",
+      "quantity": 6,
+      "stock": 1626545,
+      "section": "basic",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 499,
+          "price": 0.0192
+        },
+        {
+          "qFrom": 500,
+          "qTo": 1499,
+          "price": 0.0152
+        },
+        {
+          "qFrom": 1500,
+          "qTo": 4999,
+          "price": 0.0135
+        },
+        {
+          "qFrom": 5000,
+          "qTo": 24999,
+          "price": 0.0096
+        },
+        {
+          "qFrom": 25000,
+          "qTo": 49999,
+          "price": 0.0091
+        },
+        {
+          "qFrom": 50000,
+          "qTo": -1,
+          "price": 0.0088
+        }
+      ]
+    },
+    {
+      "lcsc": "C42431818",
+      "quantity": 1,
+      "stock": 24206,
+      "section": "extended",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 99,
+          "price": 0.0532
+        },
+        {
+          "qFrom": 100,
+          "qTo": 299,
+          "price": 0.0423
+        },
+        {
+          "qFrom": 300,
+          "qTo": 999,
+          "price": 0.0369
+        },
+        {
+          "qFrom": 1000,
+          "qTo": 4999,
+          "price": 0.0328
+        },
+        {
+          "qFrom": 5000,
+          "qTo": 9999,
+          "price": 0.03
+        },
+        {
+          "qFrom": 10000,
+          "qTo": -1,
+          "price": 0.0283
+        }
+      ]
+    },
+    {
+      "lcsc": "C2929435",
+      "quantity": 6,
+      "stock": 12384,
+      "section": "extended",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 99,
+          "price": 0.0557
+        },
+        {
+          "qFrom": 100,
+          "qTo": 299,
+          "price": 0.045
+        },
+        {
+          "qFrom": 300,
+          "qTo": 1499,
+          "price": 0.0396
+        },
+        {
+          "qFrom": 1500,
+          "qTo": 4499,
+          "price": 0.0328
+        },
+        {
+          "qFrom": 4500,
+          "qTo": 10499,
+          "price": 0.0297
+        },
+        {
+          "qFrom": 10500,
+          "qTo": -1,
+          "price": 0.028
+        }
+      ]
+    },
+    {
+      "lcsc": "C49435727",
+      "quantity": 9,
+      "stock": 1153,
+      "section": "extended",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 199,
+          "price": 0.0305
+        },
+        {
+          "qFrom": 200,
+          "qTo": 599,
+          "price": 0.0238
+        },
+        {
+          "qFrom": 600,
+          "qTo": 3999,
+          "price": 0.02
+        },
+        {
+          "qFrom": 4000,
+          "qTo": 7999,
+          "price": 0.0177
+        },
+        {
+          "qFrom": 8000,
+          "qTo": 19999,
+          "price": 0.0158
+        },
+        {
+          "qFrom": 20000,
+          "qTo": -1,
+          "price": 0.0148
+        }
+      ]
+    },
+    {
+      "lcsc": "C49435731",
+      "quantity": 9,
+      "stock": 12953,
+      "section": "extended",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 199,
+          "price": 0.03
+        },
+        {
+          "qFrom": 200,
+          "qTo": 599,
+          "price": 0.0233
+        },
+        {
+          "qFrom": 600,
+          "qTo": 3999,
+          "price": 0.0195
+        },
+        {
+          "qFrom": 4000,
+          "qTo": 7999,
+          "price": 0.0172
+        },
+        {
+          "qFrom": 8000,
+          "qTo": 19999,
+          "price": 0.0153
+        },
+        {
+          "qFrom": 20000,
+          "qTo": -1,
+          "price": 0.0143
+        }
+      ]
+    },
+    {
+      "lcsc": "C17381",
+      "quantity": 12,
+      "stock": 26335,
+      "section": "extended",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 999,
+          "price": 0.005
+        },
+        {
+          "qFrom": 1000,
+          "qTo": 4999,
+          "price": 0.004
+        },
+        {
+          "qFrom": 5000,
+          "qTo": 9999,
+          "price": 0.0034
+        },
+        {
+          "qFrom": 10000,
+          "qTo": 49999,
+          "price": 0.0031
+        },
+        {
+          "qFrom": 50000,
+          "qTo": 99999,
+          "price": 0.0028
+        },
+        {
+          "qFrom": 100000,
+          "qTo": -1,
+          "price": 0.0027
+        }
+      ]
+    },
+    {
+      "lcsc": "C25741",
+      "quantity": 6,
+      "stock": 8604931,
+      "section": "basic",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 999,
+          "price": 0.0012
+        },
+        {
+          "qFrom": 1000,
+          "qTo": 2999,
+          "price": 0.001
+        },
+        {
+          "qFrom": 3000,
+          "qTo": 9999,
+          "price": 0.0008
+        },
+        {
+          "qFrom": 10000,
+          "qTo": 49999,
+          "price": 0.0007
+        },
+        {
+          "qFrom": 50000,
+          "qTo": 50199,
+          "price": 0.0007
+        },
+        {
+          "qFrom": 50200,
+          "qTo": -1,
+          "price": 0.0007
+        }
+      ]
+    },
+    {
+      "lcsc": "C17414",
+      "quantity": 6,
+      "stock": 49430616,
+      "section": "basic",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 999,
+          "price": 0.0034
+        },
+        {
+          "qFrom": 1000,
+          "qTo": 4999,
+          "price": 0.0026
+        },
+        {
+          "qFrom": 5000,
+          "qTo": 9999,
+          "price": 0.0018
+        },
+        {
+          "qFrom": 10000,
+          "qTo": 49999,
+          "price": 0.0016
+        },
+        {
+          "qFrom": 50000,
+          "qTo": 50199,
+          "price": 0.0014
+        },
+        {
+          "qFrom": 50200,
+          "qTo": -1,
+          "price": 0.0014
+        }
+      ]
+    },
+    {
+      "lcsc": "C25879",
+      "quantity": 6,
+      "stock": 3323646,
+      "section": "basic",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 999,
+          "price": 0.0011
+        },
+        {
+          "qFrom": 1000,
+          "qTo": 2999,
+          "price": 0.0009
+        },
+        {
+          "qFrom": 3000,
+          "qTo": 9999,
+          "price": 0.0008
+        },
+        {
+          "qFrom": 10000,
+          "qTo": 49999,
+          "price": 0.0007
+        },
+        {
+          "qFrom": 50000,
+          "qTo": 50199,
+          "price": 0.0006
+        },
+        {
+          "qFrom": 50200,
+          "qTo": -1,
+          "price": 0.0006
+        }
+      ]
+    },
+    {
+      "lcsc": "C347356",
+      "quantity": 6,
+      "stock": 96127,
+      "section": "extended",
+      "pricing": [
+        {
+          "qFrom": 1,
+          "qTo": 49,
+          "price": 0.1111
+        },
+        {
+          "qFrom": 50,
+          "qTo": 149,
+          "price": 0.0874
+        },
+        {
+          "qFrom": 150,
+          "qTo": 999,
+          "price": 0.0751
+        },
+        {
+          "qFrom": 1000,
+          "qTo": 1999,
+          "price": 0.0614
+        },
+        {
+          "qFrom": 2000,
+          "qTo": 4999,
+          "price": 0.0578
+        },
+        {
+          "qFrom": 5000,
+          "qTo": -1,
+          "price": 0.0555
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "clearance_mm": 0.25,
+  "contact_body_conflicts": [],
+  "scope": "Imported courtyard convex hulls; 3D model tolerances and board warpage not qualified"
+}

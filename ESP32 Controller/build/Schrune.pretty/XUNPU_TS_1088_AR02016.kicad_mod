@@ -1,0 +1,149 @@
+(footprint "XUNPU_TS_1088_AR02016:SW-SMD_L3.9-W3.0-P4.45"
+	(version 20241229)
+	(generator "faebryk_convert")
+	(generator_version "v5")
+	(layer "F.Cu")
+	(tedit "5DC5F6A4")
+	(uuid "c3701c80-c8ff-4ead-92ad-e329cdb4c8fb")
+	(property "Reference" "REF**"
+		(at 0 -4)
+		(layer "F.SilkS")
+		(uuid "4837f2db-f0ac-4e51-ba8e-f186bb800ed6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_L3.9-W3.0-P4.45"
+		(at 0 4)
+		(layer "F.Fab")
+		(uuid "f6cf0265-14d9-4c34-84f9-d83607e9d392")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 2.5 -1.47)
+		(end 2.53 -1.47)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(locked no)
+		(uuid "67987687-613d-4075-af50-0dce9c05c2bb")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(locked no)
+		(uuid "7e9ede8f-100a-4ca0-b2fb-bbcdc36275d2")
+	)
+	(fp_line
+		(start -2.03 -1.54)
+		(end -2.03 -1.11)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "9e51ef50-a277-4a2c-88f1-cce973aabdae")
+	)
+	(fp_line
+		(start -2.03 1.54)
+		(end -2.03 1.11)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "6b574551-eea1-428f-a8d8-64224d316ea6")
+	)
+	(fp_line
+		(start 2.03 1.11)
+		(end 2.03 1.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "15d7d4cb-78a2-4e24-9874-c37627326cc9")
+	)
+	(fp_line
+		(start 2.03 -1.54)
+		(end 2.03 -1.11)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "2842f73b-7505-4fb7-abcd-9c7d5b38efa5")
+	)
+	(fp_line
+		(start 2.03 -1.54)
+		(end -2.03 -1.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "22d3c4a0-6c45-4137-a106-d9eb00f14345")
+	)
+	(fp_line
+		(start 2.03 1.54)
+		(end -2.03 1.54)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "65f73998-2156-499d-9972-1665950bef0d")
+	)
+	(pad "1" smd rect
+		(at -2.18 0 0)
+		(size 1.23 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7963bf8f-e80f-422c-8d08-47e6263bcbd7")
+	)
+	(pad "2" smd rect
+		(at 2.18 0 0)
+		(size 1.23 1.86)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3342f4da-9a94-4b57-b66f-91dc817c836f")
+	)
+	(model "${KIPRJMOD}/../parts/XUNPU_TS_1088_AR02016/SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
+		(offset
+			(xyz 0 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(embedded_fonts no)
+)

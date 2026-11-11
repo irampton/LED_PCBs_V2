@@ -1,0 +1,1179 @@
+(kicad_sch (version 20260306) (generator "Schrune") (generator_version "10.0")
+  (uuid 73bc0a5b-735f-34a7-b9ff-e4f9bf01e465)
+  (paper "A1")
+  (lib_symbols
+    (symbol "PT4115"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "U"
+          (id 0)
+          (at 0 7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "PT4115"
+          (id 1)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR"
+          (id 2)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/Others_Youtai-Semiconductor-Co-Ltd-PT4115_C347356.html"
+          (id 3)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "UMW(友台半导体)"
+          (id 4)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "PT4115"
+          (id 5)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C347356"
+          (id 6)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "LED Drivers"
+          (id 8)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "PT4115_0_1"
+          (rectangle
+            (start -7.62 5.08)
+            (end 7.62 -5.08)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (circle
+            (center -6.98 4.44)
+            (radius 0.38)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin passive line
+            (at -10.16 2.54 0)
+            (length 2.54)
+            (name "SW" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -10.16 -0.00 0)
+            (length 2.54)
+            (name "GND" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -10.16 -2.54 0)
+            (length 2.54)
+            (name "DIM" (effects (font (size 1.27 1.27))))
+            (number "3" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 10.16 -2.54 180)
+            (length 2.54)
+            (name "CSN" (effects (font (size 1.27 1.27))))
+            (number "4" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 10.16 2.54 180)
+            (length 2.54)
+            (name "VIN" (effects (font (size 1.27 1.27))))
+            (number "5" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "CL21A225KBQNNNE"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "C"
+          (id 0)
+          (at 0 10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "CL21A225KBQNNNE"
+          (id 1)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:C0805"
+          (id 2)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/New-Arrivals_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.html"
+          (id 3)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "SAMSUNG(三星)"
+          (id 4)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "CL21A225KBQNNNE"
+          (id 5)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C377773"
+          (id 6)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+          (id 8)
+          (at 0 -25.40 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "CL21A225KBQNNNE_0_1"
+          (polyline
+            (pts
+              (xy 0.00 -0.51) (xy 0.00 -2.54)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -2.03 0.51) (xy 2.03 0.51)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy 0.00 2.54) (xy 0.00 0.51)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy 2.03 -0.51) (xy -2.03 -0.51)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin passive line
+            (at 0.00 5.08 270)
+            (length 2.54)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 0.00 -5.08 90)
+            (length 2.54)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "CY54-68UH"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "L"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "CY54-68UH"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:IND-SMD_L5.8-W5.2"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://www.lcsc.com/datasheet/C2929435.pdf"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "SHOU HAN(首韩)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "CY54-68UH"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C2929435"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Inductors (SMD)"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "CY54-68UH_0_1"
+          (arc
+            (start -2.03 -0.01)
+            (mid -3.04 1.02)
+            (end -4.06 0.01)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (arc
+            (start 0.00 -0.01)
+            (mid -1.01 1.02)
+            (end -2.03 0.01)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (arc
+            (start 4.06 -0.01)
+            (mid 3.05 1.02)
+            (end 2.03 0.01)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (arc
+            (start 2.03 -0.01)
+            (mid 1.02 1.02)
+            (end 0.00 0.01)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 1.27)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 1.27)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "SS14"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "D"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "SS14"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:SMA_L4.2-W2.6-LS5.0-RD_1"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "MDD(辰达半导体)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "SS14"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C2480"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Schottky Barrier Diodes (SBD)"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_description"
+          "SS14"
+          (id 9)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "SS14_0_1"
+          (polyline
+            (pts
+              (xy 1.27 1.52) (xy -1.27 -0.00) (xy 1.27 -1.78) (xy 1.27 1.52)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -2.03 1.52) (xy -2.03 1.78) (xy -1.52 1.78) (xy -1.52 -2.03) (xy -1.02 -2.03) (xy -1.02 -1.78)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 3.81)
+            (name "A" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 3.81)
+            (name "K" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "0805W8F120KT5E"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "R"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "0805W8F120KT5E"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:R0805"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2R-1R20-1_C17381.html"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "UNI-ROYAL(厚声)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "0805W8F120KT5E"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C17381"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Resistors"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_description"
+          "1.2Ω (1R20) ±1%"
+          (id 9)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "0805W8F120KT5E_0_1"
+          (rectangle
+            (start -2.54 1.02)
+            (end 2.54 -1.02)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 2.54)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 2.54)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "0402WGF2201TCE"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "R"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "0402WGF2201TCE"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:R0402"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "UNI-ROYAL(厚声)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "0402WGF2201TCE"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C25879"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Resistors"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_description"
+          "2.2KΩ (2201) ±1%"
+          (id 9)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "0402WGF2201TCE_0_1"
+          (rectangle
+            (start -2.54 1.02)
+            (end 2.54 -1.02)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 2.54)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 2.54)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "0402WGF1003TCE"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "R"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "0402WGF1003TCE"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:R0402"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25741.html"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "UNI-ROYAL(厚声)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "0402WGF1003TCE"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C25741"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Resistors"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_description"
+          "100KΩ (1003) ±1%"
+          (id 9)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "0402WGF1003TCE_0_1"
+          (rectangle
+            (start -2.54 1.02)
+            (end 2.54 -1.02)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 2.54)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 2.54)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "0805W8F1002T5E"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "R"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "0805W8F1002T5E"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:R0805"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "UNI-ROYAL(厚声)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "0805W8F1002T5E"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C17414"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Resistors"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_description"
+          "10KΩ (1002) ±1%"
+          (id 9)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "0805W8F1002T5E_0_1"
+          (rectangle
+            (start -2.54 1.02)
+            (end 2.54 -1.02)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 2.54)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 2.54)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+  )
+  (symbol (lib_id "PT4115") (at 76.20 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 95a6ca22-3d10-e6b9-c42f-3d3a96c5c43f)
+    (property "Reference" "U1" (at 76.20 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "PT4115" (at 76.20 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:PT4115" (at 76.20 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid ebb5efd0-0cc5-11c3-1f86-1593b145f548))
+    (pin "2" (uuid 2674334b-4f8d-03d3-4e7e-c63a60ba2875))
+    (pin "3" (uuid 2c1dfbe2-b61a-0b36-efb7-ddb6dfa5f8af))
+    (pin "4" (uuid 716f8634-9bb9-b3c6-ba33-a883e741f57e))
+    (pin "5" (uuid 2aaf07fb-d4eb-8576-260f-49867b3999e6))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "CL21A225KBQNNNE") (at 279.40 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 22c26050-b3b8-7795-76ba-b7867ed5502c)
+    (property "Reference" "C1" (at 279.40 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2.2uF" (at 279.40 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:CL21A225KBQNNNE" (at 279.40 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 2b80ad5d-c830-16cf-3ec5-4d4a5cb98b97))
+    (pin "1" (uuid 0fe8f4e9-cb27-6dd1-d2f4-02a495832090))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "CL21A225KBQNNNE") (at 355.60 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 39fb804e-ddec-b80e-5438-2c45603fcc1d)
+    (property "Reference" "C2" (at 355.60 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2.2uF" (at 355.60 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:CL21A225KBQNNNE" (at 355.60 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid dbd79752-5fc8-442c-3bce-149db80fa8c9))
+    (pin "1" (uuid 2af96fc4-9071-8509-3f81-aee8089de32d))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "CY54-68UH") (at 482.60 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3376f6c0-20f4-bea9-3af6-995c10ad3040)
+    (property "Reference" "L2" (at 482.60 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0.000068uH" (at 482.60 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:CY54_68UH" (at 482.60 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 0d02f971-18f4-ed8c-67d0-93db90012db9))
+    (pin "1" (uuid 1984477d-ccf5-e78d-07aa-1d8d2ceecc60))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "L2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "SS14") (at 685.80 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f2d3f911-f140-6ff3-2737-ddd3939092d7)
+    (property "Reference" "D2" (at 685.80 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SS14" (at 685.80 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:SS14" (at 685.80 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 50b35e54-658b-2b92-2fab-1672f9c99a64))
+    (pin "1" (uuid 8ad67c4b-436e-1fcc-6525-33f46bb00638))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "D2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "0805W8F120KT5E") (at 76.20 177.80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ad44c218-3a3d-2147-96bb-0ec30475fdfb)
+    (property "Reference" "R2" (at 76.20 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1.2" (at 76.20 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:P_0805W8F120KT5E" (at 76.20 185.42 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 0694d23c-4b6b-fb1f-30c2-c15f18d4c05e))
+    (pin "1" (uuid 484a295c-a94f-7b63-3a00-79717fafa94e))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "R2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "0805W8F120KT5E") (at 152.40 177.80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 799d10b4-6adb-c9a1-7396-f0882143d8d6)
+    (property "Reference" "R14" (at 152.40 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1.2" (at 152.40 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:P_0805W8F120KT5E" (at 152.40 185.42 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid c3b5d2dc-6a0c-cf46-9331-49f5f917df2b))
+    (pin "1" (uuid 7c3f70c0-b993-bd7d-5691-549c9e20a54d))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "R14")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "0402WGF2201TCE") (at 279.40 177.80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8242cf5a-4119-d2a4-53d0-01b2817d4860)
+    (property "Reference" "R10" (at 279.40 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "2.2k" (at 279.40 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:P_0402WGF2201TCE" (at 279.40 185.42 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 539c2c37-0953-cca4-c150-89592c7f46d0))
+    (pin "1" (uuid 2ce5f679-4a0e-8a14-ce8f-6e42c10437ea))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "R10")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "0402WGF1003TCE") (at 482.60 177.80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 545a407f-6809-7585-96ac-755118362f7e)
+    (property "Reference" "R6" (at 482.60 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100k" (at 482.60 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:P_0402WGF1003TCE" (at 482.60 185.42 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 859ce3c3-419d-e281-f598-aed956ec8053))
+    (pin "1" (uuid 62ee2ac5-b6f8-8403-93d1-78211002c60d))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "R6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "0805W8F1002T5E") (at 685.80 177.80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bcbffe26-cc2f-8091-eddb-155a09dbef9d)
+    (property "Reference" "R18" (at 685.80 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10k" (at 685.80 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:P_0805W8F1002T5E" (at 685.80 185.42 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid b10ea700-b573-7025-8fe5-48074c23ef19))
+    (pin "1" (uuid 67862910-8bb7-27ff-613a-faaa1a330d13))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "R18")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire (pts (xy 66.04 99.06) (xy 58.42 99.06))
+    (stroke (width 0) (type default))
+    (uuid e0e20994-bdd0-07ce-6211-c89e504c0201)
+  )
+  (global_label "cool_b_channel_driver_SW" (shape input) (at 58.42 99.06 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid e831a0b5-e98a-3f7b-0972-d1518e474bc4)
+  )
+  (wire (pts (xy 66.04 101.60) (xy 55.88 101.60))
+    (stroke (width 0) (type default))
+    (uuid a7d4faf3-7c0f-d074-883e-2d4cb5df8a7e)
+  )
+  (global_label "GND" (shape input) (at 55.88 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 96b15d18-4961-3ffe-2a9b-bfb24cf88306)
+  )
+  (wire (pts (xy 66.04 104.14) (xy 53.34 104.14))
+    (stroke (width 0) (type default))
+    (uuid cff19c30-b5d9-4382-6166-f1d1fcb3333a)
+  )
+  (global_label "cool_b_channel_pwm_2_2_1" (shape input) (at 53.34 104.14 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 6e0d75c5-1667-c927-43c3-e3fee3650222)
+  )
+  (wire (pts (xy 86.36 104.14) (xy 96.52 104.14))
+    (stroke (width 0) (type default))
+    (uuid 9451c19f-f9a9-63e0-90b8-40964e88055d)
+  )
+  (global_label "cool_b_channel_LED_TOP" (shape input) (at 96.52 104.14 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid beda949d-d632-ed32-888b-adabfc508529)
+  )
+  (wire (pts (xy 86.36 99.06) (xy 93.98 99.06))
+    (stroke (width 0) (type default))
+    (uuid 6472b91c-362a-fe52-38b9-af9b63a71d92)
+  )
+  (global_label "V+" (shape input) (at 93.98 99.06 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid c8336bfa-6cd3-921c-9388-b4e383703793)
+  )
+  (wire (pts (xy 279.40 106.68) (xy 279.40 114.30))
+    (stroke (width 0) (type default))
+    (uuid 6f4f5d4a-fe98-dfac-43fb-5ce2117ef1e3)
+  )
+  (global_label "V+" (shape input) (at 279.40 114.30 90)
+    (effects (font (size 1.27 1.27)))
+    (uuid 0a192a03-edbd-fb7d-9bcb-64faaa90b05d)
+  )
+  (wire (pts (xy 279.40 96.52) (xy 279.40 88.90))
+    (stroke (width 0) (type default))
+    (uuid a071d177-8d74-0a87-ca22-55fbbcdfd0ab)
+  )
+  (global_label "GND" (shape input) (at 279.40 88.90 90)
+    (effects (font (size 1.27 1.27)))
+    (uuid 161b08cc-388a-e835-3549-2b72ca59ebec)
+  )
+  (wire (pts (xy 355.60 106.68) (xy 355.60 114.30))
+    (stroke (width 0) (type default))
+    (uuid f0a078e8-1589-e08a-2f5b-04b586cb7f56)
+  )
+  (global_label "V+" (shape input) (at 355.60 114.30 90)
+    (effects (font (size 1.27 1.27)))
+    (uuid 77b5facd-dec0-8b46-1a0c-86f375722baa)
+  )
+  (wire (pts (xy 355.60 96.52) (xy 355.60 88.90))
+    (stroke (width 0) (type default))
+    (uuid d237a5a1-38ab-7daf-4c45-749a79fd1b03)
+  )
+  (global_label "GND" (shape input) (at 355.60 88.90 90)
+    (effects (font (size 1.27 1.27)))
+    (uuid 322ee44a-3393-7d7a-d494-11f0809ca11e)
+  )
+  (wire (pts (xy 477.52 101.60) (xy 469.90 101.60))
+    (stroke (width 0) (type default))
+    (uuid aee47252-55ad-96dc-a2de-b7f8f08edf50)
+  )
+  (global_label "cool_b_channel_driver_SW" (shape input) (at 469.90 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid ad5b180c-3b0f-689f-fdf2-5af8cee0c206)
+  )
+  (wire (pts (xy 487.68 101.60) (xy 495.30 101.60))
+    (stroke (width 0) (type default))
+    (uuid 8b47c8c1-eda6-f442-6912-62ea37ebbe06)
+  )
+  (global_label "cool_b_channel_LED_RETURN" (shape input) (at 495.30 101.60 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid a9249a54-526e-ae42-d554-a90b4032e71a)
+  )
+  (wire (pts (xy 680.72 101.60) (xy 673.10 101.60))
+    (stroke (width 0) (type default))
+    (uuid d7d7e9cd-4354-e5a2-50ac-e69a3afabeec)
+  )
+  (global_label "cool_b_channel_driver_SW" (shape input) (at 673.10 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid b09a4a46-3d3c-5bbe-ed7f-a26ace709618)
+  )
+  (wire (pts (xy 690.88 101.60) (xy 698.50 101.60))
+    (stroke (width 0) (type default))
+    (uuid 36e3baca-fac1-5917-573e-9478d51faf8b)
+  )
+  (global_label "GND" (shape input) (at 698.50 101.60 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 1babcae2-d86b-a8a5-6c70-3b5543d95c1f)
+  )
+  (wire (pts (xy 71.12 177.80) (xy 63.50 177.80))
+    (stroke (width 0) (type default))
+    (uuid ca3e32a2-691e-7716-4a3f-47a1a5a81537)
+  )
+  (global_label "V+" (shape input) (at 63.50 177.80 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 5806fde2-bb71-9c84-3df2-7116f174c04d)
+  )
+  (wire (pts (xy 81.28 177.80) (xy 88.90 177.80))
+    (stroke (width 0) (type default))
+    (uuid 25005562-a754-4a99-9825-c5517a19287e)
+  )
+  (global_label "cool_b_channel_LED_TOP" (shape input) (at 88.90 177.80 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 024596e6-b14f-89da-54de-0107b24b9e0a)
+  )
+  (wire (pts (xy 147.32 177.80) (xy 139.70 177.80))
+    (stroke (width 0) (type default))
+    (uuid bc8818fe-2442-094b-1a82-15769769b747)
+  )
+  (global_label "V+" (shape input) (at 139.70 177.80 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 524d2521-a40a-4ae6-b152-8d1308996f81)
+  )
+  (wire (pts (xy 157.48 177.80) (xy 165.10 177.80))
+    (stroke (width 0) (type default))
+    (uuid b770c1e4-b029-9a0c-13d0-fa65874c328d)
+  )
+  (global_label "cool_b_channel_LED_TOP" (shape input) (at 165.10 177.80 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid be2c5409-1e58-939e-d37c-365b8760179a)
+  )
+  (wire (pts (xy 274.32 177.80) (xy 266.70 177.80))
+    (stroke (width 0) (type default))
+    (uuid 50cbd74d-2f30-96cb-54de-6d3b97a27be8)
+  )
+  (global_label "pwm_cool" (shape input) (at 266.70 177.80 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 9c87ad70-f61d-fc33-8caa-e41cf5d44ed7)
+  )
+  (wire (pts (xy 284.48 177.80) (xy 292.10 177.80))
+    (stroke (width 0) (type default))
+    (uuid ba3b6760-4f17-3809-24bc-12e331c04044)
+  )
+  (global_label "cool_b_channel_pwm_2_2_1" (shape input) (at 292.10 177.80 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid bc28d63a-ef24-0648-135c-012c6faf5052)
+  )
+  (wire (pts (xy 477.52 177.80) (xy 469.90 177.80))
+    (stroke (width 0) (type default))
+    (uuid d95d6bc4-d462-c6b1-92a9-4743bf54661a)
+  )
+  (global_label "cool_b_channel_pwm_2_2_1" (shape input) (at 469.90 177.80 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid a60bc069-8a97-bf3c-e1c1-e883e818a46c)
+  )
+  (wire (pts (xy 487.68 177.80) (xy 495.30 177.80))
+    (stroke (width 0) (type default))
+    (uuid 0de15f52-fcda-8d09-7188-b1a2aefbd52a)
+  )
+  (global_label "GND" (shape input) (at 495.30 177.80 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 31511487-9033-44b0-efa9-96e16d7abd3d)
+  )
+  (wire (pts (xy 680.72 177.80) (xy 673.10 177.80))
+    (stroke (width 0) (type default))
+    (uuid b2a0d948-7150-df7f-fa90-d7417ed55d87)
+  )
+  (global_label "V+" (shape input) (at 673.10 177.80 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 63eddb6f-2014-88b1-98cf-81228661d892)
+  )
+  (wire (pts (xy 690.88 177.80) (xy 698.50 177.80))
+    (stroke (width 0) (type default))
+    (uuid dc87f5d0-3d94-78bb-5f92-a911a5f205b5)
+  )
+  (global_label "cool_b_channel_LED_RETURN" (shape input) (at 698.50 177.80 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 5c8f310a-fb88-a325-fd46-4dd42347436c)
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

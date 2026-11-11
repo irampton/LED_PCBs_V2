@@ -1,0 +1,13 @@
+{
+  "non_led_components_and_pad_geometry_preserved": 46,
+  "non_led_tracks_and_vias_preserved": 110,
+  "outline_and_four_mounting_holes_preserved": true,
+  "board_dimensions_mm": [
+    75,
+    30
+  ],
+  "schematic_netlist_matches_pcb": true,
+  "led_count": 12,
+  "nominal_current_mA": 166.66666666666669,
+  "nominal_sense_resistor_dissipation_mW_each": 8.333333333333336
+}

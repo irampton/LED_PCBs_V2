@@ -1,0 +1,1618 @@
+{
+  "2x2x4": {
+    "rawSchruneEconomic": {
+      "setup": 8,
+      "stencil": 1.5,
+      "joints": 2.3040000000000003,
+      "components": 36.348,
+      "extendedFees": 12,
+      "total": 60.152
+    },
+    "correctedEconomic": {
+      "setup": 8,
+      "stencil": 1.5,
+      "joints": 6.144,
+      "components": 36.348,
+      "extendedFees": 12,
+      "total": 63.992
+    },
+    "jointsPerBoard": 128,
+    "stockWarnings": [],
+    "rows": [
+      {
+        "designators": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8"
+        ],
+        "footprint": "0805",
+        "comment": "2.2uF ±10% 50V X5R",
+        "mpn": "CL21A225KBQNNNE",
+        "manufacturer": "Samsung Electro-Mechanics",
+        "quantity": 8,
+        "lcsc": "C377773",
+        "jlcPart": {
+          "lcsc": "C377773",
+          "manufacturer": "Samsung Electro-Mechanics",
+          "mpn": "CL21A225KBQNNNE",
+          "package": "0805",
+          "description": "2.2uF 50V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+          "datasheetUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.pdf",
+          "stock": 965029,
+          "unitCost": 0.0375,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 99,
+              "price": 0.0375
+            },
+            {
+              "qFrom": 100,
+              "qTo": 299,
+              "price": 0.0295
+            },
+            {
+              "qFrom": 300,
+              "qTo": 1999,
+              "price": 0.0259
+            },
+            {
+              "qFrom": 2000,
+              "qTo": 3999,
+              "price": 0.0218
+            },
+            {
+              "qFrom": 4000,
+              "qTo": 9999,
+              "price": 0.0208
+            },
+            {
+              "qFrom": 10000,
+              "qTo": -1,
+              "price": 0.02
+            }
+          ],
+          "attributes": {
+            "Voltage Rating": "50V",
+            "Tolerance": "±10%",
+            "Capacitance": "2.2uF",
+            "Temperature Coefficient": "X5R"
+          }
+        },
+        "section": "basic",
+        "stock": 965029,
+        "stockDisplay": "965029",
+        "perBoardCost": 0.236,
+        "jointsPerBoard": 16
+      },
+      {
+        "designators": [
+          "D1",
+          "D2",
+          "D3",
+          "D4"
+        ],
+        "footprint": "SMA_L4.2-W2.6-LS5.0-RD_1",
+        "comment": "",
+        "mpn": "SS14",
+        "manufacturer": "MDD(辰达半导体)",
+        "quantity": 4,
+        "lcsc": "C2480",
+        "jlcPart": {
+          "lcsc": "C2480",
+          "manufacturer": "MDD(Microdiode Semiconductor)",
+          "mpn": "SS14",
+          "package": "SMA(DO-214AC)",
+          "description": "-55℃~+150℃ 1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf",
+          "stock": 1627275,
+          "unitCost": 0.0192,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 499,
+              "price": 0.0192
+            },
+            {
+              "qFrom": 500,
+              "qTo": 1499,
+              "price": 0.0152
+            },
+            {
+              "qFrom": 1500,
+              "qTo": 4999,
+              "price": 0.0135
+            },
+            {
+              "qFrom": 5000,
+              "qTo": 24999,
+              "price": 0.0096
+            },
+            {
+              "qFrom": 25000,
+              "qTo": 49999,
+              "price": 0.0091
+            },
+            {
+              "qFrom": 50000,
+              "qTo": -1,
+              "price": 0.0088
+            }
+          ],
+          "attributes": {
+            "Voltage - Forward(Vf@If)": "550mV@1A",
+            "Power Dissipation": "-",
+            "Non-Repetitive Peak Forward Surge Current": "25A",
+            "Voltage - DC Reverse(Vr)": "40V",
+            "Operating Junction Temperature Range": "-55℃~+150℃",
+            "Diode Configuration": "Standalone",
+            "Current - Rectified": "1A",
+            "Reverse Leakage Current (Ir)": "300uA@40V"
+          }
+        },
+        "section": "basic",
+        "stock": 1627275,
+        "stockDisplay": "1627275",
+        "perBoardCost": 0.0768,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "footprint": "SMD,5.8x5.2mm",
+        "comment": "68uH ±10% 600mA",
+        "mpn": "CY54-68UH",
+        "manufacturer": "SHOU HAN",
+        "quantity": 4,
+        "lcsc": "C2929435",
+        "jlcPart": {
+          "lcsc": "C2929435",
+          "manufacturer": "SHOU HAN",
+          "mpn": "CY54-68UH",
+          "package": "SMD,5.8x5.2mm",
+          "description": "390mΩ 600mA 68uH Drum-core inductor ±10% SMD,5.8x5.2mm Power Inductors ROHS",
+          "datasheetUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121400_SHOU-HAN-CY54-68UH_C2929435.pdf",
+          "stock": 12384,
+          "unitCost": 0.0557,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 99,
+              "price": 0.0557
+            },
+            {
+              "qFrom": 100,
+              "qTo": 299,
+              "price": 0.045
+            },
+            {
+              "qFrom": 300,
+              "qTo": 1499,
+              "price": 0.0396
+            },
+            {
+              "qFrom": 1500,
+              "qTo": 4499,
+              "price": 0.0328
+            },
+            {
+              "qFrom": 4500,
+              "qTo": 10499,
+              "price": 0.0297
+            },
+            {
+              "qFrom": 10500,
+              "qTo": -1,
+              "price": 0.028
+            }
+          ],
+          "attributes": {
+            "Inductance": "68uH",
+            "Current - Saturation(Isat)": "-",
+            "Type": "Drum-core inductor",
+            "Tolerance": "±10%",
+            "Current Rating": "600mA",
+            "Application Grade": "Consumer grade",
+            "DC Resistance(DCR)": "390mΩ"
+          }
+        },
+        "section": "extended",
+        "stock": 12384,
+        "stockDisplay": "12384",
+        "perBoardCost": 0.18,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "LED1",
+          "LED2",
+          "LED3",
+          "LED4",
+          "LED5",
+          "LED6",
+          "LED7",
+          "LED8"
+        ],
+        "footprint": "LED-SMD_L3.3-W2.8-RD",
+        "comment": "",
+        "mpn": "HL-AM-2835D1W-S1-08-HR3",
+        "manufacturer": "HONGLITRONIC(鸿利光电)",
+        "quantity": 8,
+        "lcsc": "C210324",
+        "jlcPart": {
+          "lcsc": "C210324",
+          "manufacturer": "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))",
+          "mpn": "HL-AM-2835D1W-S1-08-HR3",
+          "package": "SMD2835-2P",
+          "description": "-40℃~+85℃ 120° 150mA 3.4V 510mW 6500K Discrete Diode Frosted Yellow Lens Top-mount White SMD2835-2P LED Indication - Discrete ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2009091106_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3_C210324.pdf",
+          "stock": 42004,
+          "unitCost": 0.016,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 499,
+              "price": 0.016
+            },
+            {
+              "qFrom": 500,
+              "qTo": 1499,
+              "price": 0.0124
+            },
+            {
+              "qFrom": 1500,
+              "qTo": 3999,
+              "price": 0.0105
+            },
+            {
+              "qFrom": 4000,
+              "qTo": 19999,
+              "price": 0.0093
+            },
+            {
+              "qFrom": 20000,
+              "qTo": 39999,
+              "price": 0.0083
+            },
+            {
+              "qFrom": 40000,
+              "qTo": -1,
+              "price": 0.0077
+            }
+          ],
+          "attributes": {
+            "Mounting Style": "Top-mount",
+            "Wavelength - Dominant": "-",
+            "Operating Temperature": "-40℃~+85℃",
+            "Color Temperature": "6500K",
+            "Test Current": "150mA",
+            "Viewing Angle": "120°",
+            "Lamp Holder Type": "-",
+            "Luminous Intensity": "-",
+            "Power(Watts)": "510mW",
+            "Diode Configuration": "Discrete Diode",
+            "Illumination Color": "White",
+            "Lens Color": "Frosted Yellow Lens",
+            "Voltage - Forward(Vf)": "3.4V",
+            "Peak Wavelength": "-"
+          }
+        },
+        "section": "extended",
+        "stock": 42004,
+        "stockDisplay": "42004",
+        "perBoardCost": 0.128,
+        "jointsPerBoard": 16
+      },
+      {
+        "designators": [
+          "LED9",
+          "LED10",
+          "LED11",
+          "LED12",
+          "LED13",
+          "LED14",
+          "LED15",
+          "LED16"
+        ],
+        "footprint": "LED-SMD_L3.5-W2.8-FD-2835_WHITE",
+        "comment": "",
+        "mpn": "HL-AM-2835D1W-S1-08-HR3(2600K-2800K)",
+        "manufacturer": "HONGLITRONIC(鸿利光电)",
+        "quantity": 8,
+        "lcsc": "C3000013",
+        "jlcPart": {
+          "lcsc": "C3000013",
+          "manufacturer": "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))",
+          "mpn": "HL-AM-2835D1W-S1-08-HR3(2600K-2800K)",
+          "package": "SMD2835-2P",
+          "description": "-40℃~+85℃ 120° 150mA 2700K 3.4V 510mW Discrete Diode Frosted Yellow Lens Top-mount White SMD2835-2P LED Indication - Discrete ROHS",
+          "datasheetUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205121200_HONGLITRONIC-Hongli-Zhihui--HONGLITRONIC-HL-AM-2835D1W-S1-08-HR3-2600K-2800K_C3000013.pdf",
+          "stock": 26210,
+          "unitCost": 0.0218,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 199,
+              "price": 0.0218
+            },
+            {
+              "qFrom": 200,
+              "qTo": 599,
+              "price": 0.0169
+            },
+            {
+              "qFrom": 600,
+              "qTo": 3999,
+              "price": 0.0142
+            },
+            {
+              "qFrom": 4000,
+              "qTo": 7999,
+              "price": 0.0131
+            },
+            {
+              "qFrom": 8000,
+              "qTo": 19999,
+              "price": 0.0117
+            },
+            {
+              "qFrom": 20000,
+              "qTo": -1,
+              "price": 0.0109
+            }
+          ],
+          "attributes": {
+            "Mounting Style": "Top-mount",
+            "Wavelength - Dominant": "-",
+            "Operating Temperature": "-40℃~+85℃",
+            "Color Temperature": "2700K",
+            "Test Current": "150mA",
+            "Viewing Angle": "120°",
+            "Lamp Holder Type": "-",
+            "Luminous Intensity": "-",
+            "Power(Watts)": "510mW",
+            "Diode Configuration": "Discrete Diode",
+            "Illumination Color": "White",
+            "Lens Color": "Frosted Yellow Lens",
+            "Voltage - Forward(Vf)": "3.4V",
+            "Peak Wavelength": "-"
+          }
+        },
+        "section": "extended",
+        "stock": 26210,
+        "stockDisplay": "26210",
+        "perBoardCost": 0.1352,
+        "jointsPerBoard": 16
+      },
+      {
+        "designators": [
+          "R1",
+          "R2",
+          "R3",
+          "R4"
+        ],
+        "footprint": "0805",
+        "comment": "1Ω ±1% 125mW",
+        "mpn": "0805W8F100KT5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C25271",
+        "jlcPart": {
+          "lcsc": "C25271",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0805W8F100KT5E",
+          "package": "0805",
+          "description": "-55℃~+155℃ 125mW 150V 1Ω Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0805W8F100KT5E_C25271.pdf",
+          "stock": 433436,
+          "unitCost": 0.0054,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.0054
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 4999,
+              "price": 0.0044
+            },
+            {
+              "qFrom": 5000,
+              "qTo": 9999,
+              "price": 0.0037
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0033
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 99999,
+              "price": 0.003
+            },
+            {
+              "qFrom": 100000,
+              "qTo": -1,
+              "price": 0.0029
+            }
+          ],
+          "attributes": {
+            "Resistance": "1Ω",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "125mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "150V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±200ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 433436,
+        "stockDisplay": "433436",
+        "perBoardCost": 0.0216,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "R5",
+          "R6",
+          "R7",
+          "R8"
+        ],
+        "footprint": "0402",
+        "comment": "100kΩ ±1% 62.5mW",
+        "mpn": "0402WGF1003TCE",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C25741",
+        "jlcPart": {
+          "lcsc": "C25741",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0402WGF1003TCE",
+          "package": "0402",
+          "description": "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf",
+          "stock": 8605915,
+          "unitCost": 0.0012,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.0012
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 2999,
+              "price": 0.001
+            },
+            {
+              "qFrom": 3000,
+              "qTo": 9999,
+              "price": 0.0008
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0007
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 50199,
+              "price": 0.0007
+            },
+            {
+              "qFrom": 50200,
+              "qTo": -1,
+              "price": 0.0007
+            }
+          ],
+          "attributes": {
+            "Resistance": "100kΩ",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "62.5mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "50V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±100ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 8605915,
+        "stockDisplay": "8605915",
+        "perBoardCost": 0.0048,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "R9",
+          "R10",
+          "R11",
+          "R12"
+        ],
+        "footprint": "0402",
+        "comment": "2.2kΩ ±1% 62.5mW",
+        "mpn": "0402WGF2201TCE",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C25879",
+        "jlcPart": {
+          "lcsc": "C25879",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0402WGF2201TCE",
+          "package": "0402",
+          "description": "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF2201TCE_C25879.pdf",
+          "stock": 3324376,
+          "unitCost": 0.0011,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.0011
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 2999,
+              "price": 0.0009
+            },
+            {
+              "qFrom": 3000,
+              "qTo": 9999,
+              "price": 0.0008
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0007
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 50199,
+              "price": 0.0006
+            },
+            {
+              "qFrom": 50200,
+              "qTo": -1,
+              "price": 0.0006
+            }
+          ],
+          "attributes": {
+            "Resistance": "2.2kΩ",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "62.5mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "50V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±100ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 3324376,
+        "stockDisplay": "3324376",
+        "perBoardCost": 0.0044,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "R13",
+          "R14",
+          "R15",
+          "R16"
+        ],
+        "footprint": "0805",
+        "comment": "4.7Ω ±1% 125mW",
+        "mpn": "0805W8F470KT5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C17675",
+        "jlcPart": {
+          "lcsc": "C17675",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0805W8F470KT5E",
+          "package": "0805",
+          "description": "-55℃~+155℃ 125mW 150V 4.7Ω Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-0805W8F470KT5E_C17675.pdf",
+          "stock": 103468,
+          "unitCost": 0.0154,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 499,
+              "price": 0.0154
+            },
+            {
+              "qFrom": 500,
+              "qTo": 1499,
+              "price": 0.0126
+            },
+            {
+              "qFrom": 1500,
+              "qTo": 4999,
+              "price": 0.0111
+            },
+            {
+              "qFrom": 5000,
+              "qTo": 24999,
+              "price": 0.01
+            },
+            {
+              "qFrom": 25000,
+              "qTo": 49999,
+              "price": 0.0092
+            },
+            {
+              "qFrom": 50000,
+              "qTo": -1,
+              "price": 0.0087
+            }
+          ],
+          "attributes": {
+            "Resistance": "4.7Ω",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "125mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "150V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±200ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 103468,
+        "stockDisplay": "103468",
+        "perBoardCost": 0.0616,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "R17",
+          "R18",
+          "R19",
+          "R20"
+        ],
+        "footprint": "0805",
+        "comment": "10kΩ ±1% 125mW",
+        "mpn": "0805W8F1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C17414",
+        "jlcPart": {
+          "lcsc": "C17414",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0805W8F1002T5E",
+          "package": "0805",
+          "description": "-55℃~+155℃ 10kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf",
+          "stock": 49441263,
+          "unitCost": 0.0034,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.0034
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 4999,
+              "price": 0.0026
+            },
+            {
+              "qFrom": 5000,
+              "qTo": 9999,
+              "price": 0.0018
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0016
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 50199,
+              "price": 0.0014
+            },
+            {
+              "qFrom": 50200,
+              "qTo": -1,
+              "price": 0.0014
+            }
+          ],
+          "attributes": {
+            "Resistance": "10kΩ",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "125mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "150V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±100ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 49441263,
+        "stockDisplay": "49441263",
+        "perBoardCost": 0.0136,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "U1",
+          "U2",
+          "U3",
+          "U4"
+        ],
+        "footprint": "SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR",
+        "comment": "",
+        "mpn": "PT4115",
+        "manufacturer": "UMW(友台半导体)",
+        "quantity": 4,
+        "lcsc": "C347356",
+        "jlcPart": {
+          "lcsc": "C347356",
+          "manufacturer": "UMW(Youtai Semiconductor Co., Ltd.)",
+          "mpn": "PT4115",
+          "package": "SOT-89-5",
+          "description": "-25℃~+85℃ 1.2A 1MHz 5% 6V~30V Analog、PWM Buck Built-in DC-DC Over-Temperature Protection (OTP) SOT-89-5 LED Drivers ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_UMW-Youtai-Semiconductor-Co---Ltd--PT4115_C347356.pdf",
+          "stock": 96127,
+          "unitCost": 0.1111,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 49,
+              "price": 0.1111
+            },
+            {
+              "qFrom": 50,
+              "qTo": 149,
+              "price": 0.0874
+            },
+            {
+              "qFrom": 150,
+              "qTo": 999,
+              "price": 0.0751
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 1999,
+              "price": 0.0614
+            },
+            {
+              "qFrom": 2000,
+              "qTo": 4999,
+              "price": 0.0578
+            },
+            {
+              "qFrom": 5000,
+              "qTo": -1,
+              "price": 0.0555
+            }
+          ],
+          "attributes": {
+            "Constant Current Accuracy": "5%",
+            "Type": "DC-DC",
+            "Number of Channels": "-",
+            "Frequency - Switching": "1MHz",
+            "Voltage - Input(DC)": "6V~30V",
+            "Voltage - Input(AC)": "-",
+            "Output Current": "1.2A",
+            "Features": "Over-Temperature Protection (OTP)、Built-in soft-start",
+            "Dimming": "Analog、PWM",
+            "Switch Tube (Built-In/External)": "Built-in",
+            "Topology": "Buck",
+            "Output Voltage": "-",
+            "Operating temperature": "-25℃~+85℃"
+          }
+        },
+        "section": "extended",
+        "stock": 96127,
+        "stockDisplay": "96127",
+        "perBoardCost": 0.3496,
+        "jointsPerBoard": 24
+      }
+    ]
+  },
+  "2x2x3": {
+    "rawSchruneEconomic": {
+      "setup": 8,
+      "stencil": 1.5,
+      "joints": 2.3040000000000003,
+      "components": 38.046,
+      "extendedFees": 15,
+      "total": 64.85
+    },
+    "correctedEconomic": {
+      "setup": 8,
+      "stencil": 1.5,
+      "joints": 5.760000000000001,
+      "components": 38.046,
+      "extendedFees": 15,
+      "total": 68.306
+    },
+    "jointsPerBoard": 120,
+    "stockWarnings": [],
+    "rows": [
+      {
+        "designators": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5",
+          "C6",
+          "C7",
+          "C8"
+        ],
+        "footprint": "0805",
+        "comment": "2.2uF ±10% 50V X5R",
+        "mpn": "CL21A225KBQNNNE",
+        "manufacturer": "Samsung Electro-Mechanics",
+        "quantity": 8,
+        "lcsc": "C377773",
+        "jlcPart": {
+          "lcsc": "C377773",
+          "manufacturer": "Samsung Electro-Mechanics",
+          "mpn": "CL21A225KBQNNNE",
+          "package": "0805",
+          "description": "2.2uF 50V X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+          "datasheetUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.pdf",
+          "stock": 965029,
+          "unitCost": 0.0375,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 99,
+              "price": 0.0375
+            },
+            {
+              "qFrom": 100,
+              "qTo": 299,
+              "price": 0.0295
+            },
+            {
+              "qFrom": 300,
+              "qTo": 1999,
+              "price": 0.0259
+            },
+            {
+              "qFrom": 2000,
+              "qTo": 3999,
+              "price": 0.0218
+            },
+            {
+              "qFrom": 4000,
+              "qTo": 9999,
+              "price": 0.0208
+            },
+            {
+              "qFrom": 10000,
+              "qTo": -1,
+              "price": 0.02
+            }
+          ],
+          "attributes": {
+            "Voltage Rating": "50V",
+            "Tolerance": "±10%",
+            "Capacitance": "2.2uF",
+            "Temperature Coefficient": "X5R"
+          }
+        },
+        "section": "basic",
+        "stock": 965029,
+        "stockDisplay": "965029",
+        "perBoardCost": 0.236,
+        "jointsPerBoard": 16
+      },
+      {
+        "designators": [
+          "D1",
+          "D2",
+          "D3",
+          "D4"
+        ],
+        "footprint": "SMA_L4.2-W2.6-LS5.0-RD_1",
+        "comment": "",
+        "mpn": "SS14",
+        "manufacturer": "MDD(辰达半导体)",
+        "quantity": 4,
+        "lcsc": "C2480",
+        "jlcPart": {
+          "lcsc": "C2480",
+          "manufacturer": "MDD(Microdiode Semiconductor)",
+          "mpn": "SS14",
+          "package": "SMA(DO-214AC)",
+          "description": "-55℃~+150℃ 1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf",
+          "stock": 1627275,
+          "unitCost": 0.0192,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 499,
+              "price": 0.0192
+            },
+            {
+              "qFrom": 500,
+              "qTo": 1499,
+              "price": 0.0152
+            },
+            {
+              "qFrom": 1500,
+              "qTo": 4999,
+              "price": 0.0135
+            },
+            {
+              "qFrom": 5000,
+              "qTo": 24999,
+              "price": 0.0096
+            },
+            {
+              "qFrom": 25000,
+              "qTo": 49999,
+              "price": 0.0091
+            },
+            {
+              "qFrom": 50000,
+              "qTo": -1,
+              "price": 0.0088
+            }
+          ],
+          "attributes": {
+            "Voltage - Forward(Vf@If)": "550mV@1A",
+            "Power Dissipation": "-",
+            "Non-Repetitive Peak Forward Surge Current": "25A",
+            "Voltage - DC Reverse(Vr)": "40V",
+            "Operating Junction Temperature Range": "-55℃~+150℃",
+            "Diode Configuration": "Standalone",
+            "Current - Rectified": "1A",
+            "Reverse Leakage Current (Ir)": "300uA@40V"
+          }
+        },
+        "section": "basic",
+        "stock": 1627275,
+        "stockDisplay": "1627275",
+        "perBoardCost": 0.0768,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "L1",
+          "L2",
+          "L3",
+          "L4"
+        ],
+        "footprint": "SMD,5.8x5.2mm",
+        "comment": "68uH ±10% 600mA",
+        "mpn": "CY54-68UH",
+        "manufacturer": "SHOU HAN",
+        "quantity": 4,
+        "lcsc": "C2929435",
+        "jlcPart": {
+          "lcsc": "C2929435",
+          "manufacturer": "SHOU HAN",
+          "mpn": "CY54-68UH",
+          "package": "SMD,5.8x5.2mm",
+          "description": "390mΩ 600mA 68uH Drum-core inductor ±10% SMD,5.8x5.2mm Power Inductors ROHS",
+          "datasheetUrl": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201121400_SHOU-HAN-CY54-68UH_C2929435.pdf",
+          "stock": 12384,
+          "unitCost": 0.0557,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 99,
+              "price": 0.0557
+            },
+            {
+              "qFrom": 100,
+              "qTo": 299,
+              "price": 0.045
+            },
+            {
+              "qFrom": 300,
+              "qTo": 1499,
+              "price": 0.0396
+            },
+            {
+              "qFrom": 1500,
+              "qTo": 4499,
+              "price": 0.0328
+            },
+            {
+              "qFrom": 4500,
+              "qTo": 10499,
+              "price": 0.0297
+            },
+            {
+              "qFrom": 10500,
+              "qTo": -1,
+              "price": 0.028
+            }
+          ],
+          "attributes": {
+            "Inductance": "68uH",
+            "Current - Saturation(Isat)": "-",
+            "Type": "Drum-core inductor",
+            "Tolerance": "±10%",
+            "Current Rating": "600mA",
+            "Application Grade": "Consumer grade",
+            "DC Resistance(DCR)": "390mΩ"
+          }
+        },
+        "section": "extended",
+        "stock": 12384,
+        "stockDisplay": "12384",
+        "perBoardCost": 0.18,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "LED2",
+          "LED3",
+          "LED4",
+          "LED6",
+          "LED7",
+          "LED8"
+        ],
+        "footprint": "LED-SMD_L3.5-W2.8-RD",
+        "comment": "",
+        "mpn": "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)",
+        "manufacturer": "HONGLITRONIC(鸿利光电)",
+        "quantity": 6,
+        "lcsc": "C49435731",
+        "jlcPart": {
+          "lcsc": "C49435731",
+          "manufacturer": "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))",
+          "mpn": "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)",
+          "package": "SMD2835",
+          "description": "1.188W 120° 150mA 2 in series 6.6V 6000K~7000K Cold White Frosted Yellow Lens Top-mount SMD2835 LED Indication - Discrete ROHS",
+          "datasheetUrl": "",
+          "stock": 12953,
+          "unitCost": 0.03,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 199,
+              "price": 0.03
+            },
+            {
+              "qFrom": 200,
+              "qTo": 599,
+              "price": 0.0233
+            },
+            {
+              "qFrom": 600,
+              "qTo": 3999,
+              "price": 0.0195
+            },
+            {
+              "qFrom": 4000,
+              "qTo": 7999,
+              "price": 0.0172
+            },
+            {
+              "qFrom": 8000,
+              "qTo": 19999,
+              "price": 0.0153
+            },
+            {
+              "qFrom": 20000,
+              "qTo": -1,
+              "price": 0.0143
+            }
+          ],
+          "attributes": {
+            "Mounting Style": "Top-mount",
+            "Wavelength - Dominant": "-",
+            "Operating Temperature": "-",
+            "Color Temperature": "6000K~7000K",
+            "Test Current": "150mA",
+            "Viewing Angle": "120°",
+            "Lamp Holder Type": "2.8mm x 3.5mm square LED",
+            "Luminous Intensity": "-",
+            "Power(Watts)": "1.188W",
+            "Diode Configuration": "2 in series",
+            "Illumination Color": "Cold White",
+            "Lens Color": "Frosted Yellow Lens",
+            "Peak Wavelength": "-",
+            "Voltage - Forward(Vf)": "6.6V"
+          }
+        },
+        "section": "extended",
+        "stock": 12953,
+        "stockDisplay": "12953",
+        "perBoardCost": 0.18,
+        "jointsPerBoard": 12
+      },
+      {
+        "designators": [
+          "LED10",
+          "LED11",
+          "LED12",
+          "LED14",
+          "LED15",
+          "LED16"
+        ],
+        "footprint": "LED-SMD_L3.3-W2.8-RD_WHITE",
+        "comment": "",
+        "mpn": "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)",
+        "manufacturer": "HONGLITRONIC(鸿利光电)",
+        "quantity": 6,
+        "lcsc": "C49435727",
+        "jlcPart": {
+          "lcsc": "C49435727",
+          "manufacturer": "HONGLITRONIC(Hongli Zhihui (HONGLITRONIC))",
+          "mpn": "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)",
+          "package": "SMD2835",
+          "description": "1.188W 120° 150mA 2 in series 2800K~3100K 6.6V Frosted Yellow Lens Top-mount Warm White SMD2835 LED Indication - Discrete ROHS",
+          "datasheetUrl": "",
+          "stock": 1153,
+          "unitCost": 0.0305,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 199,
+              "price": 0.0305
+            },
+            {
+              "qFrom": 200,
+              "qTo": 599,
+              "price": 0.0238
+            },
+            {
+              "qFrom": 600,
+              "qTo": 3999,
+              "price": 0.02
+            },
+            {
+              "qFrom": 4000,
+              "qTo": 7999,
+              "price": 0.0177
+            },
+            {
+              "qFrom": 8000,
+              "qTo": 19999,
+              "price": 0.0158
+            },
+            {
+              "qFrom": 20000,
+              "qTo": -1,
+              "price": 0.0148
+            }
+          ],
+          "attributes": {
+            "Mounting Style": "Top-mount",
+            "Wavelength - Dominant": "-",
+            "Operating Temperature": "-",
+            "Color Temperature": "2800K~3100K",
+            "Test Current": "150mA",
+            "Viewing Angle": "120°",
+            "Lamp Holder Type": "-",
+            "Luminous Intensity": "-",
+            "Power(Watts)": "1.188W",
+            "Diode Configuration": "2 in series",
+            "Illumination Color": "Warm White",
+            "Lens Color": "Frosted Yellow Lens",
+            "Peak Wavelength": "-",
+            "Voltage - Forward(Vf)": "6.6V"
+          }
+        },
+        "section": "extended",
+        "stock": 1153,
+        "stockDisplay": "1153",
+        "perBoardCost": 0.183,
+        "jointsPerBoard": 12
+      },
+      {
+        "designators": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R13",
+          "R14",
+          "R15",
+          "R16"
+        ],
+        "footprint": "0805",
+        "comment": "1.2Ω ±1% 125mW",
+        "mpn": "0805W8F120KT5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 8,
+        "lcsc": "C17381",
+        "jlcPart": {
+          "lcsc": "C17381",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0805W8F120KT5E",
+          "package": "0805",
+          "description": "-55℃~+155℃ 1.2Ω 125mW 150V Thick Film Resistor ±1% ±200ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0805W8F120KT5E_C17381.pdf",
+          "stock": 26335,
+          "unitCost": 0.005,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.005
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 4999,
+              "price": 0.004
+            },
+            {
+              "qFrom": 5000,
+              "qTo": 9999,
+              "price": 0.0034
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0031
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 99999,
+              "price": 0.0028
+            },
+            {
+              "qFrom": 100000,
+              "qTo": -1,
+              "price": 0.0027
+            }
+          ],
+          "attributes": {
+            "Resistance": "1.2Ω",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "125mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "150V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±200ppm/℃"
+          }
+        },
+        "section": "extended",
+        "stock": 26335,
+        "stockDisplay": "26335",
+        "perBoardCost": 0.04,
+        "jointsPerBoard": 16
+      },
+      {
+        "designators": [
+          "R5",
+          "R6",
+          "R7",
+          "R8"
+        ],
+        "footprint": "0402",
+        "comment": "100kΩ ±1% 62.5mW",
+        "mpn": "0402WGF1003TCE",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C25741",
+        "jlcPart": {
+          "lcsc": "C25741",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0402WGF1003TCE",
+          "package": "0402",
+          "description": "-55℃~+155℃ 100kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.pdf",
+          "stock": 8605915,
+          "unitCost": 0.0012,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.0012
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 2999,
+              "price": 0.001
+            },
+            {
+              "qFrom": 3000,
+              "qTo": 9999,
+              "price": 0.0008
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0007
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 50199,
+              "price": 0.0007
+            },
+            {
+              "qFrom": 50200,
+              "qTo": -1,
+              "price": 0.0007
+            }
+          ],
+          "attributes": {
+            "Resistance": "100kΩ",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "62.5mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "50V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±100ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 8605915,
+        "stockDisplay": "8605915",
+        "perBoardCost": 0.0048,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "R9",
+          "R10",
+          "R11",
+          "R12"
+        ],
+        "footprint": "0402",
+        "comment": "2.2kΩ ±1% 62.5mW",
+        "mpn": "0402WGF2201TCE",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C25879",
+        "jlcPart": {
+          "lcsc": "C25879",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0402WGF2201TCE",
+          "package": "0402",
+          "description": "-55℃~+155℃ 2.2kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF2201TCE_C25879.pdf",
+          "stock": 3324376,
+          "unitCost": 0.0011,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.0011
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 2999,
+              "price": 0.0009
+            },
+            {
+              "qFrom": 3000,
+              "qTo": 9999,
+              "price": 0.0008
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0007
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 50199,
+              "price": 0.0006
+            },
+            {
+              "qFrom": 50200,
+              "qTo": -1,
+              "price": 0.0006
+            }
+          ],
+          "attributes": {
+            "Resistance": "2.2kΩ",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "62.5mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "50V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±100ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 3324376,
+        "stockDisplay": "3324376",
+        "perBoardCost": 0.0044,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "R17",
+          "R18",
+          "R19",
+          "R20"
+        ],
+        "footprint": "0805",
+        "comment": "10kΩ ±1% 125mW",
+        "mpn": "0805W8F1002T5E",
+        "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+        "quantity": 4,
+        "lcsc": "C17414",
+        "jlcPart": {
+          "lcsc": "C17414",
+          "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+          "mpn": "0805W8F1002T5E",
+          "package": "0805",
+          "description": "-55℃~+155℃ 10kΩ 125mW 150V Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf",
+          "stock": 49441263,
+          "unitCost": 0.0034,
+          "isBasic": true,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 999,
+              "price": 0.0034
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 4999,
+              "price": 0.0026
+            },
+            {
+              "qFrom": 5000,
+              "qTo": 9999,
+              "price": 0.0018
+            },
+            {
+              "qFrom": 10000,
+              "qTo": 49999,
+              "price": 0.0016
+            },
+            {
+              "qFrom": 50000,
+              "qTo": 50199,
+              "price": 0.0014
+            },
+            {
+              "qFrom": 50200,
+              "qTo": -1,
+              "price": 0.0014
+            }
+          ],
+          "attributes": {
+            "Resistance": "10kΩ",
+            "Operating Temperature": "-55℃~+155℃",
+            "Power(Watts)": "125mW",
+            "Type": "Thick Film Resistor",
+            "Voltage-Supply(Max)": "150V",
+            "Tolerance": "±1%",
+            "Temperature Coefficient": "±100ppm/℃"
+          }
+        },
+        "section": "basic",
+        "stock": 49441263,
+        "stockDisplay": "49441263",
+        "perBoardCost": 0.0136,
+        "jointsPerBoard": 8
+      },
+      {
+        "designators": [
+          "U1",
+          "U2",
+          "U3",
+          "U4"
+        ],
+        "footprint": "SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR",
+        "comment": "",
+        "mpn": "PT4115",
+        "manufacturer": "UMW(友台半导体)",
+        "quantity": 4,
+        "lcsc": "C347356",
+        "jlcPart": {
+          "lcsc": "C347356",
+          "manufacturer": "UMW(Youtai Semiconductor Co., Ltd.)",
+          "mpn": "PT4115",
+          "package": "SOT-89-5",
+          "description": "-25℃~+85℃ 1.2A 1MHz 5% 6V~30V Analog、PWM Buck Built-in DC-DC Over-Temperature Protection (OTP) SOT-89-5 LED Drivers ROHS",
+          "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_UMW-Youtai-Semiconductor-Co---Ltd--PT4115_C347356.pdf",
+          "stock": 96127,
+          "unitCost": 0.1111,
+          "isBasic": false,
+          "isPreferred": false,
+          "prices": [
+            {
+              "qFrom": 1,
+              "qTo": 49,
+              "price": 0.1111
+            },
+            {
+              "qFrom": 50,
+              "qTo": 149,
+              "price": 0.0874
+            },
+            {
+              "qFrom": 150,
+              "qTo": 999,
+              "price": 0.0751
+            },
+            {
+              "qFrom": 1000,
+              "qTo": 1999,
+              "price": 0.0614
+            },
+            {
+              "qFrom": 2000,
+              "qTo": 4999,
+              "price": 0.0578
+            },
+            {
+              "qFrom": 5000,
+              "qTo": -1,
+              "price": 0.0555
+            }
+          ],
+          "attributes": {
+            "Constant Current Accuracy": "5%",
+            "Type": "DC-DC",
+            "Number of Channels": "-",
+            "Frequency - Switching": "1MHz",
+            "Voltage - Input(DC)": "6V~30V",
+            "Voltage - Input(AC)": "-",
+            "Output Current": "1.2A",
+            "Features": "Over-Temperature Protection (OTP)、Built-in soft-start",
+            "Dimming": "Analog、PWM",
+            "Switch Tube (Built-In/External)": "Built-in",
+            "Topology": "Buck",
+            "Output Voltage": "-",
+            "Operating temperature": "-25℃~+85℃"
+          }
+        },
+        "section": "extended",
+        "stock": 96127,
+        "stockDisplay": "96127",
+        "perBoardCost": 0.3496,
+        "jointsPerBoard": 24
+      }
+    ]
+  }
+}

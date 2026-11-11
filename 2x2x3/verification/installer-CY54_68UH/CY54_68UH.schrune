@@ -1,0 +1,17 @@
+part CY54_68UH {
+    info: {
+        partNumber: "CY54-68UH",
+        manufacture: "SHOU HAN(首韩)",
+        footprint: "./CY54_68UH.kicad_mod",
+        package: "IND-SMD_L5.8-W5.2",
+        symbol: "./CY54_68UH.kicad_sym",
+        model: "./IND-SMD_L5.8-W5.2-H4.5.step",
+        LCSC: "C2929435",
+        designatorPrefix: "L",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

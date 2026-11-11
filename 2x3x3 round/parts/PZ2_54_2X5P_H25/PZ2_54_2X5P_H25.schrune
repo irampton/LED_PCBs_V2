@@ -1,0 +1,25 @@
+part PZ2_54_2X5P_H25 {
+    info: {
+        partNumber: "PZ2.54-2X5P-H25",
+        manufacture: "JXTCONN(聚兴泰)",
+        footprint: "./PZ2_54_2X5P_H25.kicad_mod",
+        package: "HDR-TH_10P-P2.54-V-M-R2-C5-S2.54_2",
+        symbol: "./PZ2_54_2X5P_H25.kicad_sym",
+        model: "./HDR-TH_10P-P2.54-V-M-R2-C5-S2.54_2.step",
+        LCSC: "C42431818",
+        designatorPrefix: "H",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+        3:3,
+        4:4,
+        5:5,
+        6:6,
+        7:7,
+        8:8,
+        9:9,
+        10:10,
+    ]
+}

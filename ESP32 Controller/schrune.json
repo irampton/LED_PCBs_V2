@@ -1,0 +1,11 @@
+{
+  "name": "ESP32 Controller",
+  "entry": "./main.schrune",
+  "parts": [],
+  "build": {
+    "bom": "./build/ESP32 Controller.BOM.csv",
+    "kicadProject": "./build/ESP32 Controller.kicad_pro",
+    "layout": "./build/ESP32 Controller.kicad_pcb",
+    "schematic": "./build/ESP32 Controller.kicad_sch"
+  }
+}

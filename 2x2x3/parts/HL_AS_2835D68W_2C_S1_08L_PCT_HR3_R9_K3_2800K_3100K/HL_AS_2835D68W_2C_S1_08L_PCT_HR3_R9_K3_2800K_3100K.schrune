@@ -1,0 +1,17 @@
+part HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K {
+    info: {
+        partNumber: "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)",
+        manufacture: "HONGLITRONIC(鸿利光电)",
+        footprint: "./HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K.kicad_mod",
+        package: "LED-SMD_L3.3-W2.8-RD_WHITE",
+        symbol: "./HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K.kicad_sym",
+        model: "./LED-SMD_L3.3-W2.8-RD_WHITE.step",
+        LCSC: "C49435727",
+        designatorPrefix: "LED",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

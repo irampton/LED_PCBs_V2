@@ -1,0 +1,22 @@
+part CY54_68UH {
+    info: {
+        partNumber: "CY54-68UH",
+        manufacture: "SHOU HAN(首韩)",
+        footprint: "./CY54_68UH.kicad_mod",
+        package: "SMD,5.8x5.2mm",
+        symbol: "./CY54_68UH.kicad_sym",
+        model: "./IND-SMD_L5.8-W5.2-H4.5.step",
+        LCSC: "C2929435",
+        designatorPrefix: "L",
+        value: "68uH",
+        tolerance: "±10%",
+        currentRating: "600mA",
+        dcr: "",
+        comment: "68uH ±10% 600mA",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

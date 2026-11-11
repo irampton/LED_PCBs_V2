@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "Schrune")
+    (type "KiCad")
+    (uri "${KIPRJMOD}/Schrune.pretty")
+    (options "")
+    (descr "Project-local Schrune footprint library")
+  )
+)

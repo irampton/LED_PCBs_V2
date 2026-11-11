@@ -1,0 +1,20 @@
+{
+  "footprints": 83,
+  "driver_channels": 6,
+  "warm_leds": 9,
+  "cool_leds": 9,
+  "diameter_mm": 84,
+  "rings_mm": [
+    12,
+    24,
+    36
+  ],
+  "leds_per_ring": 6,
+  "alternating_colors": true,
+  "front": "18 LEDs and one populated 2x5 header",
+  "back": "six driver circuits and four test points",
+  "schematic_netlist_matches": true,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0
+}

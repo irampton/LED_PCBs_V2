@@ -1,0 +1,251 @@
+(kicad_sch (version 20260306) (generator "Schrune") (generator_version "10.0")
+  (uuid 73bc0a5b-735f-34a7-b9ff-e4f9bf01e465)
+  (paper "A1")
+  (lib_symbols
+    (symbol "HL-AS-2835D68W-2C-S1-08L-PCT-HR3"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "LED"
+          (id 0)
+          (at 0 3.81 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "HL-AS-2835D68W-2C-S1-08L-PCT-HR3"
+          (id 1)
+          (at 0 -6.35 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:LED-SMD_L3.5-W2.8-RD"
+          (id 2)
+          (at 0 -8.89 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://www.lcsc.com/datasheet/C49435731.pdf"
+          (id 3)
+          (at 0 -11.43 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "HONGLITRONIC(鸿利光电)"
+          (id 4)
+          (at 0 -13.97 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)"
+          (id 5)
+          (at 0 -16.51 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C49435731"
+          (id 6)
+          (at 0 -19.05 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "HL-AS-2835D68W-2C-S1-08L-PCT-HR3_0_1"
+          (polyline
+            (pts
+              (xy -4.06 2.03) (xy -3.05 1.52) (xy -3.56 1.02) (xy -4.06 2.03)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -3.05 3.05) (xy -2.03 2.54) (xy -2.54 2.03) (xy -3.05 3.05)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy 1.27 0.51) (xy -1.27 -1.27) (xy 1.27 -3.05) (xy 1.27 0.51)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -2.29 0.25) (xy -3.30 1.27)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.27 1.27) (xy -2.29 2.29)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.27 -1.27) (xy -2.54 -1.27)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy 2.54 -1.27) (xy 1.27 -1.27)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.27 0.51) (xy -1.27 -3.05)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin passive line
+            (at -5.08 -1.27 0)
+            (length 2.54)
+            (name "K" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 5.08 -1.27 180)
+            (length 2.54)
+            (name "A" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+  )
+  (symbol (lib_id "HL-AS-2835D68W-2C-S1-08L-PCT-HR3") (at 76.20 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 04f93f44-7064-0a76-bade-6653e6ee5346)
+    (property "Reference" "LED6" (at 76.20 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)" (at 76.20 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K" (at 76.20 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 596f2c28-8bc2-e8e3-b718-d4eff4ba4f28))
+    (pin "2" (uuid 7fc24887-c0f7-35ca-3daa-c26dfb74f84b))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "LED6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "HL-AS-2835D68W-2C-S1-08L-PCT-HR3") (at 279.40 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d18d5410-4617-f3d4-396a-45390c779b09)
+    (property "Reference" "LED7" (at 279.40 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)" (at 279.40 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K" (at 279.40 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 29439e2f-0911-5c3e-4619-ac758c83c35c))
+    (pin "2" (uuid 78104a36-03dc-3997-69ff-17fd2802e27b))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "LED7")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "HL-AS-2835D68W-2C-S1-08L-PCT-HR3") (at 482.60 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a4c48090-0b26-3b06-f0d1-075af7fb7e34)
+    (property "Reference" "LED8" (at 482.60 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)" (at 482.60 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K" (at 482.60 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 71680cb9-cab4-ed9a-ba13-1e88b477d731))
+    (pin "2" (uuid 98d0dd5e-77a6-cd91-02a8-715752fba1fa))
+    (instances
+      (project "main"
+        (path "/"
+          (reference "LED8")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire (pts (xy 71.12 102.87) (xy 63.50 102.87))
+    (stroke (width 0) (type default))
+    (uuid 91427dbe-4435-1dcc-2326-0eaaff8f60fd)
+  )
+  (global_label "cool_b_leds_1_2" (shape input) (at 63.50 102.87 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 4b40e325-468e-1ad7-8ad3-ffbe7586c500)
+  )
+  (wire (pts (xy 81.28 102.87) (xy 88.90 102.87))
+    (stroke (width 0) (type default))
+    (uuid dd72d4e5-5fac-df64-9377-355369a685ed)
+  )
+  (global_label "cool_b_channel_LED_TOP" (shape input) (at 88.90 102.87 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 08bdb1e3-a05a-fa7a-8ec2-20df6a77ddd6)
+  )
+  (wire (pts (xy 274.32 102.87) (xy 266.70 102.87))
+    (stroke (width 0) (type default))
+    (uuid 1ee3d0c7-22dd-a972-8ddf-ba30b8b62939)
+  )
+  (global_label "cool_b_leds_2_2" (shape input) (at 266.70 102.87 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid feb06913-3096-6801-cb2c-fca145dd707d)
+  )
+  (wire (pts (xy 284.48 102.87) (xy 292.10 102.87))
+    (stroke (width 0) (type default))
+    (uuid 5b9f0632-13bd-4ae5-6077-c328abe1d578)
+  )
+  (global_label "cool_b_leds_1_2" (shape input) (at 292.10 102.87 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 0605426f-61a8-c878-8bce-831c670baa89)
+  )
+  (wire (pts (xy 477.52 102.87) (xy 469.90 102.87))
+    (stroke (width 0) (type default))
+    (uuid cf9d49cf-0552-75ae-7743-26c49fc9f60f)
+  )
+  (global_label "cool_b_channel_LED_RETURN" (shape input) (at 469.90 102.87 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid fc0367ac-8dd9-add4-3acf-d24141c22489)
+  )
+  (wire (pts (xy 487.68 102.87) (xy 495.30 102.87))
+    (stroke (width 0) (type default))
+    (uuid 41dc73ce-cb9f-f82e-ff36-966f9b68dd30)
+  )
+  (global_label "cool_b_leds_2_2" (shape input) (at 495.30 102.87 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 7dbc4661-afc5-156d-de01-3847623e9a24)
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

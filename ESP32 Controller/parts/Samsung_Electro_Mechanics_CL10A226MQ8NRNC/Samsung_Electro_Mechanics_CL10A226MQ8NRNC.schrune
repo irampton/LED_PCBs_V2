@@ -1,0 +1,16 @@
+part Samsung_Electro_Mechanics_CL10A226MQ8NRNC {
+    info: {
+        partNumber: "CL10A226MQ8NRNC",
+        manufacture: "Samsung Electro-Mechanics",
+        footprint: "./Samsung_Electro_Mechanics_CL10A226MQ8NRNC.kicad_mod",
+        symbol: "./CL10A226MQ8NRNC.kicad_sym",
+        designatorPrefix: "C",
+        model: "./C0603_L1.6-W0.8-H0.8.step",
+        LCSC: "C59461",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

@@ -1,0 +1,172 @@
+(footprint "HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39e0539a-ab95-4291-9f00-ce8a2a01b0c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65f206fb-7e7e-4113-be02-a13d78a956a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afac709f-e3f3-4be3-bfcf-ee74f6ed5a15")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bf48160-5d41-4c9e-b395-1c509534efb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C49435731"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77d25491-2b19-42a8-840e-a6825c973e26")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.1 -1.5)
+		(end -2.1 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c12fb7f1-92c8-4caf-bac8-9308ac542a83")
+	)
+	(fp_line
+		(start -1.85 -1.5)
+		(end 1.85 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a2df967-1cdc-4f7c-a503-b755e5245ecc")
+	)
+	(fp_line
+		(start -1.85 1.5)
+		(end 1.85 1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19865b3c-5721-48d7-9540-ff62345d10de")
+	)
+	(fp_line
+		(start -2.2 -1.65)
+		(end 2.2 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3daabece-60cd-4ee4-9de2-c9b5836bf235")
+	)
+	(fp_line
+		(start -2.2 1.65)
+		(end -2.2 -1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b518057f-899e-42dd-b950-d55c03d49634")
+	)
+	(fp_line
+		(start 2.2 -1.65)
+		(end 2.2 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "84c1d521-181d-4d7c-bf2c-03bb2d16b897")
+	)
+	(fp_line
+		(start 2.2 1.65)
+		(end -2.2 1.65)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "77e6ced3-3d98-4ca5-aeb3-752fb271038b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d24abeba-c0b8-4fcf-b1b0-cf436bb310d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 2.049999 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1d622f0d-0377-4245-849a-7e9673c46336")
+	)
+	(pad "2" smd rect
+		(at 1.275 0 180)
+		(size 1.3 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a780c9e7-afbc-4eaa-aa7d-ecea851b388d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../parts/HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K/LED-SMD_L3.5-W2.8-H0.7.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

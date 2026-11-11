@@ -1,0 +1,113 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T18:03:28",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "schematic_parity": [],
+    "source": "2x4x3-Round-64mm.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [V+] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 131.5,
+                        "y": 100.0
+                    },
+                    "uuid": "75dbde36-f2da-48b4-a999-88686ff1a62d"
+                },
+                {
+                    "description": "Zone [V+] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 131.5,
+                        "y": 100.0
+                    },
+                    "uuid": "75dbde36-f2da-48b4-a999-88686ff1a62d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 131.5,
+                        "y": 100.0
+                    },
+                    "uuid": "d3e11484-e548-4fc1-8749-9e9f3c5518b4"
+                },
+                {
+                    "description": "Zone [GND] on B.Cu, priority 0",
+                    "pos": {
+                        "x": 131.5,
+                        "y": 100.0
+                    },
+                    "uuid": "d3e11484-e548-4fc1-8749-9e9f3c5518b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Thermal relief connection to zone incomplete (layer F.Cu; 3 spokes connected to isolated island)",
+            "items": [
+                {
+                    "description": "Zone [V+] on F.Cu, priority 0",
+                    "pos": {
+                        "x": 131.5,
+                        "y": 100.0
+                    },
+                    "uuid": "75dbde36-f2da-48b4-a999-88686ff1a62d"
+                },
+                {
+                    "description": "PTH pad 3 [V+] of H1",
+                    "pos": {
+                        "x": 72.77,
+                        "y": 102.54
+                    },
+                    "uuid": "a3fbe838-6aa7-4355-a4c2-d4cb779d5494"
+                }
+            ],
+            "severity": "error",
+            "type": "starved_thermal"
+        },
+        {
+            "description": "Copper sliver (B.Cu)",
+            "items": [],
+            "severity": "warning",
+            "type": "copper_sliver"
+        }
+    ]
+}

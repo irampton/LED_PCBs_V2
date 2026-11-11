@@ -1,0 +1,16 @@
+part UNI_ROYAL_0402WGF220JTCE {
+    info: {
+        partNumber: "0402WGF220JTCE",
+        manufacture: "UNI-ROYAL",
+        footprint: "./UNI_ROYAL_0402WGF220JTCE.kicad_mod",
+        symbol: "./0402WGF220JTCE.kicad_sym",
+        designatorPrefix: "R",
+        model: "./R0402_L1.0-W0.5-H0.4.step",
+        LCSC: "C25092",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

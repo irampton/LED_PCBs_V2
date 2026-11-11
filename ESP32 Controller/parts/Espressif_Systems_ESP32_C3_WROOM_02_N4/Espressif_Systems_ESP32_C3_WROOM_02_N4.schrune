@@ -1,0 +1,33 @@
+part Espressif_Systems_ESP32_C3_WROOM_02_N4 {
+    info: {
+        partNumber: "ESP32-C3-WROOM-02-N4",
+        manufacture: "Espressif Systems",
+        footprint: "./Espressif_Systems_ESP32_C3_WROOM_02_N4.kicad_mod",
+        symbol: "./ESP32-C3-WROOM-02-N4(4MB).kicad_sym",
+        designatorPrefix: "U",
+        model: "./BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB.step",
+        LCSC: "C2934560",
+    }
+
+    pins: [
+        pin_P3V3:1,
+        pin_IO10:10,
+        pin_RXD:11,
+        pin_TXD:12,
+        pin_IO18:13,
+        pin_IO19:14,
+        pin_IO3:15,
+        pin_IO2:16,
+        pin_IO1:17,
+        pin_IO0:18,
+        pin_EP:19,
+        pin_EN:2,
+        pin_IO4:3,
+        pin_IO5:4,
+        pin_IO6:5,
+        pin_IO7:6,
+        pin_IO8:7,
+        pin_IO9:8,
+        pin_GND:9,
+    ]
+}

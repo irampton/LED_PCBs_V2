@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "assignments": {
+    "C\u0000id:\u0000buck_boot_cap\u0000": [
+      "C1"
+    ],
+    "C\u0000id:\u0000buck_cin1_0\u0000": [
+      "C3"
+    ],
+    "C\u0000id:\u0000buck_cin1_1\u0000": [
+      "C4"
+    ],
+    "C\u0000id:\u0000buck_cin2\u0000": [
+      "C2"
+    ],
+    "C\u0000id:\u0000buck_comp_c1\u0000": [
+      "C5"
+    ],
+    "C\u0000id:\u0000buck_comp_c2\u0000": [
+      "C6"
+    ],
+    "R\u0000id:\u0000buck_comp_r1\u0000": [
+      "R9"
+    ],
+    "C\u0000id:\u0000buck_cout_0\u0000": [
+      "C12"
+    ],
+    "C\u0000id:\u0000buck_cout_1\u0000": [
+      "C13"
+    ],
+    "R\u0000id:\u0000buck_en_r1\u0000": [
+      "R10"
+    ],
+    "R\u0000id:\u0000buck_en_r2\u0000": [
+      "R11"
+    ],
+    "R\u0000id:\u0000buck_fb_r1\u0000": [
+      "R1"
+    ],
+    "R\u0000id:\u0000buck_fb_r2\u0000": [
+      "R2"
+    ],
+    "D\u0000id:\u0000buck_flyback\u0000": [
+      "D2"
+    ],
+    "L\u0000id:\u0000buck_inductor\u0000": [
+      "L2"
+    ],
+    "U\u0000id:\u0000buck_regulator\u0000": [
+      "U1"
+    ],
+    "C\u0000id:\u0000buck_ss_cap\u0000": [
+      "C14"
+    ],
+    "C\u0000id:\u0000ldo_cin\u0000": [
+      "C10"
+    ],
+    "C\u0000id:\u0000ldo_cout\u0000": [
+      "C11"
+    ],
+    "U\u0000id:\u0000ldo_ldo\u0000": [
+      "U2"
+    ],
+    "SW\u0000id:\u0000esp32_boot_button\u0000": [
+      "SW1"
+    ],
+    "R\u0000id:\u0000esp32_boot_pullup\u0000": [
+      "R3"
+    ],
+    "C\u0000id:\u0000esp32_en_cap\u0000": [
+      "C7"
+    ],
+    "R\u0000id:\u0000esp32_en_pullup\u0000": [
+      "R4"
+    ],
+    "C\u0000id:\u0000esp32_esp32_bulk_cap\u0000": [
+      "C8"
+    ],
+    "C\u0000id:\u0000esp32_esp32_bypass_cap\u0000": [
+      "C9"
+    ],
+    "U\u0000id:\u0000esp32_pins\u0000": [
+      "U3"
+    ],
+    "SW\u0000id:\u0000esp32_reset_button\u0000": [
+      "SW2"
+    ],
+    "R\u0000id:\u0000esp32_usb_dm_series\u0000": [
+      "R5"
+    ],
+    "R\u0000id:\u0000esp32_usb_dp_series\u0000": [
+      "R6"
+    ],
+    "R\u0000id:\u0000CC1_resistor\u0000": [
+      "R7"
+    ],
+    "R\u0000id:\u0000CC2_resistor\u0000": [
+      "R8"
+    ],
+    "J\u0000id:\u0000WS2812b_1\u0000": [
+      "J3"
+    ],
+    "J\u0000id:\u0000WS2812b_2\u0000": [
+      "J4"
+    ],
+    "J\u0000id:\u0000dc_input\u0000": [
+      "J2"
+    ],
+    "J\u0000id:\u0000header_1\u0000": [
+      "J1"
+    ],
+    "USB\u0000id:\u0000usb_port\u0000": [
+      "USB1"
+    ],
+    "D\u0000id:\u0000usb_power_diode\u0000": [
+      "D1"
+    ]
+  }
+}

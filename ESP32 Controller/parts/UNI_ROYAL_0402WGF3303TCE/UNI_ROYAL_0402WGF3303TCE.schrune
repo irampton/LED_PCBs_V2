@@ -1,0 +1,16 @@
+part UNI_ROYAL_0402WGF3303TCE {
+    info: {
+        partNumber: "0402WGF3303TCE",
+        manufacture: "UNI-ROYAL",
+        footprint: "./UNI_ROYAL_0402WGF3303TCE.kicad_mod",
+        symbol: "./0402WGF3303TCE.kicad_sym",
+        designatorPrefix: "R",
+        model: "./R0402_L1.0-W0.5-H0.4.step",
+        LCSC: "C25778",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

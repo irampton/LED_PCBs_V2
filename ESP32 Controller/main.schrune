@@ -1,0 +1,284 @@
+@require("Advanced_Monolithic_Systems_AMS1117_3_3");
+@require("BOOMELE_2_54_1_3P");
+@require("BOOMELE_2_54_2_3P");
+@require("BXCONN_UC09_0B16F00P11");
+@require("CUI_PJ_002BH");
+@require("Espressif_Systems_ESP32_C3_WROOM_02_N4");
+@require("FH_0402B102K500NT");
+@require("FH_0402CG470J500NT");
+@require("FH_1206B475K500NT");
+@require("MDD_Microdiode_Electronics_SS34");
+@require("Samsung_Electro_Mechanics_CL05A105KA5NQNC");
+@require("Samsung_Electro_Mechanics_CL05B103KB5NNNC");
+@require("Samsung_Electro_Mechanics_CL05B104KO5NNNC");
+@require("Samsung_Electro_Mechanics_CL10A106KP8NNNC");
+@require("Samsung_Electro_Mechanics_CL10A226MQ8NRNC");
+@require("Samsung_Electro_Mechanics_CL31A476MPHNNNE");
+@require("TECHFUSE_SL0630_6R8M");
+@require("Texas_Instruments_TPS54331DR");
+@require("UNI_ROYAL_0402WGF1002TCE");
+@require("UNI_ROYAL_0402WGF220JTCE");
+@require("UNI_ROYAL_0402WGF3303TCE");
+@require("UNI_ROYAL_0402WGF5101TCE");
+@require("UNI_ROYAL_0402WGF6802TCE");
+@require("UNI_ROYAL_0603WAF1801T5E");
+@require("UNI_ROYAL_0603WAF3002T5E");
+@require("XUNPU_TS_1088_AR02016");
+@require("YAGEO_CC0603KRX7R9BB104");
+
+module top () {
+    // 5 V buck regulator
+    part buck_boot_cap = new Samsung_Electro_Mechanics_CL05B104KO5NNNC();
+    part buck_cin1_0 = new FH_1206B475K500NT();
+    part buck_cin1_1 = new FH_1206B475K500NT();
+    part buck_cin2 = new Samsung_Electro_Mechanics_CL05B103KB5NNNC();
+    part buck_comp_c1 = new FH_0402CG470J500NT();
+    part buck_comp_c2 = new FH_0402B102K500NT();
+    part buck_comp_r1 = new UNI_ROYAL_0603WAF3002T5E();
+    part buck_cout_0 = new Samsung_Electro_Mechanics_CL31A476MPHNNNE();
+    part buck_cout_1 = new Samsung_Electro_Mechanics_CL31A476MPHNNNE();
+    part buck_en_r1 = new UNI_ROYAL_0402WGF3303TCE();
+    part buck_en_r2 = new UNI_ROYAL_0402WGF6802TCE();
+    part buck_fb_r1 = new UNI_ROYAL_0402WGF1002TCE();
+    part buck_fb_r2 = new UNI_ROYAL_0603WAF1801T5E();
+    part buck_flyback = new MDD_Microdiode_Electronics_SS34();
+    part buck_inductor = new TECHFUSE_SL0630_6R8M();
+    part buck_regulator = new Texas_Instruments_TPS54331DR();
+    part buck_ss_cap = new Samsung_Electro_Mechanics_CL05B103KB5NNNC();
+
+    // 3.3 V regulator
+    part ldo_cin = new Samsung_Electro_Mechanics_CL10A106KP8NNNC();
+    part ldo_cout = new Samsung_Electro_Mechanics_CL10A226MQ8NRNC();
+    part ldo_ldo = new Advanced_Monolithic_Systems_AMS1117_3_3();
+
+    // ESP32-C3 and support components
+    part esp32_boot_button = new XUNPU_TS_1088_AR02016();
+    part esp32_boot_pullup = new UNI_ROYAL_0402WGF1002TCE();
+    part esp32_en_cap = new Samsung_Electro_Mechanics_CL05A105KA5NQNC();
+    part esp32_en_pullup = new UNI_ROYAL_0402WGF1002TCE();
+    part esp32_esp32_bulk_cap = new Samsung_Electro_Mechanics_CL10A106KP8NNNC();
+    part esp32_esp32_bypass_cap = new YAGEO_CC0603KRX7R9BB104();
+    part esp32_pins = new Espressif_Systems_ESP32_C3_WROOM_02_N4();
+    part esp32_reset_button = new XUNPU_TS_1088_AR02016();
+    part esp32_usb_dm_series = new UNI_ROYAL_0402WGF220JTCE();
+    part esp32_usb_dp_series = new UNI_ROYAL_0402WGF220JTCE();
+
+    // Connectors and USB power
+    part CC1_resistor = new UNI_ROYAL_0402WGF5101TCE();
+    part CC2_resistor = new UNI_ROYAL_0402WGF5101TCE();
+    part WS2812b_1 = new BOOMELE_2_54_1_3P();
+    part WS2812b_2 = new BOOMELE_2_54_1_3P();
+    part dc_input = new CUI_PJ_002BH();
+    part header_1 = new BOOMELE_2_54_2_3P();
+    part usb_port = new BXCONN_UC09_0B16F00P11();
+    part usb_power_diode = new MDD_Microdiode_Electronics_SS34();
+
+    net net_10;
+    net_10.name = "10";
+    net_10 ~ esp32_pins.pin_IO10;
+
+    net net_13;
+    net_13.name = "13";
+    net_13 ~ esp32_pins.pin_IO18;
+    net_13 ~ esp32_usb_dm_series.pin_2;
+
+    net net_14;
+    net_14.name = "14";
+    net_14 ~ esp32_pins.pin_IO19;
+    net_14 ~ esp32_usb_dp_series.pin_2;
+
+    net net_16;
+    net_16.name = "16";
+    net_16 ~ esp32_pins.pin_IO2;
+
+    net net_18;
+    net_18.name = "18";
+    net_18 ~ esp32_pins.pin_IO0;
+
+    net net_2;
+    net_2.name = "2";
+    net_2 ~ WS2812b_1.pin_2;
+    net_2 ~ esp32_pins.pin_IO1;
+
+    net net_2_1;
+    net_2_1.name = "2-1";
+    net_2_1 ~ WS2812b_2.pin_2;
+    net_2_1 ~ esp32_pins.pin_IO3;
+
+    net v3v3;
+    v3v3.name = "3V3";
+    v3v3 ~ esp32_boot_pullup.pin_1;
+    v3v3 ~ esp32_en_pullup.pin_1;
+    v3v3 ~ esp32_esp32_bulk_cap.pin_1;
+    v3v3 ~ esp32_esp32_bypass_cap.pin_1;
+    v3v3 ~ esp32_pins.pin_P3V3;
+    v3v3 ~ ldo_cout.pin_1;
+    v3v3 ~ ldo_ldo.pin_4;
+    v3v3 ~ ldo_ldo.pin_VOUT;
+
+    net net_5;
+    net_5.name = "5";
+    net_5 ~ esp32_pins.pin_IO6;
+
+    net v5;
+    v5.name = "5V";
+    v5 ~ WS2812b_1.pin_3;
+    v5 ~ WS2812b_2.pin_3;
+    v5 ~ buck_cout_0.pin_1;
+    v5 ~ buck_cout_1.pin_1;
+    v5 ~ buck_fb_r1.pin_1;
+    v5 ~ buck_inductor.pin_2;
+    v5 ~ ldo_cin.pin_1;
+    v5 ~ ldo_ldo.pin_VIN;
+    v5 ~ usb_power_diode.pin_K;
+
+    net net_6;
+    net_6.name = "6";
+    net_6 ~ esp32_pins.pin_IO7;
+
+    net net_7;
+    net_7.name = "7";
+    net_7 ~ esp32_pins.pin_IO8;
+
+    net A8;
+    A8 ~ usb_port.pin_SBU1;
+
+    net B8;
+    B8 ~ usb_port.pin_SBU2;
+
+    net BOOT;
+    BOOT ~ esp32_boot_button.pin_A;
+    BOOT ~ esp32_boot_pullup.pin_2;
+    BOOT ~ esp32_pins.pin_IO9;
+
+    net CC1;
+    CC1 ~ CC1_resistor.pin_1;
+    CC1 ~ usb_port.pin_CC1;
+
+    net CC2;
+    CC2 ~ CC2_resistor.pin_1;
+    CC2 ~ usb_port.pin_CC2;
+
+    net EN;
+    EN ~ buck_en_r1.pin_2;
+    EN ~ buck_en_r2.pin_1;
+    EN ~ buck_regulator.pin_EN;
+
+    net GND;
+    GND ~ CC1_resistor.pin_2;
+    GND ~ CC2_resistor.pin_2;
+    GND ~ WS2812b_1.pin_1;
+    GND ~ WS2812b_2.pin_1;
+    GND ~ buck_cin1_0.pin_2;
+    GND ~ buck_cin1_1.pin_2;
+    GND ~ buck_cin2.pin_2;
+    GND ~ buck_comp_c1.pin_2;
+    GND ~ buck_comp_r1.pin_2;
+    GND ~ buck_cout_0.pin_2;
+    GND ~ buck_cout_1.pin_2;
+    GND ~ buck_en_r2.pin_2;
+    GND ~ buck_fb_r2.pin_2;
+    GND ~ buck_flyback.pin_A;
+    GND ~ buck_regulator.pin_GND;
+    GND ~ buck_ss_cap.pin_2;
+    GND ~ dc_input.pin_2;
+    GND ~ dc_input.pin_3;
+    GND ~ esp32_boot_button.pin_B;
+    GND ~ esp32_en_cap.pin_2;
+    GND ~ esp32_esp32_bulk_cap.pin_2;
+    GND ~ esp32_esp32_bypass_cap.pin_2;
+    GND ~ esp32_pins.pin_EP;
+    GND ~ esp32_pins.pin_GND;
+    GND ~ esp32_reset_button.pin_B;
+    GND ~ header_1.pin_2;
+    GND ~ header_1.pin_6;
+    GND ~ ldo_cin.pin_2;
+    GND ~ ldo_cout.pin_2;
+    GND ~ ldo_ldo.pin_GND;
+    GND ~ usb_port.pin_17;
+    GND ~ usb_port.pin_19;
+    GND ~ usb_port.pin_20;
+    GND ~ usb_port.pin_A1B12;
+    GND ~ usb_port.pin_EH;
+    GND ~ usb_port.pin_GND;
+
+    net RESET;
+    RESET ~ esp32_en_cap.pin_1;
+    RESET ~ esp32_en_pullup.pin_2;
+    RESET ~ esp32_pins.pin_EN;
+    RESET ~ esp32_reset_button.pin_A;
+
+    net RXD;
+    RXD ~ esp32_pins.pin_RXD;
+
+    net TXD;
+    TXD ~ esp32_pins.pin_TXD;
+
+    net vin;
+    vin.name = "V+";
+    vin ~ buck_cin1_0.pin_1;
+    vin ~ buck_cin1_1.pin_1;
+    vin ~ buck_cin2.pin_1;
+    vin ~ buck_en_r1.pin_1;
+    vin ~ buck_regulator.pin_VIN;
+    vin ~ dc_input.pin_1;
+    vin ~ header_1.pin_1;
+    vin ~ header_1.pin_5;
+
+    net VSENSE;
+    VSENSE ~ buck_fb_r1.pin_2;
+    VSENSE ~ buck_fb_r2.pin_1;
+    VSENSE ~ buck_regulator.pin_VSENSE;
+
+    net buck_bootstrap;
+    buck_bootstrap.name = "cathode";
+    buck_bootstrap ~ buck_boot_cap.pin_2;
+    buck_bootstrap ~ buck_flyback.pin_K;
+    buck_bootstrap ~ buck_inductor.pin_1;
+    buck_bootstrap ~ buck_regulator.pin_PH;
+
+    net net_comp_c2_power_hv;
+    net_comp_c2_power_hv.name = "comp_c2-power-hv";
+    net_comp_c2_power_hv ~ buck_comp_c1.pin_1;
+    net_comp_c2_power_hv ~ buck_comp_c2.pin_1;
+    net_comp_c2_power_hv ~ buck_regulator.pin_COMP;
+
+    net buck_switch;
+    buck_switch.name = "hv";
+    buck_switch ~ buck_boot_cap.pin_1;
+    buck_switch ~ buck_regulator.pin_BOOT;
+
+    net buck_ground;
+    buck_ground.name = "lv";
+    buck_ground ~ buck_comp_c2.pin_2;
+    buck_ground ~ buck_comp_r1.pin_1;
+
+    net pwm_cool;
+    pwm_cool ~ esp32_pins.pin_IO4;
+    pwm_cool ~ header_1.pin_3;
+
+    net pwm_warm;
+    pwm_warm ~ esp32_pins.pin_IO5;
+    pwm_warm ~ header_1.pin_4;
+
+    net net_ss_cap_power_hv;
+    net_ss_cap_power_hv.name = "ss_cap-power-hv";
+    net_ss_cap_power_hv ~ buck_regulator.pin_SS;
+    net_ss_cap_power_hv ~ buck_ss_cap.pin_1;
+
+    net usb_n;
+    usb_n ~ esp32_usb_dm_series.pin_1;
+    usb_n ~ usb_port.pin_Dn1;
+    usb_n ~ usb_port.pin_Dn2;
+
+    net usb_p;
+    usb_p ~ esp32_usb_dp_series.pin_1;
+    usb_p ~ usb_port.pin_Dp1;
+    usb_p ~ usb_port.pin_Dp2;
+
+    net vUSB;
+    vUSB ~ usb_port.pin_A4B9;
+    vUSB ~ usb_port.pin_VBUS;
+    vUSB ~ usb_power_diode.pin_A;
+
+}

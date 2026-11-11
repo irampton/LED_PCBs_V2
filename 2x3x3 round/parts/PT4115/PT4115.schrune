@@ -1,0 +1,20 @@
+part PT4115 {
+    info: {
+        partNumber: "PT4115",
+        manufacture: "UMW(友台半导体)",
+        footprint: "./PT4115.kicad_mod",
+        package: "SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR",
+        symbol: "./PT4115.kicad_sym",
+        model: "./SOT-89-5_L4.5-W2.5-H1.5-LS4.1-P1.50.step",
+        LCSC: "C347356",
+        designatorPrefix: "U",
+    }
+
+    pins: [
+        SW:1,
+        GND:2,
+        DIM:3,
+        CSN:4,
+        VIN:5,
+    ]
+}

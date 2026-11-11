@@ -1,0 +1,16 @@
+part Samsung_Electro_Mechanics_CL05A105KA5NQNC {
+    info: {
+        partNumber: "CL05A105KA5NQNC",
+        manufacture: "Samsung Electro-Mechanics",
+        footprint: "./Samsung_Electro_Mechanics_CL05A105KA5NQNC.kicad_mod",
+        symbol: "./CL05A105KA5NQNC.kicad_sym",
+        designatorPrefix: "C",
+        model: "./C0402_L1.0-W0.5-H0.5.step",
+        LCSC: "C52923",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

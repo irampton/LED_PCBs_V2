@@ -1,0 +1,12 @@
+Normalized HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K
+Normalized HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.

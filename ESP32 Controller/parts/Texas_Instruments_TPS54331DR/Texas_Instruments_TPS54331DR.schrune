@@ -1,0 +1,22 @@
+part Texas_Instruments_TPS54331DR {
+    info: {
+        partNumber: "TPS54331DR",
+        manufacture: "Texas Instruments",
+        footprint: "./Texas_Instruments_TPS54331DR.kicad_mod",
+        symbol: "./TPS54331DR.kicad_sym",
+        designatorPrefix: "U",
+        model: "./SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.STEP",
+        LCSC: "C9865",
+    }
+
+    pins: [
+        pin_BOOT:1,
+        pin_VIN:2,
+        pin_EN:3,
+        pin_SS:4,
+        pin_VSENSE:5,
+        pin_COMP:6,
+        pin_GND:7,
+        pin_PH:8,
+    ]
+}

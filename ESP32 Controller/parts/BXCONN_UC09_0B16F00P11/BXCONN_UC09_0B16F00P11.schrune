@@ -1,0 +1,30 @@
+part BXCONN_UC09_0B16F00P11 {
+    info: {
+        partNumber: "UC09-0B16F00P11",
+        manufacture: "BXCONN",
+        footprint: "./BXCONN_UC09_0B16F00P11.kicad_mod",
+        symbol: "./UC09-0B16F00P11.kicad_sym",
+        designatorPrefix: "USB",
+        model: "./USB-C_UC09-0B16F00P11.STEP",
+        LCSC: "C36936538",
+    }
+
+    pins: [
+        pin_17:17,
+        pin_EH:18,
+        pin_19:19,
+        pin_20:20,
+        pin_A1B12:A1B12,
+        pin_A4B9:A4B9,
+        pin_CC1:A5,
+        pin_Dp1:A6,
+        pin_Dn1:A7,
+        pin_SBU1:A8,
+        pin_GND:B1A12,
+        pin_VBUS:B4A9,
+        pin_CC2:B5,
+        pin_Dp2:B6,
+        pin_Dn2:B7,
+        pin_SBU2:B8,
+    ]
+}

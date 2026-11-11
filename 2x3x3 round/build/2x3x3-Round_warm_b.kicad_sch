@@ -1,0 +1,286 @@
+(kicad_sch (version 20260306) (generator "Schrune") (generator_version "10.0")
+  (uuid 0ce7ef60-7687-d1ef-2054-87be15e89f03)
+  (paper "A1")
+  (lib_symbols
+    (symbol "HL-AS-2835D68W-2C-S1-08L-PCT-HR3"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "LED"
+          (id 0)
+          (at 0 3.81 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "HL-AS-2835D68W-2C-S1-08L-PCT-HR3"
+          (id 1)
+          (at 0 -6.35 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:LED-SMD_L3.3-W2.8-RD_WHITE"
+          (id 2)
+          (at 0 -8.89 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://www.lcsc.com/datasheet/C49435727.pdf"
+          (id 3)
+          (at 0 -11.43 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "HONGLITRONIC(鸿利光电)"
+          (id 4)
+          (at 0 -13.97 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)"
+          (id 5)
+          (at 0 -16.51 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C49435727"
+          (id 6)
+          (at 0 -19.05 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "HL-AS-2835D68W-2C-S1-08L-PCT-HR3_0_1"
+          (polyline
+            (pts
+              (xy -1.14 -2.79) (xy -3.68 -1.27) (xy -1.14 0.51) (xy -1.14 -2.79)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy 3.81 -2.79) (xy 1.27 -1.27) (xy 3.81 0.51) (xy 3.81 -2.79)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -1.02 -1.27) (xy 1.27 -1.27)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -3.68 -3.05) (xy -3.68 0.51)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -2.67 2.29) (xy -4.44 4.06)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -3.68 1.27) (xy -5.46 3.05)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy 1.27 -3.05) (xy 1.27 0.51)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy 2.29 2.29) (xy 0.51 4.06)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy 1.27 1.27) (xy -0.51 3.05)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -4.44 4.06) (xy -3.43 3.56) (xy -3.94 3.05) (xy -4.44 4.06)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -5.46 3.05) (xy -4.44 2.54) (xy -4.95 2.03) (xy -5.46 3.05)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy 0.51 4.06) (xy 1.52 3.56) (xy 1.02 3.05) (xy 0.51 4.06)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -0.51 3.05) (xy 0.51 2.54) (xy 0.00 2.03) (xy -0.51 3.05)
+            )
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin passive line
+            (at 7.62 -1.27 180)
+            (length 3.81)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -7.62 -1.27 0)
+            (length 3.81)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+  )
+  (symbol (lib_id "HL-AS-2835D68W-2C-S1-08L-PCT-HR3") (at 76.20 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 304ec37d-f70e-c4fb-50ac-053e33d2287b)
+    (property "Reference" "LED5" (at 76.20 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)" (at 76.20 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K" (at 76.20 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid b4e5b76f-0978-1300-7577-70351306fc24))
+    (pin "1" (uuid 909529b9-31b3-6895-7812-bb52c8bf625b))
+    (instances
+      (project "2x3x3-Round"
+        (path "/"
+          (reference "LED5")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "HL-AS-2835D68W-2C-S1-08L-PCT-HR3") (at 279.40 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e6013d41-7c32-5bda-0b5d-5d304ad3152c)
+    (property "Reference" "LED6" (at 279.40 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)" (at 279.40 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K" (at 279.40 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 02200a48-b0c4-19ac-f415-e01453571774))
+    (pin "1" (uuid 2527462b-7050-7659-66ea-85403d278321))
+    (instances
+      (project "2x3x3-Round"
+        (path "/"
+          (reference "LED6")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "HL-AS-2835D68W-2C-S1-08L-PCT-HR3") (at 482.60 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 46507b8c-47b2-3b98-36c2-05603df6badc)
+    (property "Reference" "LED4" (at 482.60 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)" (at 482.60 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K" (at 482.60 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 8ed26ea6-aa5e-c204-0e0e-fc5b10c7e39e))
+    (pin "1" (uuid c017479a-c95a-386e-b179-7075518010fe))
+    (instances
+      (project "2x3x3-Round"
+        (path "/"
+          (reference "LED4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire (pts (xy 68.58 102.87) (xy 60.96 102.87))
+    (stroke (width 0) (type default))
+    (uuid edd070e3-5817-68c6-261c-ec0c82cfcaaa)
+  )
+  (global_label "warm_b_leds_1_2" (shape input) (at 60.96 102.87 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid e17367eb-bca1-b678-7179-f0e1fead980b)
+  )
+  (wire (pts (xy 83.82 102.87) (xy 91.44 102.87))
+    (stroke (width 0) (type default))
+    (uuid 72fa496c-1336-cc97-eaaa-f95dcdb6f07b)
+  )
+  (global_label "warm_b_channel_LED_TOP" (shape input) (at 91.44 102.87 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 605be33f-e6a0-6dab-39ac-dacccc2fda5f)
+  )
+  (wire (pts (xy 271.78 102.87) (xy 264.16 102.87))
+    (stroke (width 0) (type default))
+    (uuid 5ee064cc-ef32-5250-f5b6-f6698dc5d7fa)
+  )
+  (global_label "warm_b_leds_2_2" (shape input) (at 264.16 102.87 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid e460d564-6b1a-e228-5f01-a12d6e17376b)
+  )
+  (wire (pts (xy 287.02 102.87) (xy 294.64 102.87))
+    (stroke (width 0) (type default))
+    (uuid 47c6dd45-c096-490e-d945-d93c279ea34d)
+  )
+  (global_label "warm_b_leds_1_2" (shape input) (at 294.64 102.87 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 4bf66b59-4f20-bf9f-117c-bb89cf6dbca7)
+  )
+  (wire (pts (xy 474.98 102.87) (xy 467.36 102.87))
+    (stroke (width 0) (type default))
+    (uuid ea308d86-46d7-d674-7a43-0dc4e1b38bdb)
+  )
+  (global_label "warm_b_channel_LED_RETURN" (shape input) (at 467.36 102.87 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid fa0e49fb-d9f7-9fd4-f1c2-04bdf0676649)
+  )
+  (wire (pts (xy 490.22 102.87) (xy 497.84 102.87))
+    (stroke (width 0) (type default))
+    (uuid 915beeeb-afac-cbd0-2870-8c486158d0f0)
+  )
+  (global_label "warm_b_leds_2_2" (shape input) (at 497.84 102.87 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 264a8217-63df-a547-cdb0-b17acbf6fda8)
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

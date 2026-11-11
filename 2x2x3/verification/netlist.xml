@@ -1,0 +1,1936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Code\LED_PCBs_V2\2x2x3\build\2x2x3-LED-Panel.kicad_sch</source>
+    <date>2026-11-09T16:10:19</date>
+    <tool>Eeschema 10.0.4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_cool_a_channel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/cool_a/" tstamps="/866af461-57c4-41a1-6d47-03adad2f39a6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_cool_a.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_cool_b_channel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/cool_b/" tstamps="/f41bbfa5-8440-c404-2fd2-170c886de66b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_cool_b.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_warm_a_channel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/warm_a/" tstamps="/2f9aba6f-fae7-6479-9d96-7f1d98fca66b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_warm_a.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_warm_b_channel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/warm_b/" tstamps="/a180ce5c-25b3-ca08-d95b-5a0abde87a40/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>2x2x3-LED-Panel_warm_b.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>PZ2.54-2X5P-H25</value>
+      <footprint>Schrune:PZ2_54_2X5P_H25</footprint>
+      <fields>
+        <field name="Footprint">Schrune:PZ2_54_2X5P_H25</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="PZ2.54-2X5P-H25" description=""/>
+      <property name="Sheetname" value="2x2x3-LED-Panel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8413517b-4d16-2089-2444-7de424c8ec97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>PZ2.54-2X5P-H25</value>
+      <footprint>Schrune:PZ2_54_2X5P_H25</footprint>
+      <fields>
+        <field name="Footprint">Schrune:PZ2_54_2X5P_H25</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="PZ2.54-2X5P-H25" description=""/>
+      <property name="Sheetname" value="2x2x3-LED-Panel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02f08f1b-12cb-d1a4-0137-9c8b9dc01f26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>Schrune:TestPoint_Pad_1.0x1.0mm</footprint>
+      <fields>
+        <field name="Footprint">Schrune:TestPoint_Pad_1.0x1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="2x2x3-LED-Panel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b1d5995-9029-cc0c-91a3-032e2320c5a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>Schrune:TestPoint_Pad_1.5x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Schrune:TestPoint_Pad_1.5x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="2x2x3-LED-Panel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccf4f714-7499-fdc1-11bb-92b1211d6d5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>Schrune:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Footprint">Schrune:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="2x2x3-LED-Panel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dd408b4-4506-4606-63f5-92ac4784a7d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>Schrune:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="Footprint">Schrune:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="2x2x3-LED-Panel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e184ea9-9272-77ee-1384-4c89e281aa1d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>29b782ec-d1b0-8ffa-043a-21fc5682d7a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>8c3b079d-bea1-288a-cc6e-18a6ff0d02b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS14</value>
+      <footprint>Schrune:SS14</footprint>
+      <fields>
+        <field name="Footprint">Schrune:SS14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="SS14" description="SS14"/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky Barrier Diodes (SBD)"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>aa386175-27de-f4cc-5cc8-ca7ecfc87af0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>0.000068uH</value>
+      <footprint>Schrune:CY54_68UH</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CY54_68UH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CY54-68UH" description=""/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Inductors (SMD)"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>836bbe08-b5f6-0a10-19ba-9debf3c9a54b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>6214d7fe-e96a-ab30-cbdd-020d0ddd41c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Schrune:P_0402WGF1003TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF1003TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF1003TCE" description="100KΩ (1003) ±1%"/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>4fa7d806-0898-c47a-b55b-d91885b5533a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>2.2k</value>
+      <footprint>Schrune:P_0402WGF2201TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF2201TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF2201TCE" description="2.2KΩ (2201) ±1%"/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>4a2a8504-b203-ede7-f9c2-11d02d83928c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>38cc4f9d-030f-f2e5-6d2e-cea64d64478c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Schrune:P_0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F1002T5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F1002T5E" description="10KΩ (1002) ±1%"/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>754e1dd8-98a9-9422-9738-ced6ee5d60d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>PT4115</value>
+      <footprint>Schrune:PT4115</footprint>
+      <fields>
+        <field name="Footprint">Schrune:PT4115</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="PT4115" description=""/>
+      <property name="Sheetname" value="cool_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="LED Drivers"/>
+      <sheetpath names="/cool_a.channel/" tstamps="/d8120996-0cd0-d211-e77d-6503ab41b459/"/>
+      <tstamps>2da6d6ac-c6fc-a7cf-5fb4-a1f182e20368</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED2">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="cool_a"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a.kicad_sch"/>
+      <sheetpath names="/cool_a/" tstamps="/866af461-57c4-41a1-6d47-03adad2f39a6/"/>
+      <tstamps>ff297bf1-17f1-54c3-d19d-ffb1e0f6d49d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED3">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="cool_a"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a.kicad_sch"/>
+      <sheetpath names="/cool_a/" tstamps="/866af461-57c4-41a1-6d47-03adad2f39a6/"/>
+      <tstamps>a78ecfa0-6e50-364a-afe3-c8ac552ec3ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED4">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="cool_a"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_a.kicad_sch"/>
+      <sheetpath names="/cool_a/" tstamps="/866af461-57c4-41a1-6d47-03adad2f39a6/"/>
+      <tstamps>cbf62d9c-c566-aa04-44f3-d7f0452568ab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>6a2ca55b-24f7-88d9-03e0-9374a4db0c7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>4a85294f-c4e3-3e77-14a8-13c3c1ba7a31</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SS14</value>
+      <footprint>Schrune:SS14</footprint>
+      <fields>
+        <field name="Footprint">Schrune:SS14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="SS14" description="SS14"/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky Barrier Diodes (SBD)"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>d63fc7e3-6cb7-0094-a131-8c73b560eae7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>0.000068uH</value>
+      <footprint>Schrune:CY54_68UH</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CY54_68UH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CY54-68UH" description=""/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Inductors (SMD)"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>0f34138b-6fd6-41ed-3a6f-b7a0b5260e4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>95791c72-289d-b7d4-1070-83e3c2b21918</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Schrune:P_0402WGF1003TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF1003TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF1003TCE" description="100KΩ (1003) ±1%"/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>34dc7ee0-ca91-1c2a-a7a1-1965e56bebf6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>2.2k</value>
+      <footprint>Schrune:P_0402WGF2201TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF2201TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF2201TCE" description="2.2KΩ (2201) ±1%"/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>0c76b45b-289f-ee67-11f6-440525c68bd3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>d63f1e8f-18a7-f7ad-812a-b77e66dd8a0e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Schrune:P_0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F1002T5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F1002T5E" description="10KΩ (1002) ±1%"/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>3b0dbb02-2206-2dd5-598e-735fdcc14a48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>PT4115</value>
+      <footprint>Schrune:PT4115</footprint>
+      <fields>
+        <field name="Footprint">Schrune:PT4115</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="PT4115" description=""/>
+      <property name="Sheetname" value="cool_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="LED Drivers"/>
+      <sheetpath names="/cool_b.channel/" tstamps="/d2161712-e8d2-7cbb-d2a1-bdff5614b29f/"/>
+      <tstamps>c26908e9-74da-d810-1739-5309fd574b1f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED6">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="cool_b"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b.kicad_sch"/>
+      <sheetpath names="/cool_b/" tstamps="/f41bbfa5-8440-c404-2fd2-170c886de66b/"/>
+      <tstamps>98950d75-f3b4-a69b-dde2-b7048dc404d8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED7">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="cool_b"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b.kicad_sch"/>
+      <sheetpath names="/cool_b/" tstamps="/f41bbfa5-8440-c404-2fd2-170c886de66b/"/>
+      <tstamps>3fd7bb09-722a-5154-553f-95693d93f6b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED8">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="cool_b"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_cool_b.kicad_sch"/>
+      <sheetpath names="/cool_b/" tstamps="/f41bbfa5-8440-c404-2fd2-170c886de66b/"/>
+      <tstamps>a9443bf6-256a-2227-6911-d10f2bcbb3d9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>2268a25a-cff5-7c0d-19b5-dcd946751309</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>251382a5-a284-a5ee-a411-6fd7a956126b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>SS14</value>
+      <footprint>Schrune:SS14</footprint>
+      <fields>
+        <field name="Footprint">Schrune:SS14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="SS14" description="SS14"/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky Barrier Diodes (SBD)"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>618fb1ee-057d-ebf6-6189-af576a5f29bc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L3">
+      <value>0.000068uH</value>
+      <footprint>Schrune:CY54_68UH</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CY54_68UH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CY54-68UH" description=""/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Inductors (SMD)"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>c38916bd-a7aa-5d98-6ff4-aece87568b2e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>4eaac80b-f7aa-a7ac-d036-a318400acd84</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Schrune:P_0402WGF1003TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF1003TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF1003TCE" description="100KΩ (1003) ±1%"/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>adeccddf-34c5-ce10-6e26-6ce5cdf44690</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>Schrune:P_0402WGF2201TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF2201TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF2201TCE" description="2.2KΩ (2201) ±1%"/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>883ac27a-a439-8279-db99-6f1de6d0e606</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>b07fcf6d-2b09-b764-9856-f4c870ea48fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Schrune:P_0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F1002T5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F1002T5E" description="10KΩ (1002) ±1%"/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>ba9df4f2-cb2a-9d07-f10d-f3a8c29e2632</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>PT4115</value>
+      <footprint>Schrune:PT4115</footprint>
+      <fields>
+        <field name="Footprint">Schrune:PT4115</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="PT4115" description=""/>
+      <property name="Sheetname" value="warm_a.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a_channel.kicad_sch"/>
+      <property name="ki_keywords" value="LED Drivers"/>
+      <sheetpath names="/warm_a.channel/" tstamps="/2ce074d4-22da-8f6e-4ab1-42814d612c4b/"/>
+      <tstamps>35a2d82d-e8b8-8633-4441-3e2ede55391a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED10">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="warm_a"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a.kicad_sch"/>
+      <sheetpath names="/warm_a/" tstamps="/2f9aba6f-fae7-6479-9d96-7f1d98fca66b/"/>
+      <tstamps>ef41d1ae-0867-7446-cc1d-3f40c01ce190</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED11">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="warm_a"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a.kicad_sch"/>
+      <sheetpath names="/warm_a/" tstamps="/2f9aba6f-fae7-6479-9d96-7f1d98fca66b/"/>
+      <tstamps>7a8f498d-9e9f-0c63-98a9-960f5b03be08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED12">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="warm_a"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_a.kicad_sch"/>
+      <sheetpath names="/warm_a/" tstamps="/2f9aba6f-fae7-6479-9d96-7f1d98fca66b/"/>
+      <tstamps>a1289cc3-02dc-8eb0-b0ca-0d1271c3783b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>68089859-c2db-336d-48a3-196af0029459</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uF</value>
+      <footprint>Schrune:CL21A225KBQNNNE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CL21A225KBQNNNE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CL21A225KBQNNNE" description=""/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>b5a64e00-8920-b54b-0759-434b1659fee0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>SS14</value>
+      <footprint>Schrune:SS14</footprint>
+      <fields>
+        <field name="Footprint">Schrune:SS14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="SS14" description="SS14"/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Schottky Barrier Diodes (SBD)"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>cc3454eb-a410-ee4e-4e87-f629803b1d19</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L4">
+      <value>0.000068uH</value>
+      <footprint>Schrune:CY54_68UH</footprint>
+      <fields>
+        <field name="Footprint">Schrune:CY54_68UH</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="CY54-68UH" description=""/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Inductors (SMD)"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>bf9d1446-bf33-a0ea-ae0f-dbdde531f07c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>a13c9d5d-58fa-f185-4add-ad510928a788</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Schrune:P_0402WGF1003TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF1003TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF1003TCE" description="100KΩ (1003) ±1%"/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>781520ee-79b2-5388-8c51-3e999d238d49</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>2.2k</value>
+      <footprint>Schrune:P_0402WGF2201TCE</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0402WGF2201TCE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0402WGF2201TCE" description="2.2KΩ (2201) ±1%"/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>df57dbf2-b754-3e3c-ca8c-414e174589fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>1.2</value>
+      <footprint>Schrune:P_0805W8F120KT5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F120KT5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F120KT5E" description="1.2Ω (1R20) ±1%"/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>bb98e802-e5f3-d104-2af2-8f5ee545f013</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Schrune:P_0805W8F1002T5E</footprint>
+      <fields>
+        <field name="Footprint">Schrune:P_0805W8F1002T5E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="0805W8F1002T5E" description="10KΩ (1002) ±1%"/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="Resistors"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>f0050ebc-1a83-ab03-f3bd-ce38e344ce4f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>PT4115</value>
+      <footprint>Schrune:PT4115</footprint>
+      <fields>
+        <field name="Footprint">Schrune:PT4115</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="PT4115" description=""/>
+      <property name="Sheetname" value="warm_b.channel"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b_channel.kicad_sch"/>
+      <property name="ki_keywords" value="LED Drivers"/>
+      <sheetpath names="/warm_b.channel/" tstamps="/e7d9ad6d-a913-e74e-0a4f-81019a2b5ddc/"/>
+      <tstamps>8fed656d-c04b-f021-b5a7-d187a4db296a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED14">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="warm_b"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b.kicad_sch"/>
+      <sheetpath names="/warm_b/" tstamps="/a180ce5c-25b3-ca08-d95b-5a0abde87a40/"/>
+      <tstamps>ff2d52c8-06f0-01eb-ad8d-be080dc077d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED15">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="warm_b"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b.kicad_sch"/>
+      <sheetpath names="/warm_b/" tstamps="/a180ce5c-25b3-ca08-d95b-5a0abde87a40/"/>
+      <tstamps>99d5d846-fafc-aa61-65cb-8bf12f5b26d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED16">
+      <value>HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(2800K-3100K)</value>
+      <footprint>Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</footprint>
+      <fields>
+        <field name="Footprint">Schrune:HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3" description=""/>
+      <property name="Sheetname" value="warm_b"/>
+      <property name="Sheetfile" value="2x2x3-LED-Panel_warm_b.kicad_sch"/>
+      <sheetpath names="/warm_b/" tstamps="/a180ce5c-25b3-ca08-d95b-5a0abde87a40/"/>
+      <tstamps>c7e224ed-f902-90c2-8045-0abdffe0c2a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="0402WGF1003TCE">
+      <description>100KΩ (1003) ±1%</description>
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25741.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0402WGF1003TCE</field>
+        <field name="Footprint">Schrune:R0402</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100KR-1003-1_C25741.html</field>
+        <field name="Description">100KΩ (1003) ±1%</field>
+        <field name="Manufacturer">UNI-ROYAL(厚声)</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="LCSC Part">C25741</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="0402WGF2201TCE">
+      <description>2.2KΩ (2201) ±1%</description>
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0402WGF2201TCE</field>
+        <field name="Footprint">Schrune:R0402</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html</field>
+        <field name="Description">2.2KΩ (2201) ±1%</field>
+        <field name="Manufacturer">UNI-ROYAL(厚声)</field>
+        <field name="MPN">0402WGF2201TCE</field>
+        <field name="LCSC Part">C25879</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="0805W8F1002T5E">
+      <description>10KΩ (1002) ±1%</description>
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0805W8F1002T5E</field>
+        <field name="Footprint">Schrune:R0805</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C17414.html</field>
+        <field name="Description">10KΩ (1002) ±1%</field>
+        <field name="Manufacturer">UNI-ROYAL(厚声)</field>
+        <field name="MPN">0805W8F1002T5E</field>
+        <field name="LCSC Part">C17414</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="0805W8F120KT5E">
+      <description>1.2Ω (1R20) ±1%</description>
+      <docs>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2R-1R20-1_C17381.html</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0805W8F120KT5E</field>
+        <field name="Footprint">Schrune:R0805</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_1-2R-1R20-1_C17381.html</field>
+        <field name="Description">1.2Ω (1R20) ±1%</field>
+        <field name="Manufacturer">UNI-ROYAL(厚声)</field>
+        <field name="MPN">0805W8F120KT5E</field>
+        <field name="LCSC Part">C17381</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="CL21A225KBQNNNE">
+      <docs>https://lcsc.com/product-detail/New-Arrivals_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.html</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL21A225KBQNNNE</field>
+        <field name="Footprint">Schrune:C0805</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/New-Arrivals_Samsung-Electro-Mechanics-CL21A225KBQNNNE_C377773.html</field>
+        <field name="Description"/>
+        <field name="Manufacturer">SAMSUNG(三星)</field>
+        <field name="MPN">CL21A225KBQNNNE</field>
+        <field name="LCSC Part">C377773</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="CY54-68UH">
+      <docs>https://www.lcsc.com/datasheet/C2929435.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">CY54-68UH</field>
+        <field name="Footprint">Schrune:IND-SMD_L5.8-W5.2</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2929435.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">SHOU HAN(首韩)</field>
+        <field name="MPN">CY54-68UH</field>
+        <field name="LCSC Part">C2929435</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="HL-AS-2835D68W-2C-S1-08L-PCT-HR3">
+      <docs>https://www.lcsc.com/datasheet/C49435731.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">HL-AS-2835D68W-2C-S1-08L-PCT-HR3</field>
+        <field name="Footprint">Schrune:LED-SMD_L3.5-W2.8-RD</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C49435731.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">HONGLITRONIC(鸿利光电)</field>
+        <field name="MPN">HL-AS-2835D68W-2C-S1-08L-PCT-HR3(R9)-K3(6000K-7000K)</field>
+        <field name="LCSC Part">C49435731</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="PT4115">
+      <docs>https://lcsc.com/product-detail/Others_Youtai-Semiconductor-Co-Ltd-PT4115_C347356.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PT4115</field>
+        <field name="Footprint">Schrune:SOT-89-5_L4.5-W2.5-P1.50-LS4.5-BR</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Others_Youtai-Semiconductor-Co-Ltd-PT4115_C347356.html</field>
+        <field name="Description"/>
+        <field name="Manufacturer">UMW(友台半导体)</field>
+        <field name="MPN">PT4115</field>
+        <field name="LCSC Part">C347356</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="DIM" type="passive"/>
+        <pin num="4" name="CSN" type="passive"/>
+        <pin num="5" name="VIN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="PZ2.54-2X5P-H25">
+      <docs>https://www.lcsc.com/datasheet/C42431818.pdf</docs>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">PZ2.54-2X5P-H25</field>
+        <field name="Footprint">Schrune:HDR-TH_10P-P2.54-V-M-R2-C5-S2.54_2</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C42431818.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">JXTCONN(聚兴泰)</field>
+        <field name="MPN">PZ2.54-2X5P-H25</field>
+        <field name="LCSC Part">C42431818</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="SS14">
+      <description>SS14</description>
+      <docs>https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS14</field>
+        <field name="Footprint">Schrune:SMA_L4.2-W2.6-LS5.0-RD_1</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html</field>
+        <field name="Description">SS14</field>
+        <field name="Manufacturer">MDD(辰达半导体)</field>
+        <field name="MPN">SS14</field>
+        <field name="LCSC Part">C2480</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="H1" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="H1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="H1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="H1" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="H2" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="H2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="H2" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="H2" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="passive"/>
+    </net>
+    <net code="2" name="V+" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="H1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="H1" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="H1" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="H2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="H2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="H2" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="H2" pin="9" pinfunction="9_9" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VIN_5" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VIN_5" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VIN_5" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VIN_5" pintype="passive"/>
+    </net>
+    <net code="3" name="cool_a_channel_LED_RETURN" class="Default">
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="LED4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="4" name="cool_a_channel_LED_TOP" class="Default">
+      <node ref="LED2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="CSN_4" pintype="passive"/>
+    </net>
+    <net code="5" name="cool_a_channel_driver_SW" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SW_1" pintype="passive"/>
+    </net>
+    <net code="6" name="cool_a_channel_pwm_2_2_1" class="Default">
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="DIM_3" pintype="passive"/>
+    </net>
+    <net code="7" name="cool_a_leds_1_2" class="Default">
+      <node ref="LED2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="LED3" pin="2" pinfunction="A_2" pintype="passive"/>
+    </net>
+    <net code="8" name="cool_a_leds_2_2" class="Default">
+      <node ref="LED3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="LED4" pin="2" pinfunction="A_2" pintype="passive"/>
+    </net>
+    <net code="9" name="cool_b_channel_LED_RETURN" class="Default">
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="LED8" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="10" name="cool_b_channel_LED_TOP" class="Default">
+      <node ref="LED6" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="CSN_4" pintype="passive"/>
+    </net>
+    <net code="11" name="cool_b_channel_driver_SW" class="Default">
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SW_1" pintype="passive"/>
+    </net>
+    <net code="12" name="cool_b_channel_pwm_2_2_1" class="Default">
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="DIM_3" pintype="passive"/>
+    </net>
+    <net code="13" name="cool_b_leds_1_2" class="Default">
+      <node ref="LED6" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="LED7" pin="2" pinfunction="A_2" pintype="passive"/>
+    </net>
+    <net code="14" name="cool_b_leds_2_2" class="Default">
+      <node ref="LED7" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="LED8" pin="2" pinfunction="A_2" pintype="passive"/>
+    </net>
+    <net code="15" name="pwm_cool" class="Default">
+      <node ref="H1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="H2" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="16" name="pwm_warm" class="Default">
+      <node ref="H1" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="H2" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="17" name="warm_a_channel_LED_RETURN" class="Default">
+      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="LED12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="18" name="warm_a_channel_LED_TOP" class="Default">
+      <node ref="LED10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="CSN_4" pintype="passive"/>
+    </net>
+    <net code="19" name="warm_a_channel_driver_SW" class="Default">
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SW_1" pintype="passive"/>
+    </net>
+    <net code="20" name="warm_a_channel_pwm_2_2_1" class="Default">
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="DIM_3" pintype="passive"/>
+    </net>
+    <net code="21" name="warm_a_leds_1_2" class="Default">
+      <node ref="LED10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="LED11" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="22" name="warm_a_leds_2_2" class="Default">
+      <node ref="LED11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="LED12" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="23" name="warm_b_channel_LED_RETURN" class="Default">
+      <node ref="L4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="LED16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="24" name="warm_b_channel_LED_TOP" class="Default">
+      <node ref="LED14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="CSN_4" pintype="passive"/>
+    </net>
+    <net code="25" name="warm_b_channel_driver_SW" class="Default">
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="SW_1" pintype="passive"/>
+    </net>
+    <net code="26" name="warm_b_channel_pwm_2_2_1" class="Default">
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="DIM_3" pintype="passive"/>
+    </net>
+    <net code="27" name="warm_b_leds_1_2" class="Default">
+      <node ref="LED14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="LED15" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="28" name="warm_b_leds_2_2" class="Default">
+      <node ref="LED15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="LED16" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

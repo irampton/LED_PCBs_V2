@@ -1,0 +1,37 @@
+JLC BOM estimate for 30 boards
+
+Basic
+Designators                 Comment             Footprint         MPN              LCSC #   JLC Stock  Per Board
+--------------------------  ------------------  ----------------  ---------------  -------  ---------  ---------
+C1, C2, C3, C4, C5, C6,...  2.2uF ±10% 50V X5R  0805              CL21A225KBQNNNE  C377773     965001    $0.3108
+D1, D2, D3, D4, D5, D6                          SMA_L4.2-W2.6...  SS14             C2480      1626545    $0.1152
+R13, R14, R15, R16, R17...  100kΩ ±1% 62.5mW    0402              0402WGF1003TCE   C25741     8604931    $0.0072
+R19, R20, R21, R22, R23...  10kΩ ±1% 125mW      0805              0805W8F1002T5E   C17414    49430616    $0.0204
+R25, R26, R27, R28, R29...  2.2kΩ ±1% 62.5mW    0402              0402WGF2201TCE   C25879     3323646    $0.0066
+
+Extended
+Designators                 Comment          Footprint         MPN                         LCSC #     JLC Stock  Per Board
+--------------------------  ---------------  ----------------  --------------------------  ---------  ---------  ---------
+H1                                           HDR-TH_10P-P2...  PZ2.54-2X5P-H25             C42431818      24206    $0.0532
+L1, L2, L3, L4, L5, L6      68uH ±10% 600mA  SMD,5.8x5.2mm     CY54-68UH                   C2929435       12384    $0.2700
+LED1, LED2, LED3, LED4,...                   LED-SMD_L3.3-...  HL-AS-2835D68W-2C-S1-08...  C49435727       1153    $0.2142
+LED10, LED11, LED12, LE...                   LED-SMD_L3.5-...  HL-AS-2835D68W-2C-S1-08...  C49435731      12953    $0.2097
+R1, R2, R3, R4, R5, R6,...  1.2Ω ±1% 125mW   0805              0805W8F120KT5E              C17381         26335    $0.0600
+U1, U2, U3, U4, U5, U6                       SOT-89-5_L4.5...  PT4115                      C347356        96127    $0.4506
+
+Cost estimate only. These figures ignore board size, layer count, and SMD vs manual assembly.
+
+Economic totals
+2 boards   $32.25
+5 boards   $39.37
+15 boards  $59.52
+30 boards  $82.49
+
+Standard totals
+5 boards     $61.05
+30 boards    $104.17
+100 boards   $217.72
+1000 boards  $1865.48
+
+Additional fees may apply: $3.50 hand-soldering, $59.23 large-sized boards, plus x-ray inspection and panel fees.
+Double-sided boards require standard assembly, can add $25 setup, and add $7.86 stencil cost.

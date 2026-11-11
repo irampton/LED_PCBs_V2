@@ -1,0 +1,17 @@
+part CUI_PJ_002BH {
+    info: {
+        partNumber: "PJ-002BH",
+        manufacture: "CUI",
+        footprint: "./CUI_PJ_002BH.kicad_mod",
+        symbol: "./PJ-002BH.kicad_sym",
+        designatorPrefix: "J",
+        model: "./DC-IN-TH_PJ-002BH.STEP",
+        LCSC: "C22359705",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+        pin_3:3,
+    ]
+}

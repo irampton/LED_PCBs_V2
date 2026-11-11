@@ -1,0 +1,298 @@
+[
+  {
+    "x_mm": 82.787421,
+    "y_mm": 107.833239,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 81.689411,
+    "y_mm": 106.880939,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 82.890454,
+    "y_mm": 106.383451,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 83.387943,
+    "y_mm": 107.584494,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 82.538677,
+    "y_mm": 107.232717,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 82.289933,
+    "y_mm": 106.632195,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 83.139199,
+    "y_mm": 106.983973,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 81.938155,
+    "y_mm": 107.481461,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 82.186899,
+    "y_mm": 108.081983,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_2_2",
+    "ref": "LED12",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.102337,
+    "y_mm": 104.389088,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.853593,
+    "y_mm": 103.788566,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.501815,
+    "y_mm": 104.637832,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.604848,
+    "y_mm": 103.188044,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.253071,
+    "y_mm": 104.03731,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.454114,
+    "y_mm": 103.539822,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.004327,
+    "y_mm": 103.436789,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.20537,
+    "y_mm": 102.9393,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.702859,
+    "y_mm": 104.140343,
+    "drill_mm": 0.3,
+    "net": "warm_d_leds_1_2",
+    "ref": "LED11",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.253071,
+    "y_mm": 95.96269,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.102337,
+    "y_mm": 95.610912,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.604848,
+    "y_mm": 96.811956,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.004327,
+    "y_mm": 96.563211,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.454114,
+    "y_mm": 96.460178,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.20537,
+    "y_mm": 97.0607,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.501815,
+    "y_mm": 95.362168,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 91.702859,
+    "y_mm": 95.859657,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 90.853593,
+    "y_mm": 96.211434,
+    "drill_mm": 0.3,
+    "net": "cool_a_leds_1_2",
+    "ref": "LED14",
+    "pad": "1"
+  },
+  {
+    "x_mm": 107.8,
+    "y_mm": 127.3,
+    "drill_mm": 0.3,
+    "net": "cool_d_channel_LED_RETURN",
+    "ref": "L4",
+    "pad": "2"
+  },
+  {
+    "x_mm": 127.3,
+    "y_mm": 92.2,
+    "drill_mm": 0.3,
+    "net": "cool_c_channel_LED_RETURN",
+    "ref": "L3",
+    "pad": "2"
+  },
+  {
+    "x_mm": 86.211418,
+    "y_mm": 124.819448,
+    "drill_mm": 0.3,
+    "net": "warm_d_channel_LED_RETURN",
+    "ref": "L8",
+    "pad": "2"
+  },
+  {
+    "x_mm": 92.2,
+    "y_mm": 72.7,
+    "drill_mm": 0.3,
+    "net": "cool_b_channel_LED_RETURN",
+    "ref": "L2",
+    "pad": "2"
+  },
+  {
+    "x_mm": 124.819448,
+    "y_mm": 113.788582,
+    "drill_mm": 0.3,
+    "net": "warm_c_channel_LED_RETURN",
+    "ref": "L7",
+    "pad": "2"
+  },
+  {
+    "x_mm": 87.0,
+    "y_mm": 93.1,
+    "drill_mm": 0.3,
+    "net": "V+",
+    "ref": "R1",
+    "pad": "1"
+  },
+  {
+    "x_mm": 101.5,
+    "y_mm": 95.0,
+    "drill_mm": 0.3,
+    "net": "V+",
+    "ref": "TP1",
+    "pad": "1"
+  },
+  {
+    "x_mm": 100.0,
+    "y_mm": 100.0,
+    "drill_mm": 0.3,
+    "net": "pwm_cool",
+    "ref": "TP3",
+    "pad": "1"
+  },
+  {
+    "x_mm": 75.180552,
+    "y_mm": 86.211418,
+    "drill_mm": 0.3,
+    "net": "warm_a_channel_LED_RETURN",
+    "ref": "L5",
+    "pad": "2"
+  },
+  {
+    "x_mm": 113.788582,
+    "y_mm": 75.180552,
+    "drill_mm": 0.3,
+    "net": "warm_b_channel_LED_RETURN",
+    "ref": "L6",
+    "pad": "2"
+  }
+]

@@ -1,0 +1,16 @@
+part Samsung_Electro_Mechanics_CL31A476MPHNNNE {
+    info: {
+        partNumber: "CL31A476MPHNNNE",
+        manufacture: "Samsung Electro-Mechanics",
+        footprint: "./Samsung_Electro_Mechanics_CL31A476MPHNNNE.kicad_mod",
+        symbol: "./CL31A476MPHNNNE.kicad_sym",
+        designatorPrefix: "C",
+        model: "./C1206_L3.2-W1.6-H1.3.step",
+        LCSC: "C96123",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

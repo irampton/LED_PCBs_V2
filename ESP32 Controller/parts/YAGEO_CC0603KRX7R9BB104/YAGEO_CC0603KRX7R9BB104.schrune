@@ -1,0 +1,16 @@
+part YAGEO_CC0603KRX7R9BB104 {
+    info: {
+        partNumber: "CC0603KRX7R9BB104",
+        manufacture: "YAGEO",
+        footprint: "./YAGEO_CC0603KRX7R9BB104.kicad_mod",
+        symbol: "./CC0603KRX7R9BB104.kicad_sym",
+        designatorPrefix: "C",
+        model: "./C0603_L1.6-W0.8-H0.8.step",
+        LCSC: "C14663",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

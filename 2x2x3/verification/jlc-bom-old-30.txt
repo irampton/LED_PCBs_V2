@@ -1,0 +1,53 @@
+JLC BOM estimate for 30 boards
+
+Basic
+Designators                 Comment             Footprint         MPN              LCSC #   JLC Stock  Per Board
+--------------------------  ------------------  ----------------  ---------------  -------  ---------  ---------
+C1, C2, C3, C4, C5, C6,...  2.2uF ±10% 50V X5R  0805              CL21A225KBQNNNE  C377773     965097    $0.2360
+D1, D2, D3, D4                                  SMA_L4.2-W2.6...  SS14             C2480      1627295    $0.0768
+R1, R2, R3, R4              1Ω ±1% 125mW        0805              0805W8F100KT5E   C25271      433436    $0.0216
+R5, R6, R7, R8              100kΩ ±1% 62.5mW    0402              0402WGF1003TCE   C25741     8605915    $0.0048
+R9, R10, R11, R12           2.2kΩ ±1% 62.5mW    0402              0402WGF2201TCE   C25879     3324376    $0.0044
+R13, R14, R15, R16          4.7Ω ±1% 125mW      0805              0805W8F470KT5E   C17675      103468    $0.0616
+R17, R18, R19, R20          10kΩ ±1% 125mW      0805              0805W8F1002T5E   C17414    49441463    $0.0136
+
+Extended
+Designators                 Comment          Footprint         MPN                         LCSC #    JLC Stock  Per Board
+--------------------------  ---------------  ----------------  --------------------------  --------  ---------  ---------
+L1, L2, L3, L4              68uH ±10% 600mA  SMD,5.8x5.2mm     CY54-68UH                   C2929435      12384    $0.1800
+LED1, LED2, LED3, LED4,...                   LED-SMD_L3.3-...  HL-AM-2835D1W-S1-08-HR3     C210324       42004    $0.1280
+LED9, LED10, LED11, LED...                   LED-SMD_L3.5-...  HL-AM-2835D1W-S1-08-HR3...  C3000013      26210    $0.1352
+U1, U2, U3, U4                               SOT-89-5_L4.5...  PT4115                      C347356       96127    $0.3496
+
+Cost estimate only. These figures ignore board size, layer count, and SMD vs manual assembly.
+
+Economic estimate for 30 boards
+  Setup: $8.00
+  Stencil: $1.50
+  Joints: $2.30
+  Extended parts fees: $12.00
+  Components: $36.35
+  Total estimate: $60.15
+
+Standard estimate for 30 boards
+  Setup: $25.00
+  Stencil: $7.68
+  Joints @ $0.0016: $2.30
+  Feed loaders: $16.50
+  Components: $36.35
+  Total estimate: $87.83
+
+Economic totals
+2 boards   $24.56
+5 boards   $29.15
+15 boards  $42.06
+30 boards  $60.15
+
+Standard totals
+5 boards     $56.83
+30 boards    $87.83
+100 boards   $163.02
+1000 boards  $955.58
+
+Additional fees may apply: $3.50 hand-soldering, $59.23 large-sized boards, plus x-ray inspection and panel fees.
+Double-sided boards require standard assembly, can add $25 setup, and add $7.86 stencil cost.

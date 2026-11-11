@@ -1,0 +1,162 @@
+(footprint "TECHFUSE_SL0630_6R8M:IND-SMD_L7.0-W6.6"
+	(version 20241229)
+	(generator "faebryk_convert")
+	(generator_version "v5")
+	(layer "F.Cu")
+	(tedit "5DC5F6A4")
+	(uuid "e8d77296-3cd1-4d50-be3a-14d55e13f73a")
+	(property "Reference" "REF**"
+		(at 0 -4)
+		(layer "F.SilkS")
+		(uuid "35d1f5f3-51be-48a6-a453-9f0342763f9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND-SMD_L7.0-W6.6"
+		(at 0 4)
+		(layer "F.Fab")
+		(uuid "d239f488-ae0f-458e-be43-582cc8e97c43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -3.5 3.3)
+		(end -3.47 3.3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(locked no)
+		(uuid "4269d253-dcd8-425a-93ce-c2f3e422ebd6")
+	)
+	(fp_line
+		(start -3.5 -2.09)
+		(end -3.5 -3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "01d0e90c-e9cf-4c87-8001-abc6e2fffa1c")
+	)
+	(fp_line
+		(start -3.5 -3.3)
+		(end 3.48 -3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "6ca0d814-6c58-4dc4-825f-70eb066d53cb")
+	)
+	(fp_line
+		(start 3.48 -3.3)
+		(end 3.5 -3.28)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "926c9fad-746e-45e1-9f0e-a8b7ff1ca86a")
+	)
+	(fp_line
+		(start 3.5 2.08)
+		(end 3.5 3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "796dcb85-a825-463a-bc1b-644bb2bf0f1e")
+	)
+	(fp_line
+		(start 3.5 3.3)
+		(end -3.49 3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "2599c71c-420e-4ffb-a740-078e657ffbfb")
+	)
+	(fp_line
+		(start -3.49 3.3)
+		(end -3.5 3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "cc41d2fc-987c-4c5f-a671-44eafcc4af1b")
+	)
+	(fp_line
+		(start -3.5 3.3)
+		(end -3.5 2.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "b09e1dcb-0cd7-49d1-b4a1-575ca26506d6")
+	)
+	(fp_line
+		(start 3.5 -3.3)
+		(end 3.5 -2.09)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "75bbf96b-f3e3-44fd-bcc4-ce8ff996c44f")
+	)
+	(pad "1" smd rect
+		(at -3 0 0)
+		(size 2.4 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ce71da7e-a2f6-413a-84f0-feaf86f451a4")
+	)
+	(pad "2" smd rect
+		(at 3 0 0)
+		(size 2.4 3.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "41a6b0eb-b832-4fa4-9b71-253b53f1cbb8")
+	)
+	(model "${KIPRJMOD}/../parts/TECHFUSE_SL0630_6R8M/IND-SMD_L7.0-W6.6-H3.0.STEP"
+		(offset
+			(xyz 0 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(embedded_fonts no)
+)

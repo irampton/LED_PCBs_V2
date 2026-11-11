@@ -1,0 +1,16 @@
+part XUNPU_TS_1088_AR02016 {
+    info: {
+        partNumber: "TS-1088-AR02016",
+        manufacture: "XUNPU",
+        footprint: "./XUNPU_TS_1088_AR02016.kicad_mod",
+        symbol: "./TS-1088-AR02016.kicad_sym",
+        designatorPrefix: "SW",
+        model: "./SW-SMD_L3.9-W2.9-H2.0-LS4.8.step",
+        LCSC: "C720477",
+    }
+
+    pins: [
+        pin_A:1,
+        pin_B:2,
+    ]
+}

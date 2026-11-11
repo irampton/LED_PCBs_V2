@@ -1,0 +1,89 @@
+Placing cool_a
+   driver U1
+   inductor L1
+   diode D1
+   cap1 C3
+   cap2 C6
+   sense1 R1
+   sense2 R2
+   series R33
+   pull R17
+   bleed R25
+Placing warm_a
+   driver U5
+   inductor L5
+   diode D5
+   cap1 C9
+   cap2 C10
+   sense1 R9
+   sense2 R10
+   series R37
+   pull R21
+   bleed R29
+Placing cool_b
+   driver U2
+   inductor L2
+   diode D2
+   cap1 C1
+   cap2 C2
+   sense1 R3
+   sense2 R4
+   series R34
+   pull R18
+   bleed R26
+Placing warm_b
+   driver U6
+   inductor L6
+   diode D6
+   cap1 C11
+   cap2 C12
+   sense1 R11
+   sense2 R12
+   series R38
+   pull R22
+   bleed R30
+Placing cool_c
+   driver U3
+   inductor L3
+   diode D3
+   cap1 C4
+   cap2 C5
+   sense1 R5
+   sense2 R6
+   series R35
+   pull R19
+   bleed R27
+Placing warm_c
+   driver U7
+   inductor L7
+   diode D7
+   cap1 C13
+   cap2 C14
+   sense1 R13
+   sense2 R14
+   series R39
+   pull R23
+   bleed R31
+Placing cool_d
+   driver U4
+   inductor L4
+   diode D4
+   cap1 C7
+   cap2 C8
+   sense1 R7
+   sense2 R8
+   series R36
+   pull R20
+   bleed R28
+Placing warm_d
+   driver U8
+   inductor L8
+   diode D8
+   cap1 C15
+   cap2 C16
+   sense1 R15
+   sense2 R16
+   series R40
+   pull R24
+   bleed R32
+Saved compact eight-channel placement C:\Code\LED_PCBs_V2\2x4x3 round\build\2x4x3-Round-64mm.kicad_pcb

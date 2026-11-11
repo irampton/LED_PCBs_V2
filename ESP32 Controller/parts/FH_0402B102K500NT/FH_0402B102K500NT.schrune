@@ -1,0 +1,16 @@
+part FH_0402B102K500NT {
+    info: {
+        partNumber: "0402B102K500NT",
+        manufacture: "FH",
+        footprint: "./FH_0402B102K500NT.kicad_mod",
+        symbol: "./0402B102K500NT.kicad_sym",
+        designatorPrefix: "C",
+        model: "./C0402_L1.0-W0.5-H0.5.step",
+        LCSC: "C1523",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

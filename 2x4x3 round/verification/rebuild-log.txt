@@ -1,0 +1,881 @@
+... Parsing source
+[done] Parsed source
+... Compiling nets
+[done] Compiled nets
+... Fetching components
+... Fetching components (0/64)
+... Fetching components (0/64)
+... Fetching components (1/64)
+... Fetching components (1/64)
+... Fetching components (2/64)
+... Fetching components (2/64)
+... Fetching components (3/64)
+... Fetching components (3/64)
+... Fetching components (4/64)
+... Fetching components (4/64)
+... Fetching components (5/64)
+... Fetching components (5/64)
+... Fetching components (6/64)
+... Fetching components (6/64)
+... Fetching components (7/64)
+... Fetching components (7/64)
+... Fetching components (8/64)
+... Fetching components (8/64)
+... Fetching components (9/64)
+... Fetching components (9/64)
+... Fetching components (10/64)
+... Fetching components (10/64)
+... Fetching components (11/64)
+... Fetching components (11/64)
+... Fetching components (12/64)
+... Fetching components (12/64)
+... Fetching components (13/64)
+... Fetching components (13/64)
+... Fetching components (14/64)
+... Fetching components (14/64)
+... Fetching components (15/64)
+... Fetching components (15/64)
+... Fetching components (16/64)
+... Fetching components (16/64)
+... Fetching components (17/64)
+... Fetching components (17/64)
+... Fetching components (18/64)
+... Fetching components (18/64)
+... Fetching components (19/64)
+... Fetching components (19/64)
+... Fetching components (20/64)
+... Fetching components (20/64)
+... Fetching components (21/64)
+... Fetching components (21/64)
+... Fetching components (22/64)
+... Fetching components (22/64)
+... Fetching components (23/64)
+... Fetching components (23/64)
+... Fetching components (24/64)
+... Fetching components (24/64)
+... Fetching components (25/64)
+... Fetching components (25/64)
+... Fetching components (26/64)
+... Fetching components (26/64)
+... Fetching components (27/64)
+... Fetching components (27/64)
+... Fetching components (28/64)
+... Fetching components (28/64)
+... Fetching components (29/64)
+... Fetching components (29/64)
+... Fetching components (30/64)
+... Fetching components (30/64)
+... Fetching components (31/64)
+... Fetching components (31/64)
+... Fetching components (32/64)
+... Fetching components (32/64)
+... Fetching components (33/64)
+... Fetching components (33/64)
+... Fetching components (34/64)
+... Fetching components (34/64)
+... Fetching components (35/64)
+... Fetching components (35/64)
+... Fetching components (36/64)
+... Fetching components (36/64)
+... Fetching components (37/64)
+... Fetching components (37/64)
+... Fetching components (38/64)
+... Fetching components (38/64)
+... Fetching components (39/64)
+... Fetching components (39/64)
+... Fetching components (40/64)
+... Fetching components (40/64)
+... Fetching components (41/64)
+... Fetching components (41/64)
+... Fetching components (42/64)
+... Fetching components (42/64)
+... Fetching components (43/64)
+... Fetching components (43/64)
+... Fetching components (44/64)
+... Fetching components (44/64)
+... Fetching components (45/64)
+... Fetching components (45/64)
+... Fetching components (46/64)
+... Fetching components (46/64)
+... Fetching components (47/64)
+... Fetching components (47/64)
+... Fetching components (48/64)
+... Fetching components (48/64)
+... Fetching components (49/64)
+... Fetching components (49/64)
+... Fetching components (50/64)
+... Fetching components (50/64)
+... Fetching components (51/64)
+... Fetching components (51/64)
+... Fetching components (52/64)
+... Fetching components (52/64)
+... Fetching components (53/64)
+... Fetching components (53/64)
+... Fetching components (54/64)
+... Fetching components (54/64)
+... Fetching components (55/64)
+... Fetching components (55/64)
+... Fetching components (56/64)
+... Fetching components (56/64)
+... Fetching components (57/64)
+... Fetching components (57/64)
+... Fetching components (58/64)
+... Fetching components (58/64)
+... Fetching components (59/64)
+... Fetching components (59/64)
+... Fetching components (60/64)
+... Fetching components (60/64)
+... Fetching components (61/64)
+... Fetching components (61/64)
+... Fetching components (62/64)
+... Fetching components (62/64)
+... Fetching components (63/64)
+... Fetching components (63/64)
+... Fetching components (64/64)
+[done] Fetched components
+... Sending to KiCad
+[done] Sent to KiCad
+Build successful: 109 components, 52 nets.
+18:11:15: Error: Can't create registry key 'HKCU\Software\kicad-cli' (error 5: Access is denied.)
+18:11:15: Error: Can't open registry key 'HKCU\Software\kicad-cli' (error 5: Access is denied.)
+Placing cool_a
+   driver U1
+   inductor L1
+   diode D1
+   cap1 C3
+   cap2 C6
+   sense1 R1
+   sense2 R2
+   series R33
+   pull R17
+   bleed R25
+Placing warm_a
+   driver U5
+   inductor L5
+   diode D5
+   cap1 C9
+   cap2 C10
+   sense1 R9
+   sense2 R10
+   series R37
+   pull R21
+   bleed R29
+Placing cool_b
+   driver U2
+   inductor L2
+   diode D2
+   cap1 C1
+   cap2 C2
+   sense1 R3
+   sense2 R4
+   series R34
+   pull R18
+   bleed R26
+Placing warm_b
+   driver U6
+   inductor L6
+   diode D6
+   cap1 C11
+   cap2 C12
+   sense1 R11
+   sense2 R12
+   series R38
+   pull R22
+   bleed R30
+Placing cool_c
+   driver U3
+   inductor L3
+   diode D3
+   cap1 C4
+   cap2 C5
+   sense1 R5
+   sense2 R6
+   series R35
+   pull R19
+   bleed R27
+Placing warm_c
+   driver U7
+   inductor L7
+   diode D7
+   cap1 C13
+   cap2 C14
+   sense1 R13
+   sense2 R14
+   series R39
+   pull R23
+   bleed R31
+Placing cool_d
+   driver U4
+   inductor L4
+   diode D4
+   cap1 C7
+   cap2 C8
+   sense1 R7
+   sense2 R8
+   series R36
+   pull R20
+   bleed R28
+Placing warm_d
+   driver U8
+   inductor L8
+   diode D8
+   cap1 C15
+   cap2 C16
+   sense1 R15
+   sense2 R16
+   series R40
+   pull R24
+   bleed R32
+Saved compact eight-channel placement C:\Code\LED_PCBs_V2\2x4x3 round\build\2x4x3-Round-64mm.kicad_pcb
+Saved routed board C:\Code\LED_PCBs_V2\2x4x3 round\build\2x4x3-Round-64mm.kicad_pcb
+Saved finished board and 37 filled-via locations
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+swig/python detected a memory leak of type 'PCB_SHAPE *', no destructor found.
+Saved 15 local footprint definitions
+Normalized eight inductor instances
+swig/python detected a memory leak of type 'FOOTPRINT *', no destructor found.
+swig/python detected a memory leak of type 'FOOTPRINT *', no destructor found.
+swig/python detected a memory leak of type 'FOOTPRINT *', no destructor found.
+swig/python detected a memory leak of type 'FOOTPRINT *', no destructor found.
+swig/python detected a memory leak of type 'FOOTPRINT *', no destructor found.
+swig/python detected a memory leak of type 'FOOTPRINT *', no destructor found.
+swig/python detected a memory leak of type 'FOOTPRINT *', no destructor found.
+18:11:21: Error: Can't create registry key 'HKCU\Software\kicad-cli' (error 5: Access is denied.)
+18:11:21: Error: Can't open registry key 'HKCU\Software\kicad-cli' (error 5: Access is denied.)
+Found 0 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to verification/drc-errors.json
+18:11:25: Error: Can't create registry key 'HKCU\Software\kicad-cli' (error 5: Access is denied.)
+18:11:25: Error: Can't open registry key 'HKCU\Software\kicad-cli' (error 5: Access is denied.)
+Found 1 violations
+Found 0 unconnected items
+Found 0 schematic parity issues
+Saved DRC Report to verification/drc-final.json
+{
+  "diameter_mm": 64,
+  "populated_driver_channels": 8,
+  "warm_leds": 12,
+  "cool_leds": 12,
+  "rings_mm": [
+    9,
+    18,
+    27
+  ],
+  "leds_per_ring": 8,
+  "alternate_colors": true,
+  "schematic_netlist_matches": true,
+  "mounting_holes_mm": [
+    [
+      96.5,
+      100,
+      2.7
+    ],
+    [
+      103.5,
+      100,
+      2.7
+    ]
+  ],
+  "thermal_contacts": 24,
+  "thermal_vias": 153,
+  "sum_pwm_limit_percent": 100,
+  "maximum_average_led_electrical_W": 12,
+  "drc_errors": 0,
+  "drc_warnings": [
+    "Copper sliver (B.Cu)"
+  ],
+  "thermal_validation": "Not performed; heatsink/spreader/TIM prototype required"
+}
+Contact/body conflicts: []
+Saved contact map and preliminary spreader concept

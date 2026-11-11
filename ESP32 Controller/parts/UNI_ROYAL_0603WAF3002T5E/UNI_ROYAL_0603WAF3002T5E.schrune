@@ -1,0 +1,16 @@
+part UNI_ROYAL_0603WAF3002T5E {
+    info: {
+        partNumber: "0603WAF3002T5E",
+        manufacture: "UNI-ROYAL",
+        footprint: "./UNI_ROYAL_0603WAF3002T5E.kicad_mod",
+        symbol: "./0603WAF3002T5E.kicad_sym",
+        designatorPrefix: "R",
+        model: "./R0603.STEP",
+        LCSC: "C22984",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}

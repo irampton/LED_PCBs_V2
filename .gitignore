@@ -7,3 +7,5 @@ syntax.md
 */build/gerber
 */build/gerbers
 *-pos.csv
+/.tools-venv/
+/.tools-cache/

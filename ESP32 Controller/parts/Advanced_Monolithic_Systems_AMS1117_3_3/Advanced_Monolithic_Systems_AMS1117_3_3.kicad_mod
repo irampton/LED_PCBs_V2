@@ -1,0 +1,137 @@
+(footprint "Advanced_Monolithic_Systems_AMS1117_3_3:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+	(version 20241229)
+	(generator "faebryk_convert")
+	(generator_version "v5")
+	(layer "F.Cu")
+	(tedit "5DC5F6A4")
+	(uuid "a8076d02-bc00-4e30-82ca-779d103a4d51")
+	(property "Reference" "REF**"
+		(at 0 -6.3)
+		(layer "F.SilkS")
+		(uuid "7b936ffc-c05d-4d42-aa1d-0207570aba12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
+		(at 0 6.3)
+		(layer "F.Fab")
+		(uuid "659e92bf-c3fb-48a1-a54d-825de3b50c5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 3.4 3.25)
+		(end 3.43 3.25)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(locked no)
+		(uuid "c6220b3f-4296-46cf-9ddd-8a28ea5dbde5")
+	)
+	(fp_circle
+		(center 4.55 2.19)
+		(end 4.8 2.19)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(locked no)
+		(uuid "e3e1e9c5-4683-47cd-b850-4d0f120e7856")
+	)
+	(fp_line
+		(start -1.57 3.33)
+		(end -1.57 -3.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "d63aaea5-d43e-4244-91d3-3ad05bc1c339")
+	)
+	(fp_line
+		(start -1.57 -3.33)
+		(end 1.37 -3.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "e217acb5-068f-4928-ae8d-776a3fa8c3c4")
+	)
+	(fp_line
+		(start 1.37 -3.33)
+		(end 1.37 3.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "aa3d6c9e-cb0f-4b53-9340-0b38c3dd53cf")
+	)
+	(fp_line
+		(start 1.37 3.33)
+		(end -1.57 3.33)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(layers "F.SilkS")
+		(locked no)
+		(uuid "b5aa5bad-1115-4486-b117-8f2b2f77cb29")
+	)
+	(pad "1" smd rect
+		(at 2.97 2.3 0)
+		(size 2.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e00c7043-e212-4568-bcf4-abc4bef32ca1")
+	)
+	(pad "2" smd rect
+		(at 2.97 0 0)
+		(size 2.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ccb6c77-9f1e-4b4c-838a-3d2bd2e634e4")
+	)
+	(pad "3" smd rect
+		(at 2.97 -2.3 0)
+		(size 2.5 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "12d569fe-b908-4be3-8e0f-cc2b947ae9bf")
+	)
+	(pad "4" smd rect
+		(at -2.97 0 0)
+		(size 2.34 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5d4d18bc-2af6-410b-b0e1-cda76b6c6ae6")
+	)
+	(model "${KIPRJMOD}/../parts/Advanced_Monolithic_Systems_AMS1117_3_3/SOT-223-4P_L6.5-W3.5-H1.6-LS7.0-P2.30.step"
+		(offset
+			(xyz 0 0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(embedded_fonts no)
+)

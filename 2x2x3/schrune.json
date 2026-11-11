@@ -1,0 +1,32 @@
+{
+  "name": "2x2x3-LED-Panel",
+  "entry": "./main.schrune",
+  "parts": [
+    {
+      "MPN": "PT4115",
+      "LCSC": "C347356"
+    },
+    {
+      "MPN": "SS14",
+      "LCSC": "C2480"
+    },
+    {
+      "MPN": "PZ2_54_2X5P_H25",
+      "LCSC": "C42431818"
+    },
+    {
+      "MPN": "HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_2800K_3100K",
+      "LCSC": "C49435727"
+    },
+    {
+      "MPN": "HL_AS_2835D68W_2C_S1_08L_PCT_HR3_R9_K3_6000K_7000K",
+      "LCSC": "C49435731"
+    }
+  ],
+  "build": {
+    "bom": "./build/2x2x3-LED-Panel.BOM.csv",
+    "kicadProject": "./build/2x2x3-LED-Panel.kicad_pro",
+    "layout": "./build/2x2x3-LED-Panel.kicad_pcb",
+    "schematic": "./build/2x2x3-LED-Panel.kicad_sch"
+  }
+}

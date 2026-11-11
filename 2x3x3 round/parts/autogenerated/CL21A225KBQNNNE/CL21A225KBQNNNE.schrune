@@ -1,0 +1,22 @@
+part CL21A225KBQNNNE {
+    info: {
+        partNumber: "CL21A225KBQNNNE",
+        manufacture: "SAMSUNG(三星)",
+        footprint: "./CL21A225KBQNNNE.kicad_mod",
+        package: "0805",
+        symbol: "./CL21A225KBQNNNE.kicad_sym",
+        model: "./C0805_L2.0-W1.3-H1.3.step",
+        LCSC: "C377773",
+        designatorPrefix: "C",
+        value: "2.2uF",
+        tolerance: "±10%",
+        maxVoltage: "50V",
+        temperatureCoefficient: "X5R",
+        comment: "2.2uF ±10% 50V X5R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

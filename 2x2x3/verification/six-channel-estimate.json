@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-09",
+  "currency": "USD",
+  "assumptions": {
+    "existingJoints": 120,
+    "sixChannelJoints": 180,
+    "sixChannelWarmLeds": 9,
+    "sixChannelCoolLeds": 9,
+    "secondSideAdditionalFees": 32.86,
+    "excludes": "PCB fabrication, shipping, tax, attrition, minimum purchases, headers and any other assembly fees"
+  },
+  "results": {
+    "30": {
+      "raw": {
+        "setup": 8,
+        "stencil": 1.5,
+        "joints": 2.3040000000000003,
+        "components": 38.046,
+        "extendedFees": 15,
+        "total": 64.85
+      },
+      "existing": {
+        "setup": 8,
+        "stencil": 1.5,
+        "joints": 5.760000000000001,
+        "components": 38.046,
+        "extendedFees": 15,
+        "total": 68.306
+      },
+      "sixChannel": {
+        "setup": 25,
+        "stencil": 7.68,
+        "joints": 8.64,
+        "jointRate": 0.0016,
+        "components": 49.941,
+        "loaderFees": 15,
+        "total": 139.12099999999998,
+        "secondSideSetup": 25,
+        "secondSideStencil": 7.86
+      }
+    },
+    "100": {
+      "raw": {
+        "setup": 25,
+        "stencil": 7.68,
+        "joints": 7.680000000000001,
+        "jointRate": 0.0016,
+        "components": 104.25999999999999,
+        "loaderFees": 15,
+        "total": 159.62
+      },
+      "existing": {
+        "setup": 25,
+        "stencil": 7.68,
+        "joints": 19.2,
+        "jointRate": 0.0016,
+        "components": 104.25999999999999,
+        "loaderFees": 15,
+        "total": 171.14
+      },
+      "sixChannel": {
+        "setup": 25,
+        "stencil": 7.68,
+        "joints": 28.8,
+        "jointRate": 0.0016,
+        "components": 152.79,
+        "loaderFees": 15,
+        "total": 262.13,
+        "secondSideSetup": 25,
+        "secondSideStencil": 7.86
+      }
+    }
+  }
+}

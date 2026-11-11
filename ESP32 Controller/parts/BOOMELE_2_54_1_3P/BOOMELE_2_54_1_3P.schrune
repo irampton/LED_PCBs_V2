@@ -1,0 +1,17 @@
+part BOOMELE_2_54_1_3P {
+    info: {
+        partNumber: "2.54-1*3P针",
+        manufacture: "BOOMELE",
+        footprint: "./BOOMELE_2_54_1_3P.kicad_mod",
+        symbol: "./Header-Male-2.54_1x3.kicad_sym",
+        designatorPrefix: "J",
+        model: "./HDR-M-2.54_1X3.step",
+        LCSC: "C49257",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+        pin_3:3,
+    ]
+}

@@ -1,0 +1,17 @@
+part HL_AM_2835D1W_S1_08_HR3_2600K_2800K {
+    info: {
+        partNumber: "HL-AM-2835D1W-S1-08-HR3(2600K-2800K)",
+        manufacture: "HONGLITRONIC(鸿利光电)",
+        footprint: "./HL_AM_2835D1W_S1_08_HR3_2600K_2800K.kicad_mod",
+        package: "LED-SMD_L3.5-W2.8-FD-2835_WHITE",
+        symbol: "./HL_AM_2835D1W_S1_08_HR3_2600K_2800K.kicad_sym",
+        model: "./LED-SMD_L3.5-W2.8-FD-2835_WHITE.step",
+        LCSC: "C3000013",
+        designatorPrefix: "LED",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

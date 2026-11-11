@@ -1,0 +1,383 @@
+{
+  "diameter_mm": 64,
+  "cells": {
+    "cool_a": {
+      "angle": 180,
+      "radius": 14.5,
+      "led_angle": -157.5,
+      "roles": {
+        "driver": "U1",
+        "inductor": "L1",
+        "diode": "D1",
+        "cap1": "C3",
+        "cap2": "C6",
+        "sense1": "R1",
+        "sense2": "R2",
+        "series": "R33",
+        "pull": "R17",
+        "bleed": "R25"
+      },
+      "top": [
+        85.5,
+        95.3
+      ],
+      "return": [
+        80.8,
+        102.33
+      ],
+      "pwm": [
+        80.9,
+        97.43
+      ]
+    },
+    "warm_a": {
+      "angle": -135,
+      "radius": 23.5,
+      "led_angle": -112.5,
+      "roles": {
+        "driver": "U5",
+        "inductor": "L5",
+        "diode": "D5",
+        "cap1": "C9",
+        "cap2": "C10",
+        "sense1": "R9",
+        "sense2": "R10",
+        "series": "R37",
+        "pull": "R21",
+        "bleed": "R29"
+      },
+      "top": [
+        88.68629150101525,
+        83.7365440327094
+      ],
+      "return": [
+        75.18055198035219,
+        86.21141776686231
+      ],
+      "pwm": [
+        80.27172080489532,
+        78.4332431738103
+      ]
+    },
+    "cool_b": {
+      "angle": -90,
+      "radius": 23.5,
+      "led_angle": -67.5,
+      "roles": {
+        "driver": "U2",
+        "inductor": "L2",
+        "diode": "D2",
+        "cap1": "C1",
+        "cap2": "C2",
+        "sense1": "R3",
+        "sense2": "R4",
+        "series": "R34",
+        "pull": "R18",
+        "bleed": "R26"
+      },
+      "top": [
+        103.5,
+        80.5
+      ],
+      "return": [
+        92.2,
+        72.7
+      ],
+      "pwm": [
+        101.3,
+        70.8
+      ]
+    },
+    "warm_b": {
+      "angle": -45,
+      "radius": 23.5,
+      "led_angle": -22.5,
+      "roles": {
+        "driver": "U6",
+        "inductor": "L6",
+        "diode": "D6",
+        "cap1": "C11",
+        "cap2": "C12",
+        "sense1": "R11",
+        "sense2": "R12",
+        "series": "R38",
+        "pull": "R22",
+        "bleed": "R30"
+      },
+      "top": [
+        116.2634559672906,
+        88.68629150101525
+      ],
+      "return": [
+        113.78858223313769,
+        75.18055198035218
+      ],
+      "pwm": [
+        121.5667568261897,
+        80.27172080489532
+      ]
+    },
+    "cool_c": {
+      "angle": 0,
+      "radius": 23.5,
+      "led_angle": 22.5,
+      "roles": {
+        "driver": "U3",
+        "inductor": "L3",
+        "diode": "D3",
+        "cap1": "C4",
+        "cap2": "C5",
+        "sense1": "R5",
+        "sense2": "R6",
+        "series": "R35",
+        "pull": "R19",
+        "bleed": "R27"
+      },
+      "top": [
+        119.5,
+        103.5
+      ],
+      "return": [
+        127.3,
+        92.2
+      ],
+      "pwm": [
+        129.2,
+        101.3
+      ]
+    },
+    "warm_c": {
+      "angle": 45,
+      "radius": 23.5,
+      "led_angle": 67.5,
+      "roles": {
+        "driver": "U7",
+        "inductor": "L7",
+        "diode": "D7",
+        "cap1": "C13",
+        "cap2": "C14",
+        "sense1": "R13",
+        "sense2": "R14",
+        "series": "R39",
+        "pull": "R23",
+        "bleed": "R31"
+      },
+      "top": [
+        111.31370849898475,
+        116.2634559672906
+      ],
+      "return": [
+        124.81944801964782,
+        113.78858223313769
+      ],
+      "pwm": [
+        119.72827919510468,
+        121.5667568261897
+      ]
+    },
+    "cool_d": {
+      "angle": 90,
+      "radius": 23.5,
+      "led_angle": 112.5,
+      "roles": {
+        "driver": "U4",
+        "inductor": "L4",
+        "diode": "D4",
+        "cap1": "C7",
+        "cap2": "C8",
+        "sense1": "R7",
+        "sense2": "R8",
+        "series": "R36",
+        "pull": "R20",
+        "bleed": "R28"
+      },
+      "top": [
+        96.5,
+        119.5
+      ],
+      "return": [
+        107.8,
+        127.3
+      ],
+      "pwm": [
+        98.7,
+        129.2
+      ]
+    },
+    "warm_d": {
+      "angle": 135,
+      "radius": 23.5,
+      "led_angle": 157.5,
+      "roles": {
+        "driver": "U8",
+        "inductor": "L8",
+        "diode": "D8",
+        "cap1": "C15",
+        "cap2": "C16",
+        "sense1": "R15",
+        "sense2": "R16",
+        "series": "R40",
+        "pull": "R24",
+        "bleed": "R32"
+      },
+      "top": [
+        83.7365440327094,
+        111.31370849898475
+      ],
+      "return": [
+        86.21141776686233,
+        124.81944801964782
+      ],
+      "pwm": [
+        78.4332431738103,
+        119.72827919510468
+      ]
+    }
+  },
+  "leds": [
+    {
+      "ref": "LED14",
+      "channel": "cool_a",
+      "radius": 9,
+      "angle": -157.5
+    },
+    {
+      "ref": "LED15",
+      "channel": "cool_a",
+      "radius": 18,
+      "angle": -157.5
+    },
+    {
+      "ref": "LED13",
+      "channel": "cool_a",
+      "radius": 27,
+      "angle": -157.5
+    },
+    {
+      "ref": "LED2",
+      "channel": "warm_a",
+      "radius": 9,
+      "angle": -112.5
+    },
+    {
+      "ref": "LED3",
+      "channel": "warm_a",
+      "radius": 18,
+      "angle": -112.5
+    },
+    {
+      "ref": "LED1",
+      "channel": "warm_a",
+      "radius": 27,
+      "angle": -112.5
+    },
+    {
+      "ref": "LED17",
+      "channel": "cool_b",
+      "radius": 9,
+      "angle": -67.5
+    },
+    {
+      "ref": "LED18",
+      "channel": "cool_b",
+      "radius": 18,
+      "angle": -67.5
+    },
+    {
+      "ref": "LED16",
+      "channel": "cool_b",
+      "radius": 27,
+      "angle": -67.5
+    },
+    {
+      "ref": "LED5",
+      "channel": "warm_b",
+      "radius": 9,
+      "angle": -22.5
+    },
+    {
+      "ref": "LED6",
+      "channel": "warm_b",
+      "radius": 18,
+      "angle": -22.5
+    },
+    {
+      "ref": "LED4",
+      "channel": "warm_b",
+      "radius": 27,
+      "angle": -22.5
+    },
+    {
+      "ref": "LED20",
+      "channel": "cool_c",
+      "radius": 9,
+      "angle": 22.5
+    },
+    {
+      "ref": "LED21",
+      "channel": "cool_c",
+      "radius": 18,
+      "angle": 22.5
+    },
+    {
+      "ref": "LED19",
+      "channel": "cool_c",
+      "radius": 27,
+      "angle": 22.5
+    },
+    {
+      "ref": "LED8",
+      "channel": "warm_c",
+      "radius": 9,
+      "angle": 67.5
+    },
+    {
+      "ref": "LED9",
+      "channel": "warm_c",
+      "radius": 18,
+      "angle": 67.5
+    },
+    {
+      "ref": "LED7",
+      "channel": "warm_c",
+      "radius": 27,
+      "angle": 67.5
+    },
+    {
+      "ref": "LED23",
+      "channel": "cool_d",
+      "radius": 9,
+      "angle": 112.5
+    },
+    {
+      "ref": "LED24",
+      "channel": "cool_d",
+      "radius": 18,
+      "angle": 112.5
+    },
+    {
+      "ref": "LED22",
+      "channel": "cool_d",
+      "radius": 27,
+      "angle": 112.5
+    },
+    {
+      "ref": "LED11",
+      "channel": "warm_d",
+      "radius": 9,
+      "angle": 157.5
+    },
+    {
+      "ref": "LED12",
+      "channel": "warm_d",
+      "radius": 18,
+      "angle": 157.5
+    },
+    {
+      "ref": "LED10",
+      "channel": "warm_d",
+      "radius": 27,
+      "angle": 157.5
+    }
+  ]
+}

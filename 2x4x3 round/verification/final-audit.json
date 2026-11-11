@@ -1,0 +1,35 @@
+{
+  "diameter_mm": 64,
+  "populated_driver_channels": 8,
+  "warm_leds": 12,
+  "cool_leds": 12,
+  "rings_mm": [
+    9,
+    18,
+    27
+  ],
+  "leds_per_ring": 8,
+  "alternate_colors": true,
+  "schematic_netlist_matches": true,
+  "mounting_holes_mm": [
+    [
+      96.5,
+      100,
+      2.7
+    ],
+    [
+      103.5,
+      100,
+      2.7
+    ]
+  ],
+  "thermal_contacts": 24,
+  "thermal_vias": 153,
+  "sum_pwm_limit_percent": 100,
+  "maximum_average_led_electrical_W": 12,
+  "drc_errors": 0,
+  "drc_warnings": [
+    "Copper sliver (B.Cu)"
+  ],
+  "thermal_validation": "Not performed; heatsink/spreader/TIM prototype required"
+}

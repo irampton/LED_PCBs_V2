@@ -1,0 +1,16 @@
+part FH_1206B475K500NT {
+    info: {
+        partNumber: "1206B475K500NT",
+        manufacture: "FH",
+        footprint: "./FH_1206B475K500NT.kicad_mod",
+        symbol: "./1206B475K500NT.kicad_sym",
+        designatorPrefix: "C",
+        model: "./C1206_L3.2-W1.6-H1.3.step",
+        LCSC: "C29823",
+    }
+
+    pins: [
+        pin_1:1,
+        pin_2:2,
+    ]
+}
