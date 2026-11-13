@@ -1,7 +1,20 @@
 {
   "name": "ESP32 Controller",
   "entry": "./main.schrune",
-  "parts": [],
+  "parts": [
+    {
+      "MPN": "XL1509_5_0E1",
+      "LCSC": "C61063"
+    },
+    {
+      "MPN": "XR1040_680M",
+      "LCSC": "C5307658"
+    },
+    {
+      "MPN": "RVE470UF35V167RV084",
+      "LCSC": "C5155332"
+    }
+  ],
   "build": {
     "bom": "./build/ESP32 Controller.BOM.csv",
     "kicadProject": "./build/ESP32 Controller.kicad_pro",

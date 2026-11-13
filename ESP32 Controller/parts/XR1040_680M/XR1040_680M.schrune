@@ -1,0 +1,21 @@
+part XR1040_680M {
+    info: {
+        value: "68uH",
+        currentRating: "2.5A typ",
+        saturationCurrent: "3A typ (30% L drop)",
+        dcr: "195mOhm max",
+        partNumber: "XR1040-680M",
+        manufacture: "XR(祥如)",
+        footprint: "./XR1040_680M.kicad_mod",
+        package: "IND-SMD_L11.5-W10.0_FXL1040",
+        symbol: "./XR1040_680M.kicad_sym",
+        model: "./IND-SMD_L11.5-W10.0-H3.8_FXL1040.step",
+        LCSC: "C5307658",
+        designatorPrefix: "L",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

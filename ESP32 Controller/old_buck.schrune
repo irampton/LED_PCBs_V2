@@ -1,0 +1,113 @@
+@require("Samsung_Electro_Mechanics_CL05B104KO5NNNC");
+@require("FH_1206B475K500NT");
+@require("Samsung_Electro_Mechanics_CL05B103KB5NNNC");
+@require("FH_0402CG470J500NT");
+@require("FH_0402B102K500NT");
+@require("UNI_ROYAL_0603WAF3002T5E");
+@require("Samsung_Electro_Mechanics_CL31A476MPHNNNE");
+@require("UNI_ROYAL_0402WGF3303TCE");
+@require("UNI_ROYAL_0402WGF6802TCE");
+@require("UNI_ROYAL_0402WGF1002TCE");
+@require("UNI_ROYAL_0603WAF1801T5E");
+@require("MDD_Microdiode_Electronics_SS34");
+@require("TECHFUSE_SL0630_6R8M");
+@require("Texas_Instruments_TPS54331DR");
+
+// Original TPS54331 buck, preserving every original part and pin connection.
+// Drop-in source alternative: import Buck5V from "./old_buck.schrune".
+// Interface matches buck.schrune: input.h/input.l and output.h/output.l.
+// Original enable divider, feedback, compensation and soft-start are unchanged.
+module Buck5V () {
+    rail input;
+    rail output;
+    output.voltage = 5V;
+    input.l ~ output.l;
+
+    part buck_boot_cap = new Samsung_Electro_Mechanics_CL05B104KO5NNNC();
+    part buck_cin1_0 = new FH_1206B475K500NT();
+    part buck_cin1_1 = new FH_1206B475K500NT();
+    part buck_cin2 = new Samsung_Electro_Mechanics_CL05B103KB5NNNC();
+    part buck_comp_c1 = new FH_0402CG470J500NT();
+    part buck_comp_c2 = new FH_0402B102K500NT();
+    part buck_comp_r1 = new UNI_ROYAL_0603WAF3002T5E();
+    part buck_cout_0 = new Samsung_Electro_Mechanics_CL31A476MPHNNNE();
+    part buck_cout_1 = new Samsung_Electro_Mechanics_CL31A476MPHNNNE();
+    part buck_en_r1 = new UNI_ROYAL_0402WGF3303TCE();
+    part buck_en_r2 = new UNI_ROYAL_0402WGF6802TCE();
+    part buck_fb_r1 = new UNI_ROYAL_0402WGF1002TCE();
+    part buck_fb_r2 = new UNI_ROYAL_0603WAF1801T5E();
+    part buck_flyback = new MDD_Microdiode_Electronics_SS34();
+    part buck_inductor = new TECHFUSE_SL0630_6R8M();
+    part buck_regulator = new Texas_Instruments_TPS54331DR();
+    part buck_ss_cap = new Samsung_Electro_Mechanics_CL05B103KB5NNNC();
+
+    output.h ~ buck_cout_0.pin_1;
+    output.h ~ buck_cout_1.pin_1;
+    output.h ~ buck_fb_r1.pin_1;
+    output.h ~ buck_inductor.pin_2;
+
+    net EN;
+    EN ~ buck_en_r1.pin_2;
+    EN ~ buck_en_r2.pin_1;
+    EN ~ buck_regulator.pin_EN;
+
+    input.l ~ buck_cin1_0.pin_2;
+    input.l ~ buck_cin1_1.pin_2;
+    input.l ~ buck_cin2.pin_2;
+    input.l ~ buck_comp_c1.pin_2;
+    input.l ~ buck_comp_r1.pin_2;
+    input.l ~ buck_cout_0.pin_2;
+    input.l ~ buck_cout_1.pin_2;
+    input.l ~ buck_en_r2.pin_2;
+    input.l ~ buck_fb_r2.pin_2;
+    input.l ~ buck_flyback.pin_A;
+    input.l ~ buck_regulator.pin_GND;
+    input.l ~ buck_ss_cap.pin_2;
+
+    input.h ~ buck_cin1_0.pin_1;
+    input.h ~ buck_cin1_1.pin_1;
+    input.h ~ buck_cin2.pin_1;
+    input.h ~ buck_en_r1.pin_1;
+    input.h ~ buck_regulator.pin_VIN;
+
+    net VSENSE;
+    VSENSE ~ buck_fb_r1.pin_2;
+    VSENSE ~ buck_fb_r2.pin_1;
+    VSENSE ~ buck_regulator.pin_VSENSE;
+
+    net buck_bootstrap;
+    buck_bootstrap ~ buck_boot_cap.pin_2;
+    buck_bootstrap ~ buck_flyback.pin_K;
+    buck_bootstrap ~ buck_inductor.pin_1;
+    buck_bootstrap ~ buck_regulator.pin_PH;
+
+    net net_comp_c2_power_hv;
+    net_comp_c2_power_hv ~ buck_comp_c1.pin_1;
+    net_comp_c2_power_hv ~ buck_comp_c2.pin_1;
+    net_comp_c2_power_hv ~ buck_regulator.pin_COMP;
+
+    net buck_switch;
+    buck_switch ~ buck_boot_cap.pin_1;
+    buck_switch ~ buck_regulator.pin_BOOT;
+
+    net buck_ground;
+    buck_ground ~ buck_comp_c2.pin_2;
+    buck_ground ~ buck_comp_r1.pin_1;
+
+    net net_ss_cap_power_hv;
+    net_ss_cap_power_hv ~ buck_regulator.pin_SS;
+    net_ss_cap_power_hv ~ buck_ss_cap.pin_1;
+}
+
+module top () {
+    mod buck = new Buck5V();
+    rail input;
+    rail output;
+    input.h.name = "VIN";
+    input.l.name = "GND";
+    output.h.name = "5V";
+    input.h ~ buck.input.h;
+    input.l ~ buck.input.l;
+    output.h ~ buck.output.h;
+    output.l ~ buck.output.l;
+}

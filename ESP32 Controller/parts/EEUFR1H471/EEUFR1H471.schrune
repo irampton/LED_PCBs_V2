@@ -1,0 +1,21 @@
+part EEUFR1H471 {
+    info: {
+        value: "470uF",
+        voltage: "50V",
+        tolerance: "20%",
+        rippleCurrent: "2.26A at 100kHz",
+        partNumber: "EEUFR1H471",
+        manufacture: "PANASONIC(松下)",
+        footprint: "./EEUFR1H471.kicad_mod",
+        package: "CAP-TH_BD12.5-P5.00-D0.6-FD",
+        symbol: "./EEUFR1H471.kicad_sym",
+        model: "./CAP-TH_D12.5-H20.0-P5.00.step",
+        LCSC: "C178708",
+        designatorPrefix: "C",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

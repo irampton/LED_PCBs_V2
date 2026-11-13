@@ -1,0 +1,22 @@
+part RVE470UF35V167RV084 {
+    info: {
+        value: "470uF",
+        voltage: "35V",
+        tolerance: "20%",
+        rippleCurrent: "670mA at 100kHz, 105C",
+        esr: "230mOhm max at 100kHz",
+        partNumber: "RVE470UF35V167RV084",
+        manufacture: "KNSCHA(科尼盛)",
+        footprint: "./RVE470UF35V167RV084.kicad_mod",
+        package: "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD",
+        symbol: "./RVE470UF35V167RV084.kicad_sym",
+        model: "./CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD.step",
+        LCSC: "C5155332",
+        designatorPrefix: "C",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

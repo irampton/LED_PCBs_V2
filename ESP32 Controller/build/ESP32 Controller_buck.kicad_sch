@@ -1,0 +1,970 @@
+(kicad_sch (version 20260306) (generator "Schrune") (generator_version "10.0")
+  (uuid 5fd94db7-6116-4be3-7ee6-968673cf4777)
+  (paper "A1")
+  (lib_symbols
+    (symbol "XL1509-5.0E1"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "U"
+          (id 0)
+          (at 0 12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "XL1509-5.0E1"
+          (id 1)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+          (id 2)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://lcsc.com/product-detail/DC-DC-Converters_XL1509-5-0E1_C61063.html"
+          (id 3)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "XLSEMI(芯龙)"
+          (id 4)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "XL1509-5.0E1"
+          (id 5)
+          (at 0 -22.86 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C61063"
+          (id 6)
+          (at 0 -25.40 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "DC-DC Converters"
+          (id 8)
+          (at 0 -27.94 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "XL1509-5.0E1_0_1"
+          (rectangle
+            (start -8.89 12.70)
+            (end 8.89 -12.70)
+            (stroke (width 0) (type default))
+            (fill (type background))
+          )
+          (pin passive line
+            (at -13.97 7.62 0)
+            (length 5.08)
+            (name "VIN" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -13.97 2.54 0)
+            (length 5.08)
+            (name "OUTPUT" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -13.97 -2.54 0)
+            (length 5.08)
+            (name "FB" (effects (font (size 1.27 1.27))))
+            (number "3" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -13.97 -7.62 0)
+            (length 5.08)
+            (name "ON/OFF" (effects (font (size 1.27 1.27))))
+            (number "4" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 13.97 -7.62 180)
+            (length 5.08)
+            (name "GND" (effects (font (size 1.27 1.27))))
+            (number "5" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 13.97 -2.54 180)
+            (length 5.08)
+            (name "GND" (effects (font (size 1.27 1.27))))
+            (number "6" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 13.97 2.54 180)
+            (length 5.08)
+            (name "GND" (effects (font (size 1.27 1.27))))
+            (number "7" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 13.97 7.62 180)
+            (length 5.08)
+            (name "GND" (effects (font (size 1.27 1.27))))
+            (number "8" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "XR1040-680M"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "U"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "XR1040-680M"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:IND-SMD_L11.5-W10.0_FXL1040"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://www.lcsc.com/datasheet/C5307658.pdf"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "XR(祥如)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "XR1040-680M"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C5307658"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Power Inductors"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "XR1040-680M_0_1"
+          (arc
+            (start -2.27 0.02)
+            (mid -3.28 1.10)
+            (end -4.29 0.02)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (arc
+            (start -0.11 0.02)
+            (mid -1.12 1.10)
+            (end -2.13 0.02)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (arc
+            (start 2.04 0.02)
+            (mid 1.03 1.10)
+            (end 0.02 0.02)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (arc
+            (start 4.23 0.02)
+            (mid 3.22 1.10)
+            (end 2.21 0.02)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 1.27)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 1.27)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "RVE470UF35V167RV084"
+        (in_bom yes)
+        (on_board yes)
+        (property
+          "Reference"
+          "C"
+          (id 0)
+          (at 0 5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Value"
+          "RVE470UF35V167RV084"
+          (id 1)
+          (at 0 -5.08 0)
+          (hide yes) (effects (font (size 1.27 1.27) ) )
+        )
+        (property
+          "Footprint"
+          "Schrune:CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD"
+          (id 2)
+          (at 0 -7.62 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Datasheet"
+          "https://www.lcsc.com/datasheet/C5155332.pdf"
+          (id 3)
+          (at 0 -10.16 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "Manufacturer"
+          "KNSCHA(科尼盛)"
+          (id 4)
+          (at 0 -12.70 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "MPN"
+          "RVE470UF35V167RV084"
+          (id 5)
+          (at 0 -15.24 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "LCSC Part"
+          "C5155332"
+          (id 6)
+          (at 0 -17.78 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (property
+          "ki_keywords"
+          "Aluminum Electrolytic Capacitors - SMD"
+          (id 8)
+          (at 0 -20.32 0)
+          (hide yes) (effects (font (size 1.27 1.27) ))
+        )
+        (symbol "RVE470UF35V167RV084_0_1"
+          (arc
+            (start 1.15 1.79)
+            (mid 0.42 0.02)
+            (end 1.13 -1.75)
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -0.51 1.78) (xy -0.51 -1.78)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -2.54 -0.00) (xy -0.51 -0.00)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy 0.51 -0.00) (xy 2.54 -0.00)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -2.29 1.27) (xy -1.27 1.27)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (polyline
+            (pts
+              (xy -1.78 1.78) (xy -1.78 0.76)
+            )
+            (stroke (width 0) (type default))
+            (fill (type none))
+          )
+          (pin passive line
+            (at -5.08 -0.00 0)
+            (length 2.54)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin passive line
+            (at 5.08 -0.00 180)
+            (length 2.54)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+        )
+      )
+    (symbol "1206B475K500NT"
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "C"
+    			(at 0 5.08 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes) (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "1206B475K500NT"
+    			(at 0 -5.08 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes) (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" "C29823:C1206"
+    			(at 0 -7.62 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_4-7uF-475-10-50V_C29823.html"
+    			(at 0 -10.16 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "LCSC Part" "C29823"
+    			(at 0 -12.7 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "1206B475K500NT_0_1"
+    			(polyline
+    				(pts
+    					(xy -1.27 0) (xy -0.51 0)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -0.51 2.03) (xy -0.51 -2.03)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy 0.51 2.03) (xy 0.51 -2.03)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy 0.51 0) (xy 1.27 0)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(pin passive line
+    				(at -3.81 0 0)
+    				(length 2.54)
+    				(name "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 3.81 0 180)
+    				(length 2.54)
+    				(name "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+    (symbol "SS34_C8678"
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "D"
+    			(at 0 5.08 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes) (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "SS34_C8678"
+    			(at 0 -5.08 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes) (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" "C8678:SMA_L4.3-W2.6-LS5.2-RD"
+    			(at 0 -7.62 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS34_C8678.html"
+    			(at 0 -10.16 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "LCSC Part" "C8678"
+    			(at 0 -12.7 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "SS34_C8678_0_1"
+    			(polyline
+    				(pts
+    					(xy -1.27 0) (xy -1.27 2.03) (xy -1.78 2.03) (xy -1.78 1.78)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -1.27 0) (xy -1.27 -2.03) (xy -0.76 -2.03) (xy -0.76 -1.78)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type background)
+    				)
+    			)
+    			(pin passive line
+    				(at -5.08 0 0)
+    				(length 3.81)
+    				(name "K"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 5.08 0 180)
+    				(length 3.81)
+    				(name "A"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+  )
+  (symbol (lib_id "XL1509-5.0E1") (at 76.20 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid db634424-ae1f-9406-70aa-66cca82cd29c)
+    (property "Reference" "U1" (at 76.20 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "XL1509-5.0E1" (at 76.20 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:XL1509_5_0E1" (at 76.20 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid cb08517e-d4fa-68e5-5ca3-49c58151ce8a))
+    (pin "2" (uuid c1d10f83-6f90-7832-96ed-ee8a586ebe4f))
+    (pin "3" (uuid be804f24-bf9b-6941-c872-f683ae1fc080))
+    (pin "4" (uuid a9cfd2e4-f3ae-0983-5d51-3d15288be362))
+    (pin "5" (uuid d58fdc73-6c19-a59d-3e02-479ad9682696))
+    (pin "6" (uuid 0b6852e2-c0bc-bbf7-0558-f28d8e2148ac))
+    (pin "7" (uuid 832327e1-73f6-a8c5-76dd-0ccb15ba1bcd))
+    (pin "8" (uuid e57362a7-4783-be6c-dc1f-2951e27807ae))
+    (instances
+      (project "ESP32 Controller"
+        (path "/"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "XR1040-680M") (at 279.40 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c5e06ba0-6a6a-edd4-c993-4376e3a81a0c)
+    (property "Reference" "L1" (at 279.40 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "XR1040-680M" (at 279.40 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:XR1040_680M" (at 279.40 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid 9da58f71-da34-a2ca-87cc-c6d27725ba31))
+    (pin "1" (uuid afd2f648-09d6-1f33-d3b4-cb96a3ef3fc5))
+    (instances
+      (project "ESP32 Controller"
+        (path "/"
+          (reference "L1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "RVE470UF35V167RV084") (at 482.60 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e20c6143-96ae-7eaf-f70d-0ceaae047e58)
+    (property "Reference" "C1" (at 482.60 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "RVE470UF35V167RV084" (at 482.60 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:RVE470UF35V167RV084" (at 482.60 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 73b9b5df-3e48-20c1-bfac-3fe411e6919c))
+    (pin "2" (uuid 89c57916-de44-5f99-fad4-7d5998a75968))
+    (instances
+      (project "ESP32 Controller"
+        (path "/"
+          (reference "C1")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "RVE470UF35V167RV084") (at 558.80 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 293a093c-802f-57a8-4627-82175fa367f6)
+    (property "Reference" "C4" (at 558.80 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "RVE470UF35V167RV084" (at 558.80 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:RVE470UF35V167RV084" (at 558.80 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid ea805217-04e6-a285-2557-83a5a768af79))
+    (pin "2" (uuid e4873eb8-02ea-7a28-5ad1-43c9a6c38be2))
+    (instances
+      (project "ESP32 Controller"
+        (path "/"
+          (reference "C4")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "1206B475K500NT") (at 635.00 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a0e796e8-174f-6f4e-a1be-b981ca53aee4)
+    (property "Reference" "C3" (at 635.00 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "1206B475K500NT" (at 635.00 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:FH_1206B475K500NT" (at 635.00 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 6b9d2bb6-b254-d25d-71e1-bbe02a2c80cf))
+    (pin "2" (uuid 9f9f1f0b-09df-8298-42d0-3855212ce0be))
+    (instances
+      (project "ESP32 Controller"
+        (path "/"
+          (reference "C3")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "RVE470UF35V167RV084") (at 685.80 101.60 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0225b8b2-8df4-3ef7-cf4e-465efbd06909)
+    (property "Reference" "C2" (at 685.80 96.52 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "RVE470UF35V167RV084" (at 685.80 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:RVE470UF35V167RV084" (at 685.80 109.22 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid ef2b7973-4816-2a9f-21f1-6f3fa59233f3))
+    (pin "2" (uuid 81de27ad-7783-365a-1137-fc5ebd247444))
+    (instances
+      (project "ESP32 Controller"
+        (path "/"
+          (reference "C2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "SS34_C8678") (at 76.20 177.80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9c5e5eba-0913-bd79-df31-49a607f4a7b1)
+    (property "Reference" "D2" (at 76.20 172.72 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SS34" (at 76.20 182.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Schrune:MDD_Microdiode_Electronics_SS34" (at 76.20 185.42 0) (hide yes)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid be0f80b1-47cd-4010-3a3a-b41f4ab45aac))
+    (pin "2" (uuid f1bc9c73-ed23-dcc4-c7f2-028f3b6f577c))
+    (instances
+      (project "ESP32 Controller"
+        (path "/"
+          (reference "D2")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire (pts (xy 62.23 93.98) (xy 54.61 93.98))
+    (stroke (width 0) (type default))
+    (uuid 8484ceb4-2a19-b555-f3a2-8207ee74da8a)
+  )
+  (global_label "V+" (shape input) (at 54.61 93.98 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 83eea9d6-ad0f-2e38-2167-292ff5fa4e7f)
+  )
+  (wire (pts (xy 62.23 99.06) (xy 52.07 99.06))
+    (stroke (width 0) (type default))
+    (uuid 78ddbcf1-9f38-8f7a-6c4b-9bbb6a7305b5)
+  )
+  (global_label "buck_switching" (shape input) (at 52.07 99.06 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 8daac9d8-96a8-d3df-cb41-f3806b766a9e)
+  )
+  (wire (pts (xy 62.23 104.14) (xy 49.53 104.14))
+    (stroke (width 0) (type default))
+    (uuid 7fe82643-f127-d777-44c7-8f4841612c41)
+  )
+  (global_label "5V" (shape input) (at 49.53 104.14 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 88c14789-90d6-d583-0042-27ec6bce1f8d)
+  )
+  (wire (pts (xy 62.23 109.22) (xy 46.99 109.22))
+    (stroke (width 0) (type default))
+    (uuid 4f536e73-dcf3-f0bc-923a-bab2dca19a9f)
+  )
+  (global_label "GND" (shape input) (at 46.99 109.22 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid f119c218-e690-94a9-d8a9-7b48ff0a3dd8)
+  )
+  (wire (pts (xy 90.17 109.22) (xy 105.41 109.22))
+    (stroke (width 0) (type default))
+    (uuid 99d3b580-286c-9d8f-df6b-3341d214b7ad)
+  )
+  (global_label "GND" (shape input) (at 105.41 109.22 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid b70378f8-5d5e-129e-da60-c3095097dc15)
+  )
+  (wire (pts (xy 90.17 104.14) (xy 102.87 104.14))
+    (stroke (width 0) (type default))
+    (uuid a3112aa0-8c24-e480-84a2-9b2ff5866ffe)
+  )
+  (global_label "GND" (shape input) (at 102.87 104.14 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid ffb72bef-9eb3-146b-d78e-e11dc917c421)
+  )
+  (wire (pts (xy 90.17 99.06) (xy 100.33 99.06))
+    (stroke (width 0) (type default))
+    (uuid c36ab852-5d5e-18cc-0991-32fc6d7dc54d)
+  )
+  (global_label "GND" (shape input) (at 100.33 99.06 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 72ebc673-e183-4393-b800-da275d555899)
+  )
+  (wire (pts (xy 90.17 93.98) (xy 97.79 93.98))
+    (stroke (width 0) (type default))
+    (uuid f312e16a-f1f9-10a9-e45b-408c5664bff6)
+  )
+  (global_label "GND" (shape input) (at 97.79 93.98 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid df9bc246-cd5e-9480-5147-d8b8abb3ab87)
+  )
+  (wire (pts (xy 274.32 101.60) (xy 266.70 101.60))
+    (stroke (width 0) (type default))
+    (uuid 432f8463-5305-fed5-55dc-5e070e2f545a)
+  )
+  (global_label "buck_switching" (shape input) (at 266.70 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 2f0c2364-ebc5-6b3a-b780-9fe429a91e35)
+  )
+  (wire (pts (xy 284.48 101.60) (xy 292.10 101.60))
+    (stroke (width 0) (type default))
+    (uuid 43af1a4f-14a8-fe08-e1c5-bba413c47174)
+  )
+  (global_label "5V" (shape input) (at 292.10 101.60 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 953addfd-9304-5e45-bcb2-3d58c83e9412)
+  )
+  (wire (pts (xy 477.52 101.60) (xy 469.90 101.60))
+    (stroke (width 0) (type default))
+    (uuid ece7e292-162e-409d-654b-dbd7174d475c)
+  )
+  (global_label "V+" (shape input) (at 469.90 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid ac6f531c-f2cc-b418-f0a3-9944cbecebe2)
+  )
+  (wire (pts (xy 487.68 101.60) (xy 495.30 101.60))
+    (stroke (width 0) (type default))
+    (uuid eaa7a7c1-e4a9-577c-ba0b-894aa77297f8)
+  )
+  (global_label "GND" (shape input) (at 495.30 101.60 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 4f2acb6d-3c7d-a5d2-7478-c77a0986155d)
+  )
+  (wire (pts (xy 553.72 101.60) (xy 546.10 101.60))
+    (stroke (width 0) (type default))
+    (uuid 265360e3-d7ac-b399-4f56-1c6bf08a026d)
+  )
+  (global_label "V+" (shape input) (at 546.10 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 955fbd47-7bfb-1cff-886c-615e6b595bf5)
+  )
+  (wire (pts (xy 563.88 101.60) (xy 571.50 101.60))
+    (stroke (width 0) (type default))
+    (uuid bc6c886a-26ab-20c7-3ebe-49e922fb2193)
+  )
+  (global_label "GND" (shape input) (at 571.50 101.60 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid a082bbad-5107-92ab-1720-c67d8fef6379)
+  )
+  (wire (pts (xy 631.19 101.60) (xy 623.57 101.60))
+    (stroke (width 0) (type default))
+    (uuid 3f3c6255-296f-54f2-cba4-44b803f445df)
+  )
+  (global_label "V+" (shape input) (at 623.57 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid 8ded287a-6863-202e-2c87-529679fe4886)
+  )
+  (wire (pts (xy 638.81 101.60) (xy 646.43 101.60))
+    (stroke (width 0) (type default))
+    (uuid 39feab66-dd3b-b774-5b4a-63a6cdf020c0)
+  )
+  (global_label "GND" (shape input) (at 646.43 101.60 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 19218b8e-5aaf-92b3-853b-55a90831dfea)
+  )
+  (wire (pts (xy 680.72 101.60) (xy 673.10 101.60))
+    (stroke (width 0) (type default))
+    (uuid f092fd42-1b99-6094-afcf-2eaf94772710)
+  )
+  (global_label "5V" (shape input) (at 673.10 101.60 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid cf37f181-83c5-31f0-8071-b287e8566397)
+  )
+  (wire (pts (xy 690.88 101.60) (xy 698.50 101.60))
+    (stroke (width 0) (type default))
+    (uuid fe123da8-db90-5384-f707-09ccff3e5f41)
+  )
+  (global_label "GND" (shape input) (at 698.50 101.60 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 565a1c6b-d473-b5a4-39ca-1640063e21b2)
+  )
+  (wire (pts (xy 71.12 177.80) (xy 63.50 177.80))
+    (stroke (width 0) (type default))
+    (uuid cdd0675f-2e10-48af-437f-07727b925f2d)
+  )
+  (global_label "buck_switching" (shape input) (at 63.50 177.80 180)
+    (effects (font (size 1.27 1.27)))
+    (uuid e05ed972-fdc3-3d81-2119-cd1a09346234)
+  )
+  (wire (pts (xy 81.28 177.80) (xy 88.90 177.80))
+    (stroke (width 0) (type default))
+    (uuid 603ecbf8-f7ce-e36c-9ba1-ff1f85bde2fb)
+  )
+  (global_label "GND" (shape input) (at 88.90 177.80 0)
+    (effects (font (size 1.27 1.27)))
+    (uuid 1c7971d0-8c92-2699-1781-077ed9b819d3)
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

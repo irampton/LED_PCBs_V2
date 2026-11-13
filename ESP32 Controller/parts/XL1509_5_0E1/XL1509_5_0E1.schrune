@@ -1,0 +1,26 @@
+part XL1509_5_0E1 {
+    info: {
+        value: "5V",
+        voltage: "7..28V input",
+        currentRating: "2A",
+        partNumber: "XL1509-5.0E1",
+        manufacture: "XLSEMI(芯龙)",
+        footprint: "./XL1509_5_0E1.kicad_mod",
+        package: "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+        symbol: "./XL1509_5_0E1.kicad_sym",
+        model: "./SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL.step",
+        LCSC: "C61063",
+        designatorPrefix: "U",
+    }
+
+    pins: [
+        VIN:1,
+        OUTPUT:2,
+        FB:3,
+        ON_OFF:4,
+        GND:5,
+        GND_6:6,
+        GND_7:7,
+        GND_8:8,
+    ]
+}

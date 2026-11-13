@@ -1,56 +1,26 @@
 {
   "version": 1,
   "assignments": {
-    "C\u0000id:\u0000buck_boot_cap\u0000": [
-      "C1"
-    ],
-    "C\u0000id:\u0000buck_cin1_0\u0000": [
-      "C3"
-    ],
-    "C\u0000id:\u0000buck_cin1_1\u0000": [
-      "C4"
-    ],
-    "C\u0000id:\u0000buck_cin2\u0000": [
-      "C2"
-    ],
-    "C\u0000id:\u0000buck_comp_c1\u0000": [
-      "C5"
-    ],
-    "C\u0000id:\u0000buck_comp_c2\u0000": [
-      "C6"
-    ],
-    "R\u0000id:\u0000buck_comp_r1\u0000": [
-      "R9"
-    ],
-    "C\u0000id:\u0000buck_cout_0\u0000": [
-      "C12"
-    ],
-    "C\u0000id:\u0000buck_cout_1\u0000": [
-      "C13"
-    ],
-    "R\u0000id:\u0000buck_en_r1\u0000": [
-      "R10"
-    ],
-    "R\u0000id:\u0000buck_en_r2\u0000": [
-      "R11"
-    ],
-    "R\u0000id:\u0000buck_fb_r1\u0000": [
-      "R1"
-    ],
-    "R\u0000id:\u0000buck_fb_r2\u0000": [
-      "R2"
-    ],
-    "D\u0000id:\u0000buck_flyback\u0000": [
-      "D2"
-    ],
-    "L\u0000id:\u0000buck_inductor\u0000": [
-      "L2"
-    ],
-    "U\u0000id:\u0000buck_regulator\u0000": [
+    "U\u0000id:buck\u0000regulator\u0000": [
       "U1"
     ],
-    "C\u0000id:\u0000buck_ss_cap\u0000": [
-      "C14"
+    "L\u0000id:buck\u0000inductor\u0000": [
+      "L1"
+    ],
+    "C\u0000id:buck\u0000cin_bulk\u0000": [
+      "C1"
+    ],
+    "C\u0000id:buck\u0000cin_bulk2\u0000": [
+      "C4"
+    ],
+    "C\u0000id:buck\u0000cin_bypass\u0000": [
+      "C3"
+    ],
+    "C\u0000id:buck\u0000cout\u0000": [
+      "C2"
+    ],
+    "D\u0000id:buck\u0000flyback\u0000": [
+      "D2"
     ],
     "C\u0000id:\u0000ldo_cin\u0000": [
       "C10"

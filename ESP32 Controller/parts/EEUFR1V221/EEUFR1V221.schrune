@@ -1,0 +1,21 @@
+part EEUFR1V221 {
+    info: {
+        value: "220uF",
+        voltage: "35V",
+        tolerance: "20%",
+        rippleCurrent: "950mA at 100kHz",
+        partNumber: "EEUFR1V221",
+        manufacture: "PANASONIC(松下)",
+        footprint: "./EEUFR1V221.kicad_mod",
+        package: "CAP-TH_BD8.0-P3.50-D0.6-FD",
+        symbol: "./EEUFR1V221.kicad_sym",
+        model: "./CAP-TH_D8.0-H8.0-P3.50.step",
+        LCSC: "C264063",
+        designatorPrefix: "C",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

@@ -1,0 +1,21 @@
+part CYH125_68UH {
+    info: {
+        value: "68uH",
+        tolerance: "20%",
+        currentRating: "3A",
+        dcr: "64.8mOhm max",
+        partNumber: "CYH125-68UH",
+        manufacture: "SHOU HAN(首韩)",
+        footprint: "./CYH125_68UH.kicad_mod",
+        package: "IND-SMD_L12.5-W12.5",
+        symbol: "./CYH125_68UH.kicad_sym",
+        model: "./SMD-PIND_L12.5-W12.5-H8.0.step",
+        LCSC: "C7431083",
+        designatorPrefix: "L",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

@@ -1,0 +1,71 @@
+@require("XL1509_5_0E1");
+@require("XR1040_680M");
+@require("RVE470UF35V167RV084");
+@require("FH_1206B475K500NT");
+@require("MDD_Microdiode_Electronics_SS34");
+
+// Self-contained, always-on, non-isolated 5 V buck supply.
+// Interface: input.h = 7..28 V DC, input.l = ground;
+//            output.h = 5 V, output.l = the same ground.
+// Up to 2 A, subject to PCB thermal design and bench validation.
+// Reference: XL1509 datasheet, fixed 5 V application and layout guidelines.
+// Keep CIN, diode and IC power loops short; sense FB at COUT positive.
+// Place the ceramic bypass at VIN/GND; connect all four IC ground pins.
+// Two 470 uF / 35 V input capacitors share ripple current (670 mA each).
+// One matching output capacitor avoids a second Extended-part loading fee.
+// Output ESR <= 230 mR: allow roughly 0.15 V p-p ripple at full load.
+// Inductor: 68 uH, Isat 3 A typ, Irms 2.5 A typ, DCR <= 195 mR.
+module Buck5V () {
+    rail input;
+    rail output;
+    output.voltage = 5V;
+
+    part regulator = new XL1509_5_0E1();
+    part inductor = new XR1040_680M();
+    part cin_bulk = new RVE470UF35V167RV084();
+    part cin_bulk2 = new RVE470UF35V167RV084();
+    part cin_bypass = new FH_1206B475K500NT();
+    part cout = new RVE470UF35V167RV084();
+    part flyback = new MDD_Microdiode_Electronics_SS34();
+
+    input.h ~ regulator.VIN;
+    input.h ~ cin_bulk.1;
+    input.h ~ cin_bulk2.1;
+    input.h ~ cin_bypass.pin_1;
+
+    net switching;
+    switching ~ regulator.OUTPUT;
+    switching ~ flyback.pin_K;
+    switching ~ inductor.1;
+
+    output.h ~ inductor.2;
+    output.h ~ cout.1;
+    output.h ~ regulator.FB;
+
+    input.l ~ output.l;
+    input.l ~ regulator.ON_OFF;
+    input.l ~ regulator.GND;
+    input.l ~ regulator.GND_6;
+    input.l ~ regulator.GND_7;
+    input.l ~ regulator.GND_8;
+    input.l ~ cin_bulk.2;
+    input.l ~ cin_bulk2.2;
+    input.l ~ cin_bypass.pin_2;
+    input.l ~ cout.2;
+    input.l ~ flyback.pin_A;
+}
+
+// Allows this file to be compiled directly as a standalone supply.
+// Import Buck5V from this file to use it in a larger design.
+module top () {
+    mod buck = new Buck5V();
+    rail input;
+    rail output;
+    input.h.name = "VIN";
+    input.l.name = "GND";
+    output.h.name = "5V";
+    input.h ~ buck.input.h;
+    input.l ~ buck.input.l;
+    output.h ~ buck.output.h;
+    output.l ~ buck.output.l;
+}

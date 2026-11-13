@@ -1,0 +1,23 @@
+(kicad_sch (version 20260306) (generator "Schrune") (generator_version "10.0")
+  (uuid 917bb795-ea91-4b37-a434-973a8a795c80)
+  (paper "A1")
+  (lib_symbols
+
+  )
+  (sheet (at 76.20 101.60) (size 30.48 15.24)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7624d3f6-b520-f78b-bbf7-fbcac379d5d5)
+    (property "Sheetname" "buck" (at 76.20 100.33 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "buck_buck.kicad_sch" (at 76.20 118.11 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)
