@@ -8,139 +8,94 @@
 @require("XUNPU_TS_1088_AR02016");
 
 module top () {
-    // The imported buck module steps the DC input down to 5 V.
-    mod buck = new Buck5V();
+    // Power rails
+    rail power_5v;
+    rail power_3v3;
+    rail power_in;
 
-    // 3.3 V regulator
+    power_5v.name = "5V";
+    power_3v3.name = "3V3";
+    power_in.name = "V+";
+
+    net GND;
+    GND.name = "GND";
+    power_5v.l ~ GND;
+    power_3v3.l ~ GND;
+
+    // Buck
+    mod buck = new Buck5V();
+    power_in ~ buck.input
+    power_5v ~ buck.output; 
+
+    // LDO
+    part ldo = new Advanced_Monolithic_Systems_AMS1117_3_3();
+    power_5v ~ ldo.VIN;
+    power_3v3 ~ ldo.VOUT;
+
     part ldo_cin = new Capacitor(value = "10uF", footprint = "0603", LCSC = "C19702", voltage = 10V);
     part ldo_cout = new Capacitor(value = "22uF", footprint = "0603", LCSC = "C59461", voltage = 6.3V);
-    part ldo_ldo = new Advanced_Monolithic_Systems_AMS1117_3_3();
+    
+    power_5v ~> ldo_cin ~> GND;
+    power_3v3 ~> ldo_cout ~> GND;
 
-    // ESP32-C3 and support components
-    part esp32_boot_button = new XUNPU_TS_1088_AR02016();
-    part esp32_boot_pullup = new Resistor(value = "10k", footprint = "0402", LCSC = "C25744");
-    part esp32_en_cap = new Capacitor(value = "1uF", footprint = "0402", LCSC = "C52923", voltage = 25V);
-    part esp32_en_pullup = new Resistor(value = "10k", footprint = "0402", LCSC = "C25744");
+    // Ports
+    part dc_input = new CUI_PJ_002BH();
+
+    power_in ~ dc_input.pin_1;
+    GND ~ dc_input.pin_2;
+    GND ~ dc_input.pin_3;
+
+    part header_1 = new BOOMELE_2_54_2_3P();
+
+    power_in ~ header_1.pin_1;
+    power_in ~ header_1.pin_5;
+    GND ~ header_1.pin_2;
+    GND ~ header_1.pin_6;
+
+    // ESP32
+    part esp32 = new Espressif_Systems_ESP32_C3_WROOM_02_N4();
     part esp32_esp32_bulk_cap = new Capacitor(value = "10uF", footprint = "0603", LCSC = "C19702", voltage = 10V);
     part esp32_esp32_bypass_cap = new Capacitor(value = "100nF", footprint = "0603", LCSC = "C14663", voltage = 50V);
-    part esp32_pins = new Espressif_Systems_ESP32_C3_WROOM_02_N4();
-    part esp32_reset_button = new XUNPU_TS_1088_AR02016();
-    part esp32_usb_dm_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
-    part esp32_usb_dp_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
+    
+    power_3v3 ~ esp32.power_3v3;
+    power_3v3 ~> esp32_esp32_bulk_cap ~> GND;
+    power_3v3 ~> esp32_esp32_bypass_cap ~> GND;
 
-    // Connectors and USB power
-    part CC1_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
-    part CC2_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
-    part WS2812b_1 = new BOOMELE_2_54_1_3P();
-    part WS2812b_2 = new BOOMELE_2_54_1_3P();
-    part dc_input = new CUI_PJ_002BH();
-    part header_1 = new BOOMELE_2_54_2_3P();
+    // GPIO9 is pulled high for normal boot. Hold the boot button during reset to enter download mode.
+    part esp32_boot_button = new XUNPU_TS_1088_AR02016();
+    part esp32_boot_pullup = new Resistor(value = "10k", footprint = "0402", LCSC = "C25744");
+    
+    esp32.gpio9 ~> esp32_boot_pullup ~> power_3v3;
+    esp32.gpio9 ~> esp32_boot_button ~> GND;
+    
+    // The pull-up and capacitor delay enable at power-on. The reset button pulls EN low.
+    part esp32_reset_button = new XUNPU_TS_1088_AR02016();
+    part esp32_en_cap = new Capacitor(value = "1uF", footprint = "0402", LCSC = "C52923", voltage = 25V);
+    part esp32_en_pullup = new Resistor(value = "10k", footprint = "0402", LCSC = "C25744");
+    
+    esp32.en ~> esp32_en_pullup ~> power_3v3;
+    esp32.en ~> esp32_en_cap ~> GND;
+    esp32.en ~> esp32_reset_button ~> GND;
+
+    // USB-C Port
     part usb_port = new BXCONN_UC09_0B16F00P11();
     part usb_power_diode = new Diode(value = "SS34", footprint = "SMA", LCSC = "C8678");
 
-    // WS2812B data outputs for LED connectors 1 and 2.
-    esp32_pins.gpio1 ~ WS2812b_1.pin_2;
-    esp32_pins.gpio3 ~ WS2812b_2.pin_2;
+    usb_port.VBUS ~> usb_power_diode ~> power_5v;
+    GND ~ usb_port.GND;
+    GND ~ usb_port.EH;
 
-    // LDO output supplies the ESP32, its decoupling capacitors, and the boot/reset pull-ups.
-    net v3v3;
-    v3v3.name = "3V3";
-    v3v3 ~ esp32_boot_pullup.0;
-    v3v3 ~ esp32_en_pullup.0;
-    v3v3 ~ esp32_esp32_bulk_cap.0;
-    v3v3 ~ esp32_esp32_bypass_cap.0;
-    v3v3 ~ esp32_pins.power_3v3.h;
-    v3v3 ~ ldo_cout.0;
-    v3v3 ~ ldo_ldo.pin_4;
-    v3v3 ~ ldo_ldo.pin_VOUT;
+    part CC1_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
+    part CC2_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
+    usb_port.pin_CC1 ~> CC1_resistor ~> GND;
+    usb_port.pin_CC2 ~> CC2_resistor ~> GND;
 
-    // The buck or diode-fed USB supply powers the LED connectors and the 3.3 V LDO.
-    net v5;
-    v5.name = "5V";
-    v5 ~ buck.output.h;
-    v5 ~ WS2812b_1.pin_3;
-    v5 ~ WS2812b_2.pin_3;
-    v5 ~ ldo_cin.0;
-    v5 ~ ldo_ldo.pin_VIN;
-    v5 ~ usb_power_diode.0;
-
-    // GPIO9 is pulled high for normal boot. Hold the boot button during reset to enter download mode.
-    net BOOT;
-    BOOT ~ esp32_boot_button.pin_A;
-    BOOT ~ esp32_boot_pullup.1;
-    BOOT ~ esp32_pins.gpio9;
-
-    // USB-C Rd pull-downs identify the port as a sink on either plug orientation.
-    usb_port.pin_CC1 ~ CC1_resistor.0;
-    usb_port.pin_CC2 ~ CC2_resistor.0;
-
-    // Common return for the supplies, ESP32, buttons, and connectors.
-    net GND;
-    GND.name = "GND";
-    GND ~ buck.input.l;
-    GND ~ buck.output.l;
-    GND ~ CC1_resistor.1;
-    GND ~ CC2_resistor.1;
-    GND ~ WS2812b_1.pin_1;
-    GND ~ WS2812b_2.pin_1;
-    GND ~ dc_input.pin_2;
-    GND ~ dc_input.pin_3;
-    GND ~ esp32_boot_button.pin_B;
-    GND ~ esp32_en_cap.1;
-    GND ~ esp32_esp32_bulk_cap.1;
-    GND ~ esp32_esp32_bypass_cap.1;
-    GND ~ esp32_pins.power_3v3.l;
-    GND ~ esp32_reset_button.pin_B;
-    GND ~ header_1.pin_2;
-    GND ~ header_1.pin_6;
-    GND ~ ldo_cin.1;
-    GND ~ ldo_cout.1;
-    GND ~ ldo_ldo.pin_GND;
-    GND ~ usb_port.pin_17;
-    GND ~ usb_port.pin_19;
-    GND ~ usb_port.pin_20;
-    GND ~ usb_port.pin_A1B12;
-    GND ~ usb_port.pin_EH;
-    GND ~ usb_port.pin_GND;
-
-    // The pull-up and capacitor delay enable at power-on. The reset button pulls EN low.
-    net RESET;
-    RESET ~ esp32_en_cap.0;
-    RESET ~ esp32_en_pullup.1;
-    RESET ~ esp32_pins.en;
-    RESET ~ esp32_reset_button.pin_A;
-
-    // Raw DC input feeds the buck and passes through to the output header.
-    net vin;
-    vin.name = "V+";
-    vin ~ buck.input.h;
-    vin ~ dc_input.pin_1;
-    vin ~ header_1.pin_1;
-    vin ~ header_1.pin_5;
+    part esp32_usb_dn_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
+    part esp32_usb_dp_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
+    esp32.Dn ~> esp32_usb_dn_series ~> usb_port.Dn;
+    esp32.Dp ~> esp32_usb_dp_series ~> usb_port.Dp;
 
     // Cool and warm PWM outputs go to the LED driver header.
-    esp32_pins.gpio4 ~ header_1.pin_3;
-    esp32_pins.gpio5 ~ header_1.pin_4;
-
-    // USB D- and D+ reach the ESP32 through series resistors.
-    esp32_pins.gpio18 ~ esp32_usb_dm_series.1;
-    esp32_pins.gpio19 ~ esp32_usb_dp_series.1;
-
-    // Tie the two receptacle contacts for each USB data signal together.
-    net usb_n;
-    usb_n ~ esp32_usb_dm_series.0;
-    usb_n ~ usb_port.pin_Dn1;
-    usb_n ~ usb_port.pin_Dn2;
-
-    net usb_p;
-    usb_p ~ esp32_usb_dp_series.0;
-    usb_p ~ usb_port.pin_Dp1;
-    usb_p ~ usb_port.pin_Dp2;
-
-    // USB VBUS feeds the 5 V rail through the diode, which blocks backfeed into the USB port.
-    net vUSB;
-    vUSB ~ usb_port.pin_A4B9;
-    vUSB ~ usb_port.pin_VBUS;
-    vUSB ~ usb_power_diode.1;
-
+    esp32.gpio4 ~ header_1.pin_3;
+    esp32.gpio5 ~ header_1.pin_4;
 }

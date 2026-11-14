@@ -90,11 +90,6 @@ module top () {
     mod buck = new Buck5V();
     rail input;
     rail output;
-    input.h.name = "VIN";
-    input.l.name = "GND";
-    output.h.name = "5V";
-    input.h ~ buck.input.h;
-    input.l ~ buck.input.l;
-    output.h ~ buck.output.h;
-    output.l ~ buck.output.l;
+    input ~ buck;
+    output ~ buck.output;
 }

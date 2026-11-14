@@ -26,8 +26,8 @@ part Espressif_Systems_ESP32_C3_WROOM_02_N4 {
         gpio8: 7,
         gpio9: 8,
         gpio10: 10,
-        gpio18: 13,
-        gpio19: 14,
+        Dn: 13,
+        Dp: 14,
         gpio20: 11,
         gpio21: 12
     ]
