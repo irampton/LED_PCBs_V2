@@ -1,4 +1,4 @@
-@require(Buck5V from "./buck.schrune");
+@require(Buck5V from "./old_buck.schrune");
 @require("Advanced_Monolithic_Systems_AMS1117_3_3");
 @require("BOOMELE_2_54_1_3P");
 @require("BOOMELE_2_54_2_3P");
