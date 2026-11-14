@@ -1,0 +1,22 @@
+part CL05B103KB5NNNC {
+    info: {
+        partNumber: "CL05B103KB5NNNC",
+        manufacture: "SAMSUNG(三星)",
+        footprint: "./CL05B103KB5NNNC.kicad_mod",
+        package: "0402",
+        symbol: "./CL05B103KB5NNNC.kicad_sym",
+        model: "./C0402_L1.0-W0.5-H0.5.step",
+        LCSC: "C15195",
+        designatorPrefix: "C",
+        value: "10nF",
+        tolerance: "±10%",
+        maxVoltage: "50V",
+        temperatureCoefficient: "X7R",
+        comment: "10nF ±10% 50V X7R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

@@ -1,0 +1,22 @@
+part CC0603KRX7R9BB104 {
+    info: {
+        partNumber: "CC0603KRX7R9BB104",
+        manufacture: "YAGEO(国巨)",
+        footprint: "./CC0603KRX7R9BB104.kicad_mod",
+        package: "0603",
+        symbol: "./CC0603KRX7R9BB104.kicad_sym",
+        model: "./C0603_L1.6-W0.8-H0.8.step",
+        LCSC: "C14663",
+        designatorPrefix: "C",
+        value: "100nF",
+        tolerance: "±10%",
+        maxVoltage: "50V",
+        temperatureCoefficient: "X7R",
+        comment: "100nF ±10% 50V X7R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

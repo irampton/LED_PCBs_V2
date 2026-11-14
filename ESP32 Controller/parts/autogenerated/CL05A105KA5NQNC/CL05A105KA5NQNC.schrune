@@ -1,0 +1,22 @@
+part CL05A105KA5NQNC {
+    info: {
+        partNumber: "CL05A105KA5NQNC",
+        manufacture: "SAMSUNG(三星)",
+        footprint: "./CL05A105KA5NQNC.kicad_mod",
+        package: "0402",
+        symbol: "./CL05A105KA5NQNC.kicad_sym",
+        model: "./C0402_L1.0-W0.5-H0.5.step",
+        LCSC: "C52923",
+        designatorPrefix: "C",
+        value: "1uF",
+        tolerance: "±10%",
+        maxVoltage: "25V",
+        temperatureCoefficient: "X5R",
+        comment: "1uF ±10% 25V X5R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

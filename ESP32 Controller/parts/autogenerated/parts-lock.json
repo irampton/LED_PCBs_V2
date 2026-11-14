@@ -1,6 +1,588 @@
 {
   "version": 1,
-  "parts": [],
-  "selectors": {},
-  "selectionCache": {}
+  "parts": [
+    {
+      "lcsc": "C1523",
+      "partName": "P_0402B102K500NT",
+      "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+      "mpn": "0402B102K500NT",
+      "package": "0402",
+      "description": "1nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402B102K500NT_C1523.pdf",
+      "stock": 3571850,
+      "unitCost": 0.0036,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "50V",
+        "Tolerance": "±10%",
+        "Capacitance": "1nF",
+        "Temperature Coefficient": "X7R"
+      },
+      "comment": "1nF ±10% 50V X7R",
+      "value": "1nF",
+      "tolerance": "±10%",
+      "maxVoltage": "50V",
+      "temperatureCoefficient": "X7R"
+    },
+    {
+      "lcsc": "C1525",
+      "partName": "CL05B104KO5NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL05B104KO5NNNC",
+      "package": "0402",
+      "description": "100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf",
+      "stock": 38192551,
+      "unitCost": 0.0024,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "16V",
+        "Tolerance": "±10%",
+        "Capacitance": "100nF",
+        "Temperature Coefficient": "X7R"
+      },
+      "comment": "100nF ±10% 16V X7R",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "maxVoltage": "16V",
+      "temperatureCoefficient": "X7R"
+    },
+    {
+      "lcsc": "C1567",
+      "partName": "P_0402CG470J500NT",
+      "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+      "mpn": "0402CG470J500NT",
+      "package": "0402",
+      "description": "47pF 50V C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG470J500NT_C1567.pdf",
+      "stock": 600006,
+      "unitCost": 0.0044,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "50V",
+        "Tolerance": "±5%",
+        "Capacitance": "47pF",
+        "Temperature Coefficient": "C0G"
+      },
+      "comment": "47pF ±5% 50V C0G",
+      "value": "47pF",
+      "tolerance": "±5%",
+      "maxVoltage": "50V",
+      "temperatureCoefficient": "C0G"
+    },
+    {
+      "lcsc": "C4177",
+      "partName": "P_0603WAF1801T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0603WAF1801T5E",
+      "package": "0603",
+      "description": "-55℃~+155℃ 1.8kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0603WAF1801T5E_C4177.pdf",
+      "stock": 555416,
+      "unitCost": 0.0021,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "1.8kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "1.8kΩ ±1% 100mW",
+      "value": "1.8kΩ",
+      "tolerance": "±1%",
+      "wattage": "100mW"
+    },
+    {
+      "lcsc": "C8678",
+      "partName": "SS34",
+      "manufacturer": "MDD(Microdiode Semiconductor)",
+      "mpn": "SS34",
+      "package": "SMA(DO-214AC)",
+      "description": "-55℃~+125℃ 3A 40V 500uA@40V 550mV@3A Independent SMA(DO-214AC) Schottky Diodes ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101107_MDD-Microdiode-Semiconductor-SS34_C8678.pdf",
+      "stock": 2709752,
+      "unitCost": 0.0351,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage - Forward(Vf@If)": "550mV@3A",
+        "Power Dissipation": "-",
+        "Non-Repetitive Peak Forward Surge Current": "80A",
+        "Voltage - DC Reverse(Vr)": "40V",
+        "Operating Junction Temperature Range": "-55℃~+125℃",
+        "Diode Configuration": "Standalone",
+        "Current - Rectified": "3A",
+        "Reverse Leakage Current (Ir)": "500uA@40V"
+      },
+      "comment": "",
+      "reverseVoltage": "",
+      "voltageDrop": "",
+      "current": ""
+    },
+    {
+      "lcsc": "C14663",
+      "partName": "CC0603KRX7R9BB104",
+      "manufacturer": "YAGEO",
+      "mpn": "CC0603KRX7R9BB104",
+      "package": "0603",
+      "description": "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf",
+      "stock": 34564361,
+      "unitCost": 0.0104,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "50V",
+        "Tolerance": "±10%",
+        "Capacitance": "100nF",
+        "Temperature Coefficient": "X7R"
+      },
+      "comment": "100nF ±10% 50V X7R",
+      "value": "100nF",
+      "tolerance": "±10%",
+      "maxVoltage": "50V",
+      "temperatureCoefficient": "X7R"
+    },
+    {
+      "lcsc": "C15195",
+      "partName": "CL05B103KB5NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL05B103KB5NNNC",
+      "package": "0402",
+      "description": "10nF 50V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf",
+      "stock": 6083027,
+      "unitCost": 0.0037,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "50V",
+        "Tolerance": "±10%",
+        "Capacitance": "10nF",
+        "Temperature Coefficient": "X7R"
+      },
+      "comment": "10nF ±10% 50V X7R",
+      "value": "10nF",
+      "tolerance": "±10%",
+      "maxVoltage": "50V",
+      "temperatureCoefficient": "X7R"
+    },
+    {
+      "lcsc": "C19702",
+      "partName": "CL10A106KP8NNNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL10A106KP8NNNC",
+      "package": "0603",
+      "description": "10V 10uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A106KP8NNNC_C19702.pdf",
+      "stock": 11636228,
+      "unitCost": 0.0233,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "10V",
+        "Tolerance": "±10%",
+        "Capacitance": "10uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "comment": "10uF ±10% 10V X5R",
+      "value": "10uF",
+      "tolerance": "±10%",
+      "maxVoltage": "10V",
+      "temperatureCoefficient": "X5R"
+    },
+    {
+      "lcsc": "C22984",
+      "partName": "P_0603WAF3002T5E",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0603WAF3002T5E",
+      "package": "0603",
+      "description": "-55℃~+155℃ 100mW 30kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3002T5E_C22984.pdf",
+      "stock": 1598076,
+      "unitCost": 0.0024,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "30kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "100mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "75V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "30kΩ ±1% 100mW",
+      "value": "30kΩ",
+      "tolerance": "±1%",
+      "wattage": "100mW"
+    },
+    {
+      "lcsc": "C25092",
+      "partName": "P_0402WGF220JTCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0402WGF220JTCE",
+      "package": "0402",
+      "description": "-55℃~+155℃ 22Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF220JTCE_C25092.pdf",
+      "stock": 4784416,
+      "unitCost": 0.001,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "22Ω",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "22Ω ±1% 62.5mW",
+      "value": "22Ω",
+      "tolerance": "±1%",
+      "wattage": "62.5mW"
+    },
+    {
+      "lcsc": "C25744",
+      "partName": "P_0402WGF1002TCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0402WGF1002TCE",
+      "package": "0402",
+      "description": "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf",
+      "stock": 21104889,
+      "unitCost": 0.001,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "10kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "10kΩ ±1% 62.5mW",
+      "value": "10kΩ",
+      "tolerance": "±1%",
+      "wattage": "62.5mW"
+    },
+    {
+      "lcsc": "C25778",
+      "partName": "P_0402WGF3303TCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0402WGF3303TCE",
+      "package": "0402",
+      "description": "-55℃~+155℃ 330kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF3303TCE_C25778.pdf",
+      "stock": 729560,
+      "unitCost": 0.0013,
+      "isBasic": false,
+      "isPreferred": true,
+      "attributes": {
+        "Resistance": "330kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "330kΩ ±1% 62.5mW",
+      "value": "330kΩ",
+      "tolerance": "±1%",
+      "wattage": "62.5mW"
+    },
+    {
+      "lcsc": "C25905",
+      "partName": "P_0402WGF5101TCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0402WGF5101TCE",
+      "package": "0402",
+      "description": "-55℃~+155℃ 5.1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf",
+      "stock": 3942831,
+      "unitCost": 0.0014,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Resistance": "5.1kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "5.1kΩ ±1% 62.5mW",
+      "value": "5.1kΩ",
+      "tolerance": "±1%",
+      "wattage": "62.5mW"
+    },
+    {
+      "lcsc": "C29823",
+      "partName": "P_1206B475K500NT",
+      "manufacturer": "FH (Guangdong Fenghua Advanced Tech)",
+      "mpn": "1206B475K500NT",
+      "package": "1206",
+      "description": "4.7uF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206B475K500NT_C29823.pdf",
+      "stock": 558575,
+      "unitCost": 0.0697,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "50V",
+        "Tolerance": "±10%",
+        "Capacitance": "4.7uF",
+        "Temperature Coefficient": "X7R"
+      },
+      "comment": "4.7uF ±10% 50V X7R",
+      "value": "4.7uF",
+      "tolerance": "±10%",
+      "maxVoltage": "50V",
+      "temperatureCoefficient": "X7R"
+    },
+    {
+      "lcsc": "C36871",
+      "partName": "P_0402WGF6802TCE",
+      "manufacturer": "UNI-ROYAL(Uniroyal Elec)",
+      "mpn": "0402WGF6802TCE",
+      "package": "0402",
+      "description": "-55℃~+155℃ 50V 62.5mW 68kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0402WGF6802TCE_C36871.pdf",
+      "stock": 1111805,
+      "unitCost": 0.0012,
+      "isBasic": false,
+      "isPreferred": true,
+      "attributes": {
+        "Resistance": "68kΩ",
+        "Operating Temperature": "-55℃~+155℃",
+        "Power(Watts)": "62.5mW",
+        "Type": "Thick Film Resistor",
+        "Voltage-Supply(Max)": "50V",
+        "Tolerance": "±1%",
+        "Temperature Coefficient": "±100ppm/℃"
+      },
+      "comment": "68kΩ ±1% 62.5mW",
+      "value": "68kΩ",
+      "tolerance": "±1%",
+      "wattage": "62.5mW"
+    },
+    {
+      "lcsc": "C52923",
+      "partName": "CL05A105KA5NQNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL05A105KA5NQNC",
+      "package": "0402",
+      "description": "1uF 25V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf",
+      "stock": 10290947,
+      "unitCost": 0.0057,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "25V",
+        "Tolerance": "±10%",
+        "Capacitance": "1uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "comment": "1uF ±10% 25V X5R",
+      "value": "1uF",
+      "tolerance": "±10%",
+      "maxVoltage": "25V",
+      "temperatureCoefficient": "X5R"
+    },
+    {
+      "lcsc": "C59461",
+      "partName": "CL10A226MQ8NRNC",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL10A226MQ8NRNC",
+      "package": "0603",
+      "description": "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A226MQ8NRNC_C59461.pdf",
+      "stock": 6260633,
+      "unitCost": 0.0221,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "6.3V",
+        "Tolerance": "±20%",
+        "Capacitance": "22uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "comment": "22uF ±20% 6.3V X5R",
+      "value": "22uF",
+      "tolerance": "±20%",
+      "maxVoltage": "6.3V",
+      "temperatureCoefficient": "X5R"
+    },
+    {
+      "lcsc": "C96123",
+      "partName": "CL31A476MPHNNNE",
+      "manufacturer": "Samsung Electro-Mechanics",
+      "mpn": "CL31A476MPHNNNE",
+      "package": "1206",
+      "description": "10V 47uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31A476MPHNNNE_C96123.pdf",
+      "stock": 500794,
+      "unitCost": 0.1628,
+      "isBasic": true,
+      "isPreferred": false,
+      "attributes": {
+        "Voltage Rating": "10V",
+        "Tolerance": "±20%",
+        "Capacitance": "47uF",
+        "Temperature Coefficient": "X5R"
+      },
+      "comment": "47uF ±20% 10V X5R",
+      "value": "47uF",
+      "tolerance": "±20%",
+      "maxVoltage": "10V",
+      "temperatureCoefficient": "X5R"
+    },
+    {
+      "lcsc": "C22463822",
+      "partName": "SL0630_6R8M",
+      "manufacturer": "TECHFUSE",
+      "mpn": "SL0630-6R8M",
+      "package": "SMD,7.1x6.6mm",
+      "description": "5.5A 6.5A 6.8uH 65mΩ ±20% SMD,7.1x6.6mm Molding Power Inductors ROHS",
+      "datasheetUrl": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406141138_TECHFUSE-SL0630-6R8M_C22463822.pdf",
+      "stock": 1237,
+      "unitCost": 0.0889,
+      "isBasic": false,
+      "isPreferred": false,
+      "attributes": {
+        "Current - Saturation(Isat)": "6.5A",
+        "Inductance": "6.8uH",
+        "Current Rating": "5.5A",
+        "Tolerance": "±20%",
+        "Application Grade": "Consumer grade",
+        "DC Resistance(DCR)": "65mΩ"
+      },
+      "comment": "6.8uH ±20% 5.5A",
+      "value": "6.8uH",
+      "tolerance": "±20%",
+      "currentRating": "5.5A",
+      "dcr": ""
+    }
+  ],
+  "selectors": {
+    "C1": "C1525",
+    "C2": "C15195",
+    "C3": "C15195",
+    "C4": "C1523",
+    "C5": "C29823",
+    "C6": "C29823",
+    "C7": "C52923",
+    "C8": "C19702",
+    "C9": "C14663",
+    "C10": "C19702",
+    "C11": "C59461",
+    "C12": "C1567",
+    "C13": "C96123",
+    "C14": "C96123",
+    "D1": "C8678",
+    "D2": "C8678",
+    "L1": "C22463822",
+    "R1": "C4177",
+    "R2": "C25744",
+    "R3": "C25744",
+    "R4": "C25744",
+    "R5": "C25092",
+    "R6": "C25092",
+    "R7": "C25905",
+    "R8": "C25905",
+    "R9": "C22984",
+    "R10": "C25778",
+    "R11": "C36871"
+  },
+  "selectionCache": {
+    "{\"type\":\"Capacitor\",\"value\":\"100nF\",\"footprint\":\"0402\",\"voltage\":{\"number\":16,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C1525",
+      "partName": "CL05B104KO5NNNC"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"100nF\",\"footprint\":\"0603\",\"voltage\":{\"number\":50,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C14663",
+      "partName": "CC0603KRX7R9BB104"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"10nF\",\"footprint\":\"0402\",\"voltage\":{\"number\":50,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C15195",
+      "partName": "CL05B103KB5NNNC"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"10uF\",\"footprint\":\"0603\",\"voltage\":{\"number\":10,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C19702",
+      "partName": "CL10A106KP8NNNC"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"1nF\",\"footprint\":\"0402\",\"voltage\":{\"number\":50,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C1523",
+      "partName": "P_0402B102K500NT"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"1uF\",\"footprint\":\"0402\",\"voltage\":{\"number\":25,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C52923",
+      "partName": "CL05A105KA5NQNC"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"22uF\",\"footprint\":\"0603\",\"voltage\":{\"number\":6.3,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C59461",
+      "partName": "CL10A226MQ8NRNC"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"4.7uF\",\"footprint\":\"1206\",\"voltage\":{\"number\":50,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C29823",
+      "partName": "P_1206B475K500NT"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"47pF\",\"footprint\":\"0402\",\"voltage\":{\"number\":50,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C1567",
+      "partName": "P_0402CG470J500NT"
+    },
+    "{\"type\":\"Capacitor\",\"value\":\"47uF\",\"footprint\":\"1206\",\"voltage\":{\"number\":10,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C96123",
+      "partName": "CL31A476MPHNNNE"
+    },
+    "{\"type\":\"Diode\",\"value\":\"SS34\",\"footprint\":\"SMA\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C8678",
+      "partName": "SS34"
+    },
+    "{\"type\":\"Inductor\",\"value\":\"6.8uH\",\"footprint\":\"IND-SMD_L7.0-W6.6-H3.0\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C22463822",
+      "partName": "SL0630_6R8M"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"1.8k\",\"footprint\":\"0603\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C4177",
+      "partName": "P_0603WAF1801T5E"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"10k\",\"footprint\":\"0402\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C25744",
+      "partName": "P_0402WGF1002TCE"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"22\",\"footprint\":\"0402\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C25092",
+      "partName": "P_0402WGF220JTCE"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"30k\",\"footprint\":\"0603\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C22984",
+      "partName": "P_0603WAF3002T5E"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"330k\",\"footprint\":\"0402\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C25778",
+      "partName": "P_0402WGF3303TCE"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"5.1k\",\"footprint\":\"0402\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C25905",
+      "partName": "P_0402WGF5101TCE"
+    },
+    "{\"type\":\"Resistor\",\"value\":\"68k\",\"footprint\":\"0402\",\"voltage\":null,\"power\":null,\"tolerance\":null}": {
+      "lcsc": "C36871",
+      "partName": "P_0402WGF6802TCE"
+    }
+  }
 }

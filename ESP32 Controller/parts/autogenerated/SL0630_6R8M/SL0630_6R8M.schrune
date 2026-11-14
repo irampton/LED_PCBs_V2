@@ -1,0 +1,22 @@
+part SL0630_6R8M {
+    info: {
+        partNumber: "SL0630-6R8M",
+        manufacture: "台湾陆海",
+        footprint: "./SL0630_6R8M.kicad_mod",
+        package: "SMD,7.1x6.6mm",
+        symbol: "./SL0630_6R8M.kicad_sym",
+        model: "./IND-SMD_L7.0-W6.6-H3.0.step",
+        LCSC: "C22463822",
+        designatorPrefix: "L",
+        value: "6.8uH",
+        tolerance: "±20%",
+        currentRating: "5.5A",
+        dcr: "",
+        comment: "6.8uH ±20% 5.5A",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

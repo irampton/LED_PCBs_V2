@@ -5,151 +5,96 @@
 @require("BXCONN_UC09_0B16F00P11");
 @require("CUI_PJ_002BH");
 @require("Espressif_Systems_ESP32_C3_WROOM_02_N4");
-@require("MDD_Microdiode_Electronics_SS34");
-@require("Samsung_Electro_Mechanics_CL05A105KA5NQNC");
-@require("Samsung_Electro_Mechanics_CL10A106KP8NNNC");
-@require("Samsung_Electro_Mechanics_CL10A226MQ8NRNC");
-@require("UNI_ROYAL_0402WGF1002TCE");
-@require("UNI_ROYAL_0402WGF220JTCE");
-@require("UNI_ROYAL_0402WGF5101TCE");
 @require("XUNPU_TS_1088_AR02016");
-@require("YAGEO_CC0603KRX7R9BB104");
 
 module top () {
-    // Self-contained 5 V supply; all support components live in buck.schrune.
+    // The imported buck module steps the DC input down to 5 V.
     mod buck = new Buck5V();
 
     // 3.3 V regulator
-    part ldo_cin = new Samsung_Electro_Mechanics_CL10A106KP8NNNC();
-    part ldo_cout = new Samsung_Electro_Mechanics_CL10A226MQ8NRNC();
+    part ldo_cin = new Capacitor(value = "10uF", footprint = "0603", LCSC = "C19702", voltage = 10V);
+    part ldo_cout = new Capacitor(value = "22uF", footprint = "0603", LCSC = "C59461", voltage = 6.3V);
     part ldo_ldo = new Advanced_Monolithic_Systems_AMS1117_3_3();
 
     // ESP32-C3 and support components
     part esp32_boot_button = new XUNPU_TS_1088_AR02016();
-    part esp32_boot_pullup = new UNI_ROYAL_0402WGF1002TCE();
-    part esp32_en_cap = new Samsung_Electro_Mechanics_CL05A105KA5NQNC();
-    part esp32_en_pullup = new UNI_ROYAL_0402WGF1002TCE();
-    part esp32_esp32_bulk_cap = new Samsung_Electro_Mechanics_CL10A106KP8NNNC();
-    part esp32_esp32_bypass_cap = new YAGEO_CC0603KRX7R9BB104();
+    part esp32_boot_pullup = new Resistor(value = "10k", footprint = "0402", LCSC = "C25744");
+    part esp32_en_cap = new Capacitor(value = "1uF", footprint = "0402", LCSC = "C52923", voltage = 25V);
+    part esp32_en_pullup = new Resistor(value = "10k", footprint = "0402", LCSC = "C25744");
+    part esp32_esp32_bulk_cap = new Capacitor(value = "10uF", footprint = "0603", LCSC = "C19702", voltage = 10V);
+    part esp32_esp32_bypass_cap = new Capacitor(value = "100nF", footprint = "0603", LCSC = "C14663", voltage = 50V);
     part esp32_pins = new Espressif_Systems_ESP32_C3_WROOM_02_N4();
     part esp32_reset_button = new XUNPU_TS_1088_AR02016();
-    part esp32_usb_dm_series = new UNI_ROYAL_0402WGF220JTCE();
-    part esp32_usb_dp_series = new UNI_ROYAL_0402WGF220JTCE();
+    part esp32_usb_dm_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
+    part esp32_usb_dp_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
 
     // Connectors and USB power
-    part CC1_resistor = new UNI_ROYAL_0402WGF5101TCE();
-    part CC2_resistor = new UNI_ROYAL_0402WGF5101TCE();
+    part CC1_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
+    part CC2_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
     part WS2812b_1 = new BOOMELE_2_54_1_3P();
     part WS2812b_2 = new BOOMELE_2_54_1_3P();
     part dc_input = new CUI_PJ_002BH();
     part header_1 = new BOOMELE_2_54_2_3P();
     part usb_port = new BXCONN_UC09_0B16F00P11();
-    part usb_power_diode = new MDD_Microdiode_Electronics_SS34();
+    part usb_power_diode = new Diode(value = "SS34", footprint = "SMA", LCSC = "C8678");
 
-    net net_10;
-    net_10.name = "10";
-    net_10 ~ esp32_pins.pin_IO10;
+    // WS2812B data outputs for LED connectors 1 and 2.
+    esp32_pins.gpio1 ~ WS2812b_1.pin_2;
+    esp32_pins.gpio3 ~ WS2812b_2.pin_2;
 
-    net net_13;
-    net_13.name = "13";
-    net_13 ~ esp32_pins.pin_IO18;
-    net_13 ~ esp32_usb_dm_series.pin_2;
-
-    net net_14;
-    net_14.name = "14";
-    net_14 ~ esp32_pins.pin_IO19;
-    net_14 ~ esp32_usb_dp_series.pin_2;
-
-    net net_16;
-    net_16.name = "16";
-    net_16 ~ esp32_pins.pin_IO2;
-
-    net net_18;
-    net_18.name = "18";
-    net_18 ~ esp32_pins.pin_IO0;
-
-    net net_2;
-    net_2.name = "2";
-    net_2 ~ WS2812b_1.pin_2;
-    net_2 ~ esp32_pins.pin_IO1;
-
-    net net_2_1;
-    net_2_1.name = "2-1";
-    net_2_1 ~ WS2812b_2.pin_2;
-    net_2_1 ~ esp32_pins.pin_IO3;
-
+    // LDO output supplies the ESP32, its decoupling capacitors, and the boot/reset pull-ups.
     net v3v3;
     v3v3.name = "3V3";
-    v3v3 ~ esp32_boot_pullup.pin_1;
-    v3v3 ~ esp32_en_pullup.pin_1;
-    v3v3 ~ esp32_esp32_bulk_cap.pin_1;
-    v3v3 ~ esp32_esp32_bypass_cap.pin_1;
-    v3v3 ~ esp32_pins.pin_P3V3;
-    v3v3 ~ ldo_cout.pin_1;
+    v3v3 ~ esp32_boot_pullup.0;
+    v3v3 ~ esp32_en_pullup.0;
+    v3v3 ~ esp32_esp32_bulk_cap.0;
+    v3v3 ~ esp32_esp32_bypass_cap.0;
+    v3v3 ~ esp32_pins.power_3v3.h;
+    v3v3 ~ ldo_cout.0;
     v3v3 ~ ldo_ldo.pin_4;
     v3v3 ~ ldo_ldo.pin_VOUT;
 
-    net net_5;
-    net_5.name = "5";
-    net_5 ~ esp32_pins.pin_IO6;
-
+    // The buck or diode-fed USB supply powers the LED connectors and the 3.3 V LDO.
     net v5;
     v5.name = "5V";
     v5 ~ buck.output.h;
     v5 ~ WS2812b_1.pin_3;
     v5 ~ WS2812b_2.pin_3;
-    v5 ~ ldo_cin.pin_1;
+    v5 ~ ldo_cin.0;
     v5 ~ ldo_ldo.pin_VIN;
-    v5 ~ usb_power_diode.pin_K;
+    v5 ~ usb_power_diode.0;
 
-    net net_6;
-    net_6.name = "6";
-    net_6 ~ esp32_pins.pin_IO7;
-
-    net net_7;
-    net_7.name = "7";
-    net_7 ~ esp32_pins.pin_IO8;
-
-    net A8;
-    A8 ~ usb_port.pin_SBU1;
-
-    net B8;
-    B8 ~ usb_port.pin_SBU2;
-
+    // GPIO9 is pulled high for normal boot. Hold the boot button during reset to enter download mode.
     net BOOT;
     BOOT ~ esp32_boot_button.pin_A;
-    BOOT ~ esp32_boot_pullup.pin_2;
-    BOOT ~ esp32_pins.pin_IO9;
+    BOOT ~ esp32_boot_pullup.1;
+    BOOT ~ esp32_pins.gpio9;
 
-    net CC1;
-    CC1 ~ CC1_resistor.pin_1;
-    CC1 ~ usb_port.pin_CC1;
+    // USB-C Rd pull-downs identify the port as a sink on either plug orientation.
+    usb_port.pin_CC1 ~ CC1_resistor.0;
+    usb_port.pin_CC2 ~ CC2_resistor.0;
 
-    net CC2;
-    CC2 ~ CC2_resistor.pin_1;
-    CC2 ~ usb_port.pin_CC2;
-
+    // Common return for the supplies, ESP32, buttons, and connectors.
     net GND;
     GND.name = "GND";
     GND ~ buck.input.l;
     GND ~ buck.output.l;
-    GND ~ CC1_resistor.pin_2;
-    GND ~ CC2_resistor.pin_2;
+    GND ~ CC1_resistor.1;
+    GND ~ CC2_resistor.1;
     GND ~ WS2812b_1.pin_1;
     GND ~ WS2812b_2.pin_1;
     GND ~ dc_input.pin_2;
     GND ~ dc_input.pin_3;
     GND ~ esp32_boot_button.pin_B;
-    GND ~ esp32_en_cap.pin_2;
-    GND ~ esp32_esp32_bulk_cap.pin_2;
-    GND ~ esp32_esp32_bypass_cap.pin_2;
-    GND ~ esp32_pins.pin_EP;
-    GND ~ esp32_pins.pin_GND;
+    GND ~ esp32_en_cap.1;
+    GND ~ esp32_esp32_bulk_cap.1;
+    GND ~ esp32_esp32_bypass_cap.1;
+    GND ~ esp32_pins.power_3v3.l;
     GND ~ esp32_reset_button.pin_B;
     GND ~ header_1.pin_2;
     GND ~ header_1.pin_6;
-    GND ~ ldo_cin.pin_2;
-    GND ~ ldo_cout.pin_2;
+    GND ~ ldo_cin.1;
+    GND ~ ldo_cout.1;
     GND ~ ldo_ldo.pin_GND;
     GND ~ usb_port.pin_17;
     GND ~ usb_port.pin_19;
@@ -158,18 +103,14 @@ module top () {
     GND ~ usb_port.pin_EH;
     GND ~ usb_port.pin_GND;
 
+    // The pull-up and capacitor delay enable at power-on. The reset button pulls EN low.
     net RESET;
-    RESET ~ esp32_en_cap.pin_1;
-    RESET ~ esp32_en_pullup.pin_2;
-    RESET ~ esp32_pins.pin_EN;
+    RESET ~ esp32_en_cap.0;
+    RESET ~ esp32_en_pullup.1;
+    RESET ~ esp32_pins.en;
     RESET ~ esp32_reset_button.pin_A;
 
-    net RXD;
-    RXD ~ esp32_pins.pin_RXD;
-
-    net TXD;
-    TXD ~ esp32_pins.pin_TXD;
-
+    // Raw DC input feeds the buck and passes through to the output header.
     net vin;
     vin.name = "V+";
     vin ~ buck.input.h;
@@ -177,27 +118,29 @@ module top () {
     vin ~ header_1.pin_1;
     vin ~ header_1.pin_5;
 
-    net pwm_cool;
-    pwm_cool ~ esp32_pins.pin_IO4;
-    pwm_cool ~ header_1.pin_3;
+    // Cool and warm PWM outputs go to the LED driver header.
+    esp32_pins.gpio4 ~ header_1.pin_3;
+    esp32_pins.gpio5 ~ header_1.pin_4;
 
-    net pwm_warm;
-    pwm_warm ~ esp32_pins.pin_IO5;
-    pwm_warm ~ header_1.pin_4;
+    // USB D- and D+ reach the ESP32 through series resistors.
+    esp32_pins.gpio18 ~ esp32_usb_dm_series.1;
+    esp32_pins.gpio19 ~ esp32_usb_dp_series.1;
 
+    // Tie the two receptacle contacts for each USB data signal together.
     net usb_n;
-    usb_n ~ esp32_usb_dm_series.pin_1;
+    usb_n ~ esp32_usb_dm_series.0;
     usb_n ~ usb_port.pin_Dn1;
     usb_n ~ usb_port.pin_Dn2;
 
     net usb_p;
-    usb_p ~ esp32_usb_dp_series.pin_1;
+    usb_p ~ esp32_usb_dp_series.0;
     usb_p ~ usb_port.pin_Dp1;
     usb_p ~ usb_port.pin_Dp2;
 
+    // USB VBUS feeds the 5 V rail through the diode, which blocks backfeed into the USB port.
     net vUSB;
     vUSB ~ usb_port.pin_A4B9;
     vUSB ~ usb_port.pin_VBUS;
-    vUSB ~ usb_power_diode.pin_A;
+    vUSB ~ usb_power_diode.1;
 
 }

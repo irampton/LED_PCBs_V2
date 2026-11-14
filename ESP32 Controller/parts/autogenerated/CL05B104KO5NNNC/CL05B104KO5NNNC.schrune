@@ -1,0 +1,22 @@
+part CL05B104KO5NNNC {
+    info: {
+        partNumber: "CL05B104KO5NNNC",
+        manufacture: "SAMSUNG(三星)",
+        footprint: "./CL05B104KO5NNNC.kicad_mod",
+        package: "0402",
+        symbol: "./CL05B104KO5NNNC.kicad_sym",
+        model: "./C0402_L1.0-W0.5-H0.5.step",
+        LCSC: "C1525",
+        designatorPrefix: "C",
+        value: "100nF",
+        tolerance: "±10%",
+        maxVoltage: "16V",
+        temperatureCoefficient: "X7R",
+        comment: "100nF ±10% 16V X7R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}
