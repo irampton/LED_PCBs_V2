@@ -1,0 +1,22 @@
+part CL31A107MQHNNNE {
+    info: {
+        partNumber: "CL31A107MQHNNNE",
+        manufacture: "SAMSUNG(三星)",
+        footprint: "./CL31A107MQHNNNE.kicad_mod",
+        package: "1206",
+        symbol: "./CL31A107MQHNNNE.kicad_sym",
+        model: "./C1206_L3.2-W1.6-H1.3.step",
+        LCSC: "C15008",
+        designatorPrefix: "C",
+        value: "100uF",
+        tolerance: "±20%",
+        maxVoltage: "6.3V",
+        temperatureCoefficient: "X5R",
+        comment: "100uF ±20% 6.3V X5R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

@@ -1,0 +1,22 @@
+part HCMA_0630_150_M_K {
+    info: {
+        partNumber: "HCMA-0630-150-M-K",
+        manufacture: "YOUCHI(佑驰)",
+        footprint: "./HCMA_0630_150_M_K.kicad_mod",
+        package: "SMD,7.3x6.6mm",
+        symbol: "./HCMA_0630_150_M_K.kicad_sym",
+        model: "./IND-SMD_L7.3-W6.6_HCMA-0630.step",
+        LCSC: "C54431704",
+        designatorPrefix: "L",
+        value: "15uH",
+        tolerance: "±20%",
+        currentRating: "3A",
+        dcr: "",
+        comment: "15uH ±20% 3A",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

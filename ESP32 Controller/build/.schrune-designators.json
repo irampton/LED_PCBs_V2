@@ -1,65 +1,53 @@
 {
   "version": 1,
   "assignments": {
-    "C\u0000id:buck\u0000buck_boot_cap\u0000": [
-      "C1"
-    ],
-    "C\u0000id:buck\u0000buck_cin1_0\u0000": [
-      "C5"
-    ],
-    "C\u0000id:buck\u0000buck_cin1_1\u0000": [
-      "C6"
-    ],
-    "C\u0000id:buck\u0000buck_cin2\u0000": [
-      "C3"
-    ],
-    "C\u0000id:buck\u0000buck_comp_c1\u0000": [
-      "C12"
-    ],
-    "C\u0000id:buck\u0000buck_comp_c2\u0000": [
-      "C4"
-    ],
-    "R\u0000id:buck\u0000buck_comp_r1\u0000": [
-      "R9"
-    ],
-    "C\u0000id:buck\u0000buck_cout_0\u0000": [
-      "C13"
-    ],
-    "C\u0000id:buck\u0000buck_cout_1\u0000": [
-      "C14"
-    ],
-    "R\u0000id:buck\u0000buck_en_r1\u0000": [
-      "R10"
-    ],
-    "R\u0000id:buck\u0000buck_en_r2\u0000": [
-      "R11"
-    ],
-    "R\u0000id:buck\u0000buck_fb_r1\u0000": [
-      "R2"
-    ],
-    "R\u0000id:buck\u0000buck_fb_r2\u0000": [
-      "R1"
-    ],
-    "D\u0000id:buck\u0000buck_flyback\u0000": [
-      "D2"
-    ],
-    "L\u0000id:buck\u0000buck_inductor\u0000": [
-      "L1"
-    ],
-    "U\u0000id:buck\u0000buck_regulator\u0000": [
+    "U\u0000id:buck\u0000regulator\u0000": [
       "U1"
     ],
-    "C\u0000id:buck\u0000buck_ss_cap\u0000": [
-      "C2"
-    ],
-    "U\u0000id:\u0000ldo\u0000": [
-      "U2"
-    ],
-    "C\u0000id:\u0000ldo_cin\u0000": [
+    "C\u0000id:buck\u0000cin1\u0000": [
       "C10"
     ],
-    "C\u0000id:\u0000ldo_cout\u0000": [
+    "C\u0000id:buck\u0000cin2\u0000": [
       "C11"
+    ],
+    "C\u0000id:buck\u0000bootstrap\u0000": [
+      "C3"
+    ],
+    "L\u0000id:buck\u0000inductor\u0000": [
+      "L1"
+    ],
+    "D\u0000id:buck\u0000flyback\u0000": [
+      "D2"
+    ],
+    "C\u0000id:buck\u0000cout1\u0000": [
+      "C15"
+    ],
+    "C\u0000id:buck\u0000cout2\u0000": [
+      "C16"
+    ],
+    "R\u0000id:buck\u0000fb_upper\u0000": [
+      "R2"
+    ],
+    "R\u0000id:buck\u0000fb_lower\u0000": [
+      "R1"
+    ],
+    "C\u0000id:buck\u0000ff_main\u0000": [
+      "C1"
+    ],
+    "C\u0000id:buck\u0000ff_trim1\u0000": [
+      "C2"
+    ],
+    "C\u0000id:buck\u0000ff_trim2\u0000": [
+      "C4"
+    ],
+    "C\u0000id:buck\u0000comp_shunt\u0000": [
+      "C6"
+    ],
+    "C\u0000id:buck\u0000comp_cap\u0000": [
+      "C5"
+    ],
+    "R\u0000id:buck\u0000comp_res\u0000": [
+      "R5"
     ],
     "J\u0000id:\u0000dc_input\u0000": [
       "J2"
@@ -90,24 +78,6 @@
     ],
     "R\u0000id:\u0000esp32_en_pullup\u0000": [
       "R4"
-    ],
-    "USB\u0000id:\u0000usb_port\u0000": [
-      "USB1"
-    ],
-    "D\u0000id:\u0000usb_power_diode\u0000": [
-      "D1"
-    ],
-    "R\u0000id:\u0000CC1_resistor\u0000": [
-      "R7"
-    ],
-    "R\u0000id:\u0000CC2_resistor\u0000": [
-      "R8"
-    ],
-    "R\u0000id:\u0000esp32_usb_dn_series\u0000": [
-      "R5"
-    ],
-    "R\u0000id:\u0000esp32_usb_dp_series\u0000": [
-      "R6"
     ]
   }
 }

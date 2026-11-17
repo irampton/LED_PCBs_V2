@@ -1,0 +1,22 @@
+part CL31A106KBHNNNE {
+    info: {
+        partNumber: "CL31A106KBHNNNE",
+        manufacture: "SAMSUNG(三星)",
+        footprint: "./CL31A106KBHNNNE.kicad_mod",
+        package: "1206",
+        symbol: "./CL31A106KBHNNNE.kicad_sym",
+        model: "./C1206_L3.2-W1.6-H1.3.step",
+        LCSC: "C13585",
+        designatorPrefix: "C",
+        value: "10uF",
+        tolerance: "±10%",
+        maxVoltage: "50V",
+        temperatureCoefficient: "X5R",
+        comment: "10uF ±10% 50V X5R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

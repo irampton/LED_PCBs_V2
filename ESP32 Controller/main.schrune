@@ -1,4 +1,4 @@
-@require(Buck5V from "./old_buck.schrune");
+@require(Buck from "./buck.schrune");
 @require("Advanced_Monolithic_Systems_AMS1117_3_3");
 @require("BOOMELE_2_54_1_3P");
 @require("BOOMELE_2_54_2_3P");
@@ -9,43 +9,32 @@
 
 module top () {
     // Power rails
-    rail power_5v;
     rail power_3v3;
     rail power_in;
 
-    power_5v.name = "5V";
     power_3v3.name = "3V3";
     power_in.name = "V+";
 
     net GND;
     GND.name = "GND";
-    power_5v.l ~ GND;
     power_3v3.l ~ GND;
+    power_in.l ~ GND;
 
     // Buck
-    mod buck = new Buck5V();
+    mod buck = new Buck();
     power_in ~ buck.input
-    power_5v ~ buck.output; 
-
-    // LDO
-    part ldo = new Advanced_Monolithic_Systems_AMS1117_3_3();
-    power_5v ~ ldo.VIN;
-    power_3v3 ~ ldo.VOUT;
-
-    part ldo_cin = new Capacitor(value = "10uF", footprint = "0603", LCSC = "C19702", voltage = 10V);
-    part ldo_cout = new Capacitor(value = "22uF", footprint = "0603", LCSC = "C59461", voltage = 6.3V);
-    
-    power_5v ~> ldo_cin ~> GND;
-    power_3v3 ~> ldo_cout ~> GND;
+    power_3v3 ~ buck.output; 
 
     // Ports
     part dc_input = new CUI_PJ_002BH();
+    dc_input.place = false;
 
     power_in ~ dc_input.pin_1;
     GND ~ dc_input.pin_2;
     GND ~ dc_input.pin_3;
 
     part header_1 = new BOOMELE_2_54_2_3P();
+    header_1.place = false;
 
     power_in ~ header_1.pin_1;
     power_in ~ header_1.pin_5;
@@ -78,22 +67,12 @@ module top () {
     esp32.en ~> esp32_reset_button ~> GND;
 
     // USB-C Port
-    part usb_port = new BXCONN_UC09_0B16F00P11();
-    part usb_power_diode = new Diode(value = "SS34", footprint = "SMA", LCSC = "C8678");
+    //part usb_port = new BXCONN_UC09_0B16F00P11();
 
-    usb_port.VBUS ~> usb_power_diode ~> power_5v;
-    GND ~ usb_port.GND;
-    GND ~ usb_port.EH;
-
-    part CC1_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
-    part CC2_resistor = new Resistor(value = "5.1k", footprint = "0402", LCSC = "C25905");
-    usb_port.pin_CC1 ~> CC1_resistor ~> GND;
-    usb_port.pin_CC2 ~> CC2_resistor ~> GND;
-
-    part esp32_usb_dn_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
-    part esp32_usb_dp_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
-    esp32.Dn ~> esp32_usb_dn_series ~> usb_port.Dn;
-    esp32.Dp ~> esp32_usb_dp_series ~> usb_port.Dp;
+    //part esp32_usb_dn_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
+    //part esp32_usb_dp_series = new Resistor(value = "22", footprint = "0402", LCSC = "C25092");
+    //esp32.Dn ~> esp32_usb_dn_series ~> usb_port.Dn;
+    //esp32.Dp ~> esp32_usb_dp_series ~> usb_port.Dp;
 
     // Cool and warm PWM outputs go to the LED driver header.
     esp32.gpio4 ~ header_1.pin_3;

@@ -1,0 +1,22 @@
+part FAUL0630_150MT {
+    info: {
+        partNumber: "FAUL0630-150MT",
+        manufacture: "cjiang(长江微电)",
+        footprint: "./FAUL0630_150MT.kicad_mod",
+        package: "SMD,7x6.6mm",
+        symbol: "./FAUL0630_150MT.kicad_sym",
+        model: "./IND-SMD_L7.0-W6.6-H5.0_MCW-0650-220.step",
+        LCSC: "C3040358",
+        designatorPrefix: "U",
+        value: "15uH",
+        tolerance: "±20%",
+        currentRating: "3A",
+        dcr: "",
+        comment: "15uH ±20% 3A",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

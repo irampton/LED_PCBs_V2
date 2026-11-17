@@ -1,0 +1,21 @@
+part RC0603JR_075K1L {
+    info: {
+        partNumber: "RC0603JR-075K1L",
+        manufacture: "YAGEO(国巨)",
+        footprint: "./RC0603JR_075K1L.kicad_mod",
+        package: "0603",
+        symbol: "./RC0603JR_075K1L.kicad_sym",
+        model: "./R0603.step",
+        LCSC: "C14677",
+        designatorPrefix: "R",
+        value: "5.1kΩ",
+        tolerance: "±5%",
+        wattage: "100mW",
+        comment: "5.1kΩ ±5% 100mW",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

@@ -1,0 +1,62 @@
+@require("TPS5430DDAR");
+
+// Always-on 3.3 V buck from 7..28 V DC. Design target: up to 2 A,
+// subject to thermal and loop-stability validation on the finished board.
+// Keep VIN and PH power loops short, stitch DAP to the ground plane,
+// and sense VOUT at COUT away from PH. ENA has an internal pull-up.
+module Buck3V3 () {
+    rail input;
+    rail output;
+    output.voltage = 3.3V;
+
+    part regulator = new TPS5430DDAR();
+    part cin_bulk = new Capacitor(value = "470uF", footprint = "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD", LCSC = "C5155332", voltage = 35V);
+    part cin_bulk2 = new Capacitor(value = "470uF", footprint = "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD", LCSC = "C5155332", voltage = 35V);
+    part cin_bypass = new Capacitor(value = "4.7uF", footprint = "1206", LCSC = "C29823", voltage = 50V);
+    part cin_bypass2 = new Capacitor(value = "4.7uF", footprint = "1206", LCSC = "C29823", voltage = 50V);
+    part bootstrap = new Capacitor(value = "10nF", footprint = "0402", LCSC = "C15195", voltage = 50V);
+    part inductor = new Inductor(value = "15uH", footprint = "IND-SMD_L7.0-W6.6-H3.0", LCSC = "C3040358");
+    part flyback = new Diode(value = "SS34", footprint = "SMA", LCSC = "C8678");
+    part cout = new Capacitor(value = "330uF", footprint = "CAP-SMD_BD6.3", LCSC = "C3275656", voltage = 6.3V);
+
+    // 1.221 V * (1 + 10k / (5.6k + 300)) = 3.290 V.
+    part fb_upper = new Resistor(value = "10k", footprint = "0603", LCSC = "C25804");
+    part fb_lower = new Resistor(value = "5.6k", footprint = "0603", LCSC = "C23189");
+    part fb_trim = new Resistor(value = "300", footprint = "0603", LCSC = "C23025");
+
+    input.h ~ regulator.VIN;
+    input.h ~> cin_bulk ~> input.l;
+    input.h ~> cin_bulk2 ~> input.l;
+    input.h ~> cin_bypass ~> input.l;
+    input.h ~> cin_bypass2 ~> input.l;
+
+    net switching;
+    switching ~ regulator.PH;
+    switching ~ flyback.0;
+    switching ~> inductor ~> output.h;
+    regulator.BOOT ~> bootstrap ~> switching;
+
+    net feedback;
+    output.h ~> fb_upper ~> feedback;
+    feedback ~ regulator.VSENSE;
+    feedback ~> fb_lower ~> fb_trim ~> output.l;
+    output.h ~> cout ~> output.l;
+
+    input.l ~ output.l;
+    input.l ~ regulator.GND;
+    input.l ~ regulator.DAP;
+    input.l ~ flyback.1;
+}
+
+module top () {
+    mod buck = new Buck3V3();
+    rail input;
+    rail output;
+    input.h.name = "VIN";
+    input.l.name = "GND";
+    output.h.name = "3V3";
+    input.h ~ buck.input.h;
+    input.l ~ buck.input.l;
+    output.h ~ buck.output.h;
+    output.l ~ buck.output.l;
+}

@@ -1,0 +1,21 @@
+part P_0603WAF3001T5E {
+    info: {
+        partNumber: "0603WAF3001T5E",
+        manufacture: "UNI-ROYAL(厚声)",
+        footprint: "./P_0603WAF3001T5E.kicad_mod",
+        package: "0603",
+        symbol: "./P_0603WAF3001T5E.kicad_sym",
+        model: "./R0603.step",
+        LCSC: "C4211",
+        designatorPrefix: "R",
+        value: "3kΩ",
+        tolerance: "±1%",
+        wattage: "100mW",
+        comment: "3kΩ ±1% 100mW",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

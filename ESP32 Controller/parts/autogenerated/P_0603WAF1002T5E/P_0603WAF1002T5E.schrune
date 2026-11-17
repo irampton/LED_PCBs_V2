@@ -1,0 +1,21 @@
+part P_0603WAF1002T5E {
+    info: {
+        partNumber: "0603WAF1002T5E",
+        manufacture: "UNI-ROYAL(厚声)",
+        footprint: "./P_0603WAF1002T5E.kicad_mod",
+        package: "0603",
+        symbol: "./P_0603WAF1002T5E.kicad_sym",
+        model: "./R0603.step",
+        LCSC: "C25804",
+        designatorPrefix: "R",
+        value: "10kΩ",
+        tolerance: "±1%",
+        wattage: "100mW",
+        comment: "10kΩ ±1% 100mW",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

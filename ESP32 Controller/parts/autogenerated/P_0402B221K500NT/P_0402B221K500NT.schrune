@@ -1,0 +1,22 @@
+part P_0402B221K500NT {
+    info: {
+        partNumber: "0402B221K500NT",
+        manufacture: "FH(风华)",
+        footprint: "./P_0402B221K500NT.kicad_mod",
+        package: "0402",
+        symbol: "./P_0402B221K500NT.kicad_sym",
+        model: "./C0402_L1.0-W0.5-H0.5.step",
+        LCSC: "C1530",
+        designatorPrefix: "C",
+        value: "220pF",
+        tolerance: "±10%",
+        maxVoltage: "50V",
+        temperatureCoefficient: "X7R",
+        comment: "220pF ±10% 50V X7R",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

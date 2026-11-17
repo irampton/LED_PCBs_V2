@@ -1,0 +1,26 @@
+part TPS5430DDAR {
+    info: {
+        value: "TPS5430DDAR",
+        voltage: "5.5..36V input",
+        currentRating: "3A",
+        partNumber: "TPS5430DDAR",
+        manufacture: "Texas Instruments",
+        footprint: "./TPS5430DDAR.kicad_mod",
+        package: "DDA PowerPAD SOIC-8",
+        symbol: "./TPS5430DDAR.kicad_sym",
+        LCSC: "C9864",
+        designatorPrefix: "U",
+    }
+
+    pins: [
+        BOOT:1,
+        NC_2:2,
+        NC_3:3,
+        VSENSE:4,
+        ENA:5,
+        GND:6,
+        VIN:7,
+        PH:8,
+        DAP:9,
+    ]
+}

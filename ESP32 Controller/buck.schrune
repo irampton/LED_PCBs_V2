@@ -1,65 +1,67 @@
-@require("XL1509_5_0E1");
+@require("TPS5430DDAR");
 
-// Self-contained, always-on, non-isolated 5 V buck supply.
-// Interface: input.h = 7..28 V DC, input.l = ground;
-//            output.h = 5 V, output.l = the same ground.
-// Up to 2 A, subject to PCB thermal design and bench validation.
-// Reference: XL1509 datasheet, fixed 5 V application and layout guidelines.
-// Keep CIN, diode and IC power loops short; sense FB at COUT positive.
-// Place the ceramic bypass at VIN/GND; connect all four IC ground pins.
-// Two 470 uF / 35 V input capacitors share ripple current (670 mA each).
-// One matching output capacitor avoids a second Extended-part loading fee.
-// Output ESR <= 230 mR: allow roughly 0.15 V p-p ripple at full load.
-// Inductor: 68 uH, Isat 3 A typ, Irms 2.5 A typ, DCR <= 195 mR.
-module Buck5V () {
+module Buck () {
     rail input;
     rail output;
-    output.voltage = 5V;
+    output.voltage = 3.3V;
 
-    part regulator = new XL1509_5_0E1();
-    part inductor = new Inductor(value = "68uH", footprint = "IND-SMD_L11.5-W10.0_FXL1040", LCSC = "C5307658");
-    part cin_bulk = new Capacitor(value = "470uF", footprint = "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD", LCSC = "C5155332", voltage = 35V);
-    part cin_bulk2 = new Capacitor(value = "470uF", footprint = "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD", LCSC = "C5155332", voltage = 35V);
-    part cin_bypass = new Capacitor(value = "4.7uF", footprint = "1206", LCSC = "C29823", voltage = 50V);
-    part cout = new Capacitor(value = "470uF", footprint = "CAP-SMD_BD10.0-L10.3-W10.3-LS11.3-FD", LCSC = "C5155332", voltage = 35V);
+    part regulator = new TPS5430DDAR();
+    part cin1 = new Capacitor(value = "10uF", footprint = "1206", LCSC = "C13585", voltage = 50V);
+    part cin2 = new Capacitor(value = "10uF", footprint = "1206", LCSC = "C13585", voltage = 50V);
+    part bootstrap = new Capacitor(value = "10nF", footprint = "0402", LCSC = "C15195", voltage = 50V);
+    part inductor = new Inductor(value = "15uH", footprint = "IND-SMD_L7.0-W6.6-H3.0", LCSC = "C54431704");
     part flyback = new Diode(value = "SS34", footprint = "SMA", LCSC = "C8678");
+    part cout1 = new Capacitor(value = "100uF", footprint = "1206", LCSC = "C15008", voltage = 6.3V);
+    part cout2 = new Capacitor(value = "100uF", footprint = "1206", LCSC = "C15008", voltage = 6.3V);
+
+    // 1.221 V * (1 + 5.1k / 3k) = 3.297 V.
+  part fb_upper = new Resistor(value = "5.1k", footprint = "0603", LCSC="C23186");
+    part fb_lower = new Resistor(value = "3k", footprint = "0603", LCSC="C4211");
+
+    // Figure 7-11 C6 realized as 3 nF in parallel using Basic parts.
+    part ff_main = new Capacitor(value = "1nF", footprint = "0402", LCSC = "C1523", voltage = 50V);
+    part ff_trim1 = new Capacitor(value = "1nF", footprint = "0402", LCSC = "C1523", voltage = 50V);
+    part ff_trim2 = new Capacitor(value = "1nF", footprint = "0402", LCSC = "C1523", voltage = 50V);
+    part comp_shunt = new Capacitor(value = "220pF", footprint = "0402", LCSC = "C1530", voltage = 50V);
+    part comp_cap = new Capacitor(value = "220nF", footprint = "0603", LCSC = "C21120", voltage = 25V);
+    part comp_res = new Resistor(value = "270", footprint = "0603", LCSC = "C22966");
 
     input.h ~ regulator.VIN;
-    input.h ~ cin_bulk.0;
-    input.h ~ cin_bulk2.0;
-    input.h ~ cin_bypass.0;
+    input.h ~> cin1 ~> input.l;
+    input.h ~> cin2 ~> input.l;
 
     net switching;
-    switching ~ regulator.OUTPUT;
+    switching ~ regulator.PH;
     switching ~ flyback.0;
-    switching ~ inductor.0;
+    switching ~> inductor ~> output.h;
+    regulator.BOOT ~> bootstrap ~> switching;
 
-    output.h ~ inductor.1;
-    output.h ~ cout.0;
-    output.h ~ regulator.FB;
+    net feedback;
+    output.h ~> fb_upper ~> feedback;
+    feedback ~ regulator.VSENSE;
+    feedback ~> fb_lower ~> output.l;
+    output.h ~> ff_main ~> feedback;
+    output.h ~> ff_trim1 ~> feedback;
+    output.h ~> ff_trim2 ~> feedback;
+    feedback ~> comp_shunt ~> output.l;
+    feedback ~> comp_cap ~> comp_res ~> output.l;
+
+    output.h ~> cout1 ~> output.l;
+    output.h ~> cout2 ~> output.l;
 
     input.l ~ output.l;
-    input.l ~ regulator.ON_OFF;
     input.l ~ regulator.GND;
-    input.l ~ regulator.GND_6;
-    input.l ~ regulator.GND_7;
-    input.l ~ regulator.GND_8;
-    input.l ~ cin_bulk.1;
-    input.l ~ cin_bulk2.1;
-    input.l ~ cin_bypass.1;
-    input.l ~ cout.1;
+    input.l ~ regulator.DAP;
     input.l ~ flyback.1;
 }
 
-// Allows this file to be compiled directly as a standalone supply.
-// Import Buck5V from this file to use it in a larger design.
 module top () {
-    mod buck = new Buck5V();
+    mod buck = new Buck();
     rail input;
     rail output;
     input.h.name = "VIN";
     input.l.name = "GND";
-    output.h.name = "5V";
+    output.h.name = "3V3";
     input.h ~ buck.input.h;
     input.l ~ buck.input.l;
     output.h ~ buck.output.h;
