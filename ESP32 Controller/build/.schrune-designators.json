@@ -49,6 +49,21 @@
     "R\u0000id:buck\u0000comp_res\u0000": [
       "R5"
     ],
+    "F\u0000id:\u0000input_fuse\u0000": [
+      "F1"
+    ],
+    "D\u0000id:\u0000input_tvs\u0000": [
+      "D1"
+    ],
+    "Q\u0000id:\u0000reverse_pmos\u0000": [
+      "Q1"
+    ],
+    "D\u0000id:\u0000gate_clamp\u0000": [
+      "D3"
+    ],
+    "R\u0000id:\u0000gate_pulldown\u0000": [
+      "R6"
+    ],
     "J\u0000id:\u0000dc_input\u0000": [
       "J2"
     ],

@@ -1,0 +1,17 @@
+part P_1812L050_60MR {
+    info: {
+        partNumber: "1812L050/60MR",
+        manufacture: "Littelfuse(美国力特)",
+        footprint: "./P_1812L050_60MR.kicad_mod",
+        package: "F1812",
+        symbol: "./P_1812L050_60MR.kicad_sym",
+        model: "./F1812_L4.5-W3.2-H1.0.step",
+        LCSC: "C87383",
+        designatorPrefix: "F",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

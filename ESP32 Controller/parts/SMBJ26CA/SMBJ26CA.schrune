@@ -1,0 +1,17 @@
+part SMBJ26CA {
+    info: {
+        partNumber: "SMBJ26CA",
+        manufacture: "R+O(宏嘉诚)",
+        footprint: "./SMBJ26CA.kicad_mod",
+        package: "SMB_L4.6-W3.6-LS5.4-BI",
+        symbol: "./SMBJ26CA.kicad_sym",
+        model: "./SMB_L4.6-W3.6-LS5.4-BI.step",
+        LCSC: "C19077581",
+        designatorPrefix: "D",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}

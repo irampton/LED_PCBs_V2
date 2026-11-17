@@ -3,12 +3,24 @@
   "entry": "./main.schrune",
   "parts": [
     {
-      "MPN": "XL1509_5_0E1",
-      "LCSC": "C61063"
-    },
-    {
       "MPN": "TPS5430DDAR",
       "LCSC": "C9864"
+    },
+    {
+      "MPN": "SMBJ26CA",
+      "LCSC": "C19077581"
+    },
+    {
+      "MPN": "P_1812L050_60MR",
+      "LCSC": "C87383"
+    },
+    {
+      "MPN": "BZT52C12",
+      "LCSC": "C19077410"
+    },
+    {
+      "MPN": "HL2309",
+      "LCSC": "C28646263"
     }
   ],
   "build": {

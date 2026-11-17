@@ -1,0 +1,18 @@
+part HL2309 {
+    info: {
+        partNumber: "HL2309",
+        manufacture: "R+O(宏嘉诚)",
+        footprint: "./HL2309.kicad_mod",
+        package: "SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR",
+        symbol: "./HL2309.kicad_sym",
+        model: "./SOT-23-3_L2.9-W1.3-P1.90-LS2.3-BR.step",
+        LCSC: "C28646263",
+        designatorPrefix: "Q",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+        3:3,
+    ]
+}

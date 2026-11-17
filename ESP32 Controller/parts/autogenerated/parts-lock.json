@@ -933,7 +933,8 @@
     "R2": "C23186",
     "R3": "C25744",
     "R4": "C25744",
-    "R5": "C22966"
+    "R5": "C22966",
+    "R6": "C25744"
   },
   "selectionCache": {
     "{\"type\":\"Capacitor\",\"value\":\"100nF\",\"footprint\":\"0402\",\"voltage\":{\"number\":16,\"unit\":\"V\"},\"power\":null,\"tolerance\":null}": {

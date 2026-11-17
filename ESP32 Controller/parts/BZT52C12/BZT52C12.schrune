@@ -1,0 +1,17 @@
+part BZT52C12 {
+    info: {
+        partNumber: "BZT52C12",
+        manufacture: "R+O(宏嘉诚)",
+        footprint: "./BZT52C12.kicad_mod",
+        package: "SOD-123_L2.7-W1.6-LS3.7-RD",
+        symbol: "./BZT52C12.kicad_sym",
+        model: "./SOD-123_L2.7-W1.6-H1.4-LS3.7.step",
+        LCSC: "C19077410",
+        designatorPrefix: "D",
+    }
+
+    pins: [
+        1:1,
+        2:2,
+    ]
+}
