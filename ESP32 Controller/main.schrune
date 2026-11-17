@@ -3,7 +3,6 @@
 @require("CUI_PJ_002BH");
 @require("Espressif_Systems_ESP32_C3_WROOM_02_N4");
 @require("XUNPU_TS_1088_AR02016");
-@require("P_1812L050_60MR");
 @require("SMBJ26CA");
 @require("HL2309");
 @require("BZT52C12");
@@ -23,23 +22,18 @@ module top () {
 
     // Protect only the buck branch. The port V+ pins share the raw input.
     mod buck = new Buck();
-    part input_fuse = new P_1812L050_60MR();
     part input_tvs = new SMBJ26CA();
     part reverse_pmos = new HL2309();
     part gate_clamp = new BZT52C12();
     part gate_pulldown = new Resistor(value = "10k", footprint = "0402", LCSC = "C25744");
 
-    net fused_input;
-    fused_input.name = "V+_FUSED";
     buck.input.h.name = "BUCK_VIN";
 
-    power_in.h ~ input_fuse.1;
-    input_fuse.2 ~ fused_input;
-    fused_input ~ input_tvs.1;
+    power_in.h ~ input_tvs.1;
     input_tvs.2 ~ GND;
 
-    // The body diode conducts from fused input toward the buck at startup.
-    fused_input ~ reverse_pmos.3;
+    // The body diode conducts from V+ toward the buck at startup.
+    power_in.h ~ reverse_pmos.3;
     buck.input.h ~ reverse_pmos.2;
     buck.input.h ~ gate_clamp.1;
     gate_clamp.2 ~ reverse_pmos.1;
